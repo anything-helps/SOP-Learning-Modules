@@ -1,0 +1,62 @@
+# Project specific ignores
+CE_Learning_Module/
+FCS-Provider-Game/
+fcs-study-tool/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+
+# Logs
+logs/
+*.log
+
+# Build outputs
+dist/
+build/
+out/
+target/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
