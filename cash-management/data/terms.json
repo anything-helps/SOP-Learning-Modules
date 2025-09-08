@@ -1,0 +1,15 @@
+{
+  "terms": [
+    {"term":"Separation of Duties","definition":"Cash handling, recording, approval, and check signing are performed by different people to reduce risk.","category":"Controls"},
+    {"term":"Restrictive Endorsement","definition":"Stamping checks ‘For Deposit Only’ immediately upon receipt to prevent misuse.","category":"Receiving Cash"},
+    {"term":"Dual Signatures","definition":"Two authorized signatures are required on checks above a predefined threshold.","category":"Spending Cash"},
+    {"term":"Petty Cash","definition":"Small cash fund for incidental expenses; tracked by ledger and reconciled monthly.","category":"Receiving Cash"},
+    {"term":"Daily Deposits","definition":"All cash and checks are deposited each day to minimize loss and timing variance.","category":"Receiving Cash"},
+    {"term":"Payment Authorization","definition":"Approvals documented prior to disbursement; approver and payer are different people.","category":"Spending Cash"},
+    {"term":"Pre‑numbered Checks","definition":"Checks are pre‑printed with organization info and sequential numbers to maintain an audit trail.","category":"Spending Cash"},
+    {"term":"No Blank Checks","definition":"Signing blank checks is prohibited; all disbursements require full documentation.","category":"Spending Cash"},
+    {"term":"Credit Card Controls","definition":"Card purchases follow the same approvals and documentation as checks.","category":"Spending Cash"},
+    {"term":"Cash Box Ledger","definition":"Running log of on‑hand cash, receipts, and replenishments.","category":"Receiving Cash"}
+  ]
+}
+
