@@ -1,17 +1,22 @@
-const CACHE_NAME = 'ah-sop-modules-v1';
+const CACHE_NAME = 'ah-sop-modules-v2';
+// Service worker is served from /assets/sw.js, so paths here are relative to /assets/
 const CORE_ASSETS = [
-  'index.html',
-  'assets/module.css',
-  'assets/module.js',
-  'assets/manifest.webmanifest',
-  'assets/icons/icon-192.png',
-  'assets/icons/icon-512.png'
+  '../index.html',
+  'module.css',
+  'module.js',
+  'manifest.webmanifest',
+  'icons/icon-192.png',
+  'icons/icon-512.png'
 ];
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(CORE_ASSETS))
-  );
+  event.waitUntil((async () => {
+    const cache = await caches.open(CACHE_NAME);
+    await Promise.all(CORE_ASSETS.map(async (url) => {
+      try { await cache.add(url); } catch (e) { /* ignore missing */ }
+    }));
+    self.skipWaiting();
+  })());
 });
 
 self.addEventListener('activate', (event) => {
