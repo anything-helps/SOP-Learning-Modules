@@ -1,12 +1,11 @@
 const CACHE_NAME = 'ah-sop-modules-v1';
 const CORE_ASSETS = [
-  '/',
-  '/index.html',
-  '/assets/module.css',
-  '/assets/module.js',
-  '/assets/manifest.webmanifest',
-  '/assets/icons/icon-192.png',
-  '/assets/icons/icon-512.png'
+  'index.html',
+  'assets/module.css',
+  'assets/module.js',
+  'assets/manifest.webmanifest',
+  'assets/icons/icon-192.png',
+  'assets/icons/icon-512.png'
 ];
 
 self.addEventListener('install', (event) => {
@@ -35,4 +34,3 @@ self.addEventListener('fetch', (event) => {
     })
   );
 });
-

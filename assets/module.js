@@ -258,6 +258,6 @@
     loadQuestions();
     loadScenarios();
     loadFlashcards();
-    if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/assets/sw.js').catch(()=>{}); }
+    if ('serviceWorker' in navigator) { navigator.serviceWorker.register('../assets/sw.js').catch(()=>{}); }
   });
 })();
