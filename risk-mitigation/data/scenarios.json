@@ -1,0 +1,7 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Blocked Review","description":"A staff member refuses to share their reconciliation files with a reviewer.","question":"What should occur?","options":{"A":"Allow for privacy","B":"Require transparency; assign alternate reviewer and escalate","C":"Delete the files","D":"Skip review this month"},"correct":"B","explanation":"Transparency and accessibility are required; escalate to ensure review.","relatedConcepts":["Segregation of Duties","Compliance & Oversight"],"difficulty":"medium"},
+    {"id":"s_002","title":"Record Retention","description":"An employee plans to shred old contracts scheduled for 7‑year retention; a lawsuit is anticipated.","question":"What is the correct action?","options":{"A":"Shred now per schedule","B":"Delay one week","C":"Place a legal hold and preserve all related records","D":"Scan and discard originals"},"correct":"C","explanation":"Legal holds override normal schedules until resolution.","relatedConcepts":["Record Retention","Legal Hold"],"difficulty":"easy"}
+  ]
+}
+

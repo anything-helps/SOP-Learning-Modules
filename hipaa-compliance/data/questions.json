@@ -1,0 +1,9 @@
+{
+  "questions": [
+    {"id":"q_001","category":"HIPAA Rules","text":"Which rule requires administrative, physical, and technical safeguards for ePHI?","options":{"A":"Privacy Rule","B":"Security Rule","C":"Omnibus Rule","D":"Breach Notification Rule"},"correct":"B","explanation":"The Security Rule governs safeguards for ePHI.","difficulty":"Easy"},
+    {"id":"q_002","category":"Principles","text":"The Minimum Necessary standard means:","options":{"A":"No one may access PHI","B":"Access only the PHI needed to perform job duties","C":"All staff access all PHI","D":"Only paper PHI is restricted"},"correct":"B","explanation":"Access should be limited to the least amount needed.","difficulty":"Easy"},
+    {"id":"q_003","category":"Administrative Safeguards","text":"Before sharing PHI with a vendor, the organization must:","options":{"A":"Send an NDA only","B":"Sign a BAA outlining obligations to protect PHI","C":"Use a purchase order","D":"Call HHS"},"correct":"B","explanation":"Business Associate Agreements are required.","difficulty":"Medium"},
+    {"id":"q_004","category":"Technical Safeguards","text":"Which control strengthens device access to PHI?","options":{"A":"Shared credentials","B":"MFA and encryption on devices","C":"Public Wi‑Fi","D":"Unrestricted downloads"},"correct":"B","explanation":"MFA and encryption protect access and confidentiality.","difficulty":"Easy"}
+  ]
+}
+

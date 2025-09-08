@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Service Timing","description":"A client declines services this month but asks for a call next month.","question":"What is the aligned approach?","options":{"A":"Discharge immediately","B":"Respect timing; schedule follow‑up and keep supports available","C":"Require weekly check‑ins now","D":"Notify property manager"},"correct":"B","explanation":"Honor preferences and support re‑engagement on the client’s timeline.","relatedConcepts":["Non‑Coercive Support","Informed Choice"],"difficulty":"easy"}
+  ]
+}
+

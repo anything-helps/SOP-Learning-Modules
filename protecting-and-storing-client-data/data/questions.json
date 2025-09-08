@@ -1,0 +1,8 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Securing Data","text":"Client data should be stored on:","options":{"A":"Unencrypted laptops","B":"Encrypted devices or locked file cabinets","C":"Personal USB sticks","D":"Public cloud without controls"},"correct":"B","explanation":"Policy requires encrypted devices or locked storage for client data.","difficulty":"Easy"},
+    {"id":"q_002","category":"Sharing Data","text":"When emailing about a client without encryption, you should:","options":{"A":"Use name and DOB","B":"Use SSN","C":"Use HMIS unique identifier and omit PII","D":"Attach full intake"},"correct":"C","explanation":"Use HMIS ID in unencrypted channels instead of PII.","difficulty":"Easy"},
+    {"id":"q_003","category":"Disposal","text":"Old electronic client files should be:","options":{"A":"Kept indefinitely","B":"E‑shredded or securely destroyed when no longer needed","C":"Emailed to self","D":"Archived on personal drive"},"correct":"B","explanation":"Secure disposal protects privacy.","difficulty":"Easy"}
+  ]
+}
+

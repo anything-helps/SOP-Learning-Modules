@@ -1,0 +1,15 @@
+{
+  "terms": [
+    {"term":"PHI","definition":"Protected Health Information related to health status, care, or payment that identifies an individual.","category":"Definitions"},
+    {"term":"ePHI","definition":"Electronic PHI subject to the HIPAA Security Rule.","category":"Definitions"},
+    {"term":"Privacy Rule","definition":"Sets standards for use/disclosure of PHI and individual rights.","category":"HIPAA Rules"},
+    {"term":"Security Rule","definition":"Establishes administrative, physical, and technical safeguards for ePHI.","category":"HIPAA Rules"},
+    {"term":"Breach Notification Rule","definition":"Defines required notifications following a PHI/ePHI breach.","category":"HIPAA Rules"},
+    {"term":"Omnibus Rule","definition":"Extends HIPAA obligations to business associates via BAAs.","category":"HIPAA Rules"},
+    {"term":"Minimum Necessary","definition":"Access only the minimum PHI needed to perform job duties.","category":"Principles"},
+    {"term":"BAA","definition":"Business Associate Agreement outlining obligations to protect PHI.","category":"Administrative Safeguards"},
+    {"term":"RBAC","definition":"Role‑based access control restricting PHI by job role.","category":"Administrative Safeguards"},
+    {"term":"Multi‑Factor Authentication (MFA)","definition":"An additional factor beyond password to access systems with PHI.","category":"Technical Safeguards"}
+  ]
+}
+

@@ -1,0 +1,7 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Housing Unit Selection","description":"Client prefers a unit farther from services to be near a supportive friend.","question":"How should staff proceed?","options":{"A":"Override to place closer to services","B":"Respect the preference and support the chosen option","C":"Require weekly groups to qualify","D":"Delay until a closer unit appears without discussing"},"correct":"B","explanation":"Voice & choice respects client preferences when presenting options.","relatedConcepts":["Client Voice & Choice","Providing Housing Choice"],"difficulty":"easy"},
+    {"id":"s_002","title":"Service Engagement","description":"A client declines case management for now but wants help with employment.","question":"What is the aligned response?","options":{"A":"Withhold housing help","B":"Require full engagement first","C":"Support the immediate goal (employment) and keep other supports available","D":"Close the case"},"correct":"C","explanation":"Services are voluntary; meet immediate preferences while keeping other supports open.","relatedConcepts":["Low‑Barrier Services","IPS"],"difficulty":"medium"}
+  ]
+}
+

@@ -1,0 +1,9 @@
+{
+  "terms": [
+    {"term":"HMIS","definition":"Homeless Management Information System for client/services data.","category":"Definitions"},
+    {"term":"User Access Controls","definition":"Permissions and roles that limit what users can view or edit.","category":"Access"},
+    {"term":"Training & Compliance","definition":"User training, agreements, and periodic reviews to maintain standards.","category":"Compliance"},
+    {"term":"Unique Identifiers","definition":"HMIS IDs used in unencrypted channels instead of PII.","category":"Privacy"}
+  ]
+}
+

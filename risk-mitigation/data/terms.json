@@ -1,0 +1,13 @@
+{
+  "terms": [
+    {"term":"Internal Control","definition":"Processes to ensure integrity of financial information, promote accountability, and prevent fraud.","category":"Definitions"},
+    {"term":"Segregation of Duties","definition":"Dividing responsibilities among people to reduce risk of error or misuse.","category":"Controls"},
+    {"term":"Personnel Risk Controls","definition":"Screening, bonding, and ongoing risk awareness for staff in sensitive roles.","category":"Controls"},
+    {"term":"Physical Controls","definition":"Locks, secure storage, and other measures protecting assets and sensitive materials.","category":"Safeguards"},
+    {"term":"Digital Safeguards","definition":"Backups, password hygiene, least‑privilege access, and secure storage.","category":"Safeguards"},
+    {"term":"Record Retention","definition":"Scheduled retention periods and legal holds for financial and organizational records.","category":"Records"},
+    {"term":"Fidelity Bond","definition":"Insurance that protects the organization from employee dishonesty losses.","category":"Controls"},
+    {"term":"Legal Hold","definition":"Requirement to preserve records when litigation, audit, or investigation is pending or expected.","category":"Records"}
+  ]
+}
+

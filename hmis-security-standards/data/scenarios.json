@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"PII in Email","description":"A staff member drafts an email containing name and DOB to another provider.","question":"What should they use instead?","options":{"A":"Send as is","B":"Use HMIS unique identifier or encrypt the message","C":"Text it","D":"Post to a channel"},"correct":"B","explanation":"Use HMIS ID in unencrypted channels or encrypt if PII must be shared.","relatedConcepts":["Unique Identifiers","Privacy"],"difficulty":"easy"}
+  ]
+}
+

@@ -1,0 +1,12 @@
+{
+  "terms": [
+    {"term":"PII","definition":"Personally Identifiable Information such as name, DOB, SSN.","category":"Definitions"},
+    {"term":"Encrypted Devices","definition":"Devices with disk encryption to prevent unauthorized access.","category":"Securing Data"},
+    {"term":"Locked Storage","definition":"Physical protection for paper records and devices.","category":"Securing Data"},
+    {"term":"Minimum Necessary","definition":"Share or access only what is needed for the task.","category":"Sharing Data"},
+    {"term":"Secure Transmission","definition":"Avoid unencrypted email/text for identifiers; use HMIS IDs instead.","category":"Sharing Data"},
+    {"term":"Electronic Shredding","definition":"Securely deleting electronic files with client data.","category":"Disposal"},
+    {"term":"Breach Reporting","definition":"Immediate report to administrators when data is inadvertently shared.","category":"Compliance"}
+  ]
+}
+

@@ -1,0 +1,7 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Access","text":"Which is a basic HMIS access control?","options":{"A":"Shared logins","B":"User roles limiting data by responsibility","C":"Public links","D":"One account per program"},"correct":"B","explanation":"Role‑based access limits data exposure.","difficulty":"Easy"},
+    {"id":"q_002","category":"Privacy","text":"When communicating in unencrypted channels, use:","options":{"A":"Full name and DOB","B":"SSN only","C":"HMIS unique identifier","D":"Address"},"correct":"C","explanation":"Use HMIS IDs instead of PII in unencrypted contexts.","difficulty":"Easy"}
+  ]
+}
+

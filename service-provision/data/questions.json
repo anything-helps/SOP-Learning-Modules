@@ -1,0 +1,10 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Principles","text":"Which best reflects a low‑barrier service approach?","options":{"A":"Require sobriety before services","B":"Offer support without preconditions and meet clients where they are","C":"Time‑limit all services to 90 days","D":"Link services to lease compliance"},"correct":"B","explanation":"Low‑barrier services avoid unnecessary preconditions and meet clients where they are.","difficulty":"Easy"},
+    {"id":"q_002","category":"Evidence Base","text":"IPS supported employment emphasizes:","options":{"A":"Delayed job search until treatment completion","B":"Rapid, preference‑driven job search integrated with behavioral health","C":"Sheltered workshops","D":"Mandatory group training"},"correct":"B","explanation":"IPS focuses on rapid, preference‑aligned placement with integrated supports.","difficulty":"Medium"},
+    {"id":"q_003","category":"Evidence Base","text":"HUD‑defined PSH includes:","options":{"A":"Time‑limited housing","B":"Housing financial support plus voluntary services","C":"Mandatory treatment","D":"Institutional settings"},"correct":"B","explanation":"HUD‑PSH combines non‑time‑limited housing with voluntary services.","difficulty":"Easy"},
+    {"id":"q_004","category":"Practice","text":"Person‑centered planning requires that staff:","options":{"A":"Revise preferences to be ‘realistic’","B":"Document and honor stated preferences; update plans regularly","C":"Set goals for clients","D":"Use one standard plan for all"},"correct":"B","explanation":"Plans are driven by client preferences and updated at regular intervals and change events.","difficulty":"Easy"},
+    {"id":"q_005","category":"Principles","text":"Community‑based care prioritizes:","options":{"A":"Segregated settings","B":"Normal community environments and inclusion","C":"Short‑term shelters only","D":"Centralized campuses"},"correct":"B","explanation":"Integration in ordinary community settings supports stability and inclusion.","difficulty":"Easy"}
+  ]
+}
+

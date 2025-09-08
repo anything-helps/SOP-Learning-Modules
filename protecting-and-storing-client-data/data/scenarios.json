@@ -1,0 +1,7 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Traveling with a Laptop","description":"Staff plans to leave a laptop with client data in a parked car overnight.","question":"What is the correct action?","options":{"A":"Leave hidden","B":"Take the device with you; do not leave in unsecured locations","C":"Turn it off only","D":"Email files to personal account"},"correct":"B","explanation":"Policy: do not leave devices in unsecured locations; keep them with you.","relatedConcepts":["Encrypted Devices","Securing Data"],"difficulty":"easy"},
+    {"id":"s_002","title":"Emailing PII","description":"A partner agency requests full name and DOB via email.","question":"How should you respond?","options":{"A":"Send requested PII","B":"Provide the HMIS unique identifier or use an encrypted channel","C":"Text the info","D":"Decline all communication"},"correct":"B","explanation":"Use HMIS ID in unencrypted channels or switch to encrypted methods.","relatedConcepts":["Secure Transmission","Minimum Necessary"],"difficulty":"easy"}
+  ]
+}
+

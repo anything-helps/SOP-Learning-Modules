@@ -1,0 +1,7 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Vendor Access","description":"A third‑party platform will store PHI for scheduling.","question":"What must be in place before sharing PHI?","options":{"A":"Only an NDA","B":"A Business Associate Agreement (BAA)","C":"A verbal agreement","D":"No contract needed"},"correct":"B","explanation":"BAAs are required for business associates handling PHI.","relatedConcepts":["BAA","Omnibus Rule"],"difficulty":"easy"},
+    {"id":"s_002","title":"Minimum Necessary","description":"A staff member requests full record access ‘just in case’.","question":"What is the correct response?","options":{"A":"Grant full access","B":"Grant access limited to job duties (minimum necessary)","C":"Deny all access","D":"Share via email"},"correct":"B","explanation":"Access should be limited to the minimum necessary.","relatedConcepts":["Minimum Necessary","RBAC"],"difficulty":"easy"}
+  ]
+}
+

@@ -1,0 +1,8 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Controls","text":"Which practice best exemplifies segregation of duties?","options":{"A":"One person handles receiving, recording, and reconciling","B":"Different people handle cash, recording, approval, and reconciliation","C":"Shared passwords for convenience","D":"Vacation discouraged for key staff"},"correct":"B","explanation":"Splitting duties reduces error and fraud risk.","difficulty":"Easy"},
+    {"id":"q_002","category":"Personnel","text":"Why require a fidelity bond for staff handling funds?","options":{"A":"To increase wages","B":"To reduce audit scope","C":"To insure against losses from employee dishonesty","D":"To replace internal controls"},"correct":"C","explanation":"Fidelity bonds insure the organization against specific risks.","difficulty":"Medium"},
+    {"id":"q_003","category":"Records","text":"If litigation is expected, what happens to relevant records?","options":{"A":"Follow normal destruction schedule","B":"Purge to reduce risk","C":"Place a legal hold and preserve until resolution","D":"Send to vendor"},"correct":"C","explanation":"Legal holds pause normal retention until resolution.","difficulty":"Easy"}
+  ]
+}
+
