@@ -1,0 +1,100 @@
+You are helping create a training module for staff. Source content below came from the
+    policy PDF called "Common Finance Functions". Generate outputs strictly as compact JSON only. Keep content
+    faithful to the source; do not invent details.
+
+    SOURCE CONTENT (outline; may be truncated):
+
+# Common Finance Functions: Process & Account Mappings
+
+* #1: Paying Contractors for Approved Claims
+
+# Step 1: Post Vendor Bill For Approved Claim
+
+Recognizes the liability and the expense
+
+# Account Debit / Credit Purpose
+
+
+# 6100 Contractor Payments — Client Services Debit Recognize Expense
+
+
+# 2000 Accounts Payable
+
+
+# Credit Record Vendor Liability
+
+
+# | Odoo Flow: Create > Confirm Vendor Bill
+
+
+# Step 2: Pay The Bill (via Nacha)
+
+Relieves A/P and moves funds into “in transit” when using NACHA
+Using NACHA, Gusto, or other delayed method:
+
+# Account Debit / Credit Purpose
+
+
+# 2000 Accounts Payable Debit Clear Vendor Liability
+
+2400 Outstanding Payments Credit
+Funds in transit
+
+# - Odoo Flow: Register Payment > Select Nacha As Payment Method
+
+
+# Step 3: Reconcile Bank Transaction (nacha Clears)
+
+Matches actual bank movement to pending liability
+
+# Account Debit / Credit Purpose
+
+
+# 2400 Outstanding Payments
+
+
+# Debit Clear Ach Pending Amount
+
+
+# 1000 Becu Checking
+
+
+# Credit Bank Withdrawal
+
+\ Odoo Flow: Bank Import > Match transaction to payment
+
+# “ #2: Paying For Saas And Other Subscriptions
+
+Context:
+Recurring operating expense
+Paid monthly via automatic charge (bank or card)
+You only find out about it after it appears in the bank feed You do not record a vendor bill in advance
+Examples: OpenAl subscription/credits, Zapier, Odoo, etc.
+
+# Step 1: Imported Bank Transaction Appears In Odoo
+
+The first time this shows up in your books
+
+# Account Debit / Credit
+
+2400 Outstanding Payments Debit Credit
+
+# 1000 Becu Checking
+
+Purpose
+
+# Clear Ach Pending Amount
+
+Bank withdrawal
+
+    TASK: Extract key terms and definitions JSON:
+    {
+      "terms": [
+        {"term":"...","definition":"...","category":"string"}
+      ]
+    }
+    RULES:
+    - Create up to 24 terms.
+    - Definitions must be derived from the source wording when possible.
+    - Category should be a nearby or parent section heading.
+    - Output JSON only. No extra text.

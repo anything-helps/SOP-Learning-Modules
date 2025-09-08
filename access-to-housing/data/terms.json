@@ -1,0 +1,80 @@
+{
+  "terms": [
+    {
+      "term": "Housing Access",
+      "definition": "The ability to obtain housing that fits a household’s needs, preferences, and financial capacity.",
+      "category": "Programmatic Principles"
+    },
+    {
+      "term": "Equitable Access",
+      "definition": "Ensuring all clients—regardless of background or circumstances—have fair opportunities to secure suitable housing.",
+      "category": "Programmatic Principles"
+    },
+    {
+      "term": "Low-Barrier Housing",
+      "definition": "Housing that minimizes entry requirements and conditions, increasing accessibility for people with complex needs.",
+      "category": "Low-Barrier Housing"
+    },
+    {
+      "term": "Harm Reduction",
+      "definition": "A set of practical strategies focused on reducing negative consequences of high-risk behaviors, without requiring abstinence.",
+      "category": "Harm Reduction"
+    },
+    {
+      "term": "PSH Fidelity",
+      "definition": "Adherence to core principles and standards of Permanent Supportive Housing to ensure quality and effectiveness.",
+      "category": "Programmatic Principles"
+    },
+    {
+      "term": "Affordable Housing & Shelter Locator",
+      "definition": "A tool to view properties with lowered screening barriers and check availability to support client choice.",
+      "category": "Procedures: Locating Housing"
+    },
+    {
+      "term": "Screening Criteria",
+      "definition": "Landlord requirements used to qualify applicants, such as credit, criminal history, eviction history, debt, and income-to-rent ratios.",
+      "category": "Negotiating Screening Criteria"
+    },
+    {
+      "term": "Income-to-Rent Ratio",
+      "definition": "A threshold comparing tenant income to rent that may be negotiated to expand access.",
+      "category": "Negotiating Screening Criteria"
+    },
+    {
+      "term": "Eviction History",
+      "definition": "Record of prior evictions that may trigger denials and should be discussed with landlords during negotiation.",
+      "category": "Negotiating Screening Criteria"
+    },
+    {
+      "term": "Criminal History",
+      "definition": "Background information that may be used in screening; staff should advocate for reasonable, individualized consideration.",
+      "category": "Negotiating Screening Criteria"
+    },
+    {
+      "term": "Credit Score",
+      "definition": "A numeric indicator of creditworthiness; strict cutoffs can be a barrier and may be negotiated.",
+      "category": "Negotiating Screening Criteria"
+    },
+    {
+      "term": "Risk Mitigation",
+      "definition": "Program supports offered to landlords—e.g., additional deposits or first and last month’s rent—to offset perceived risk.",
+      "category": "Risk Mitigation"
+    },
+    {
+      "term": "Client Choice",
+      "definition": "The practice of honoring client preferences in selecting among viable housing options.",
+      "category": "Programmatic Principles"
+    },
+    {
+      "term": "Application Assistance",
+      "definition": "Staff support for viewing units, completing applications, and navigating next steps with the client.",
+      "category": "Procedures: Locating Housing"
+    },
+    {
+      "term": "Landlord Engagement",
+      "definition": "Relationship-building and negotiation with property owners to reduce screening barriers and expand access.",
+      "category": "Negotiating Screening Criteria"
+    }
+  ]
+}
+

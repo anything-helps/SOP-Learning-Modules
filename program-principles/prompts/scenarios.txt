@@ -1,0 +1,35 @@
+You are helping create a training module for staff. Source content below came from the
+    policy PDF called "Program Principles". Generate outputs strictly as compact JSON only. Keep content
+    faithful to the source; do not invent details.
+
+    SOURCE CONTENT (outline; may be truncated):
+
+# Program Principals
+
+
+# 1. Honoring Client Voice & Choice
+
+We center each client's own goals, values, and self-defined priorities. Services are guided by what matters most to the people we serve, not by rigid program designs or external expectations. We provide information clearly, offer real choices without coercion, and honor the dignity of each decision—even when it's different from what we might choose ourselves.
+
+# 2. Community As Client
+
+    TASK: Create scenario-based questions JSON:
+    {
+      "scenarios": [
+        {
+          "id":"s_001",
+          "title":"Short scenario title",
+          "description":"1-2 sentence realistic situation",
+          "question":"What should staff do?",
+          "options":{"A":"...","B":"...","C":"...","D":"..."},
+          "correct":"A|B|C|D",
+          "explanation":"One-sentence justification from source",
+          "relatedConcepts":["..."],
+          "difficulty":"easy|medium|hard"
+        }
+      ]
+    }
+    RULES:
+    - Create up to 6 scenarios.
+    - Situations should match the spirit and constraints of the source.
+    - Output JSON only. No extra commentary.

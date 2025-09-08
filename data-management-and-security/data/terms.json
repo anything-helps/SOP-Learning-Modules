@@ -1,0 +1,17 @@
+{
+  "terms": [
+    {"term":"Confidentiality, Integrity, Availability (CIA)","definition":"Core objectives of information security to protect data and operations.","category":"Data Protection"},
+    {"term":"Encryption","definition":"Protecting data at rest and in transit using cryptography.","category":"Data Protection"},
+    {"term":"Role‑Based Access Control (RBAC)","definition":"Granting access based on job responsibilities and least privilege.","category":"Access Control"},
+    {"term":"PHI","definition":"Protected Health Information subject to HIPAA rules.","category":"HIPAA Compliance"},
+    {"term":"Privacy Officer","definition":"Designated individual responsible for incident response and breach notifications.","category":"Incident Response"},
+    {"term":"Incident Reporting","definition":"Immediate reporting of suspected/actual breaches to the Privacy Officer.","category":"Incident Response"},
+    {"term":"Breach Notification (<500)","definition":"Notify individuals and HHS within 60 days of the end of the calendar year if fewer than 500 affected.","category":"Breach Notification"},
+    {"term":"Breach Notification (≥500)","definition":"Notify individuals, HHS, and media as appropriate within 60 days of discovery when 500+ are affected.","category":"Breach Notification"},
+    {"term":"Containment & Prevention","definition":"Immediate actions to contain incidents and implement improved safeguards.","category":"Incident Response"},
+    {"term":"Audit & Monitoring","definition":"Regular checks to ensure adherence to policy and technical safeguards.","category":"Monitoring & Compliance"},
+    {"term":"Training","definition":"Annual staff education on data security and incident response.","category":"Monitoring & Compliance"},
+    {"term":"Secure Transmission","definition":"Use of secure systems for entry, storage, retrieval, and transfer.","category":"Data Protection"}
+  ]
+}
+

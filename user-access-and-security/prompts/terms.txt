@@ -1,0 +1,77 @@
+You are helping create a training module for staff. Source content below came from the
+    policy PDF called "User Access and Security". Generate outputs strictly as compact JSON only. Keep content
+    faithful to the source; do not invent details.
+
+    SOURCE CONTENT (outline; may be truncated):
+
+# User Access
+
+Policy: Data Management and Security & S (SS C U r ty Previous: Protecting And Storing Client Data
+
+# Next: Obtaining And Documenting Consent
+
+This policy ensures that sensitive client information is kept secure and accessible only to authorized personnel, and that clients receive timely access to the resources they need from the programs that they are eligible for.
+Definitions
+User Policy: HMIS User responsibilities and guidelines that must be read and signed upon initial login and annually thereafter.
+Two-factor authentication (2FA): An added layer of security used to ensure that people trying to gain access to an online account are who they say they are.
+Launchpad: The main navigation tool within Clarity Human Services that allows users to access various parts of the system such as reports, calendar, and attendance.
+Procedures Complete HMIS Trainings and Request Access
+e Your Lead Administrator will notify BitFocus of your need for HMIS access. e Complete the required HMIS trainings. Once verified, BitFocus will send you your username and password.
+
+# Navigate To The Clarity Human Services Login Page
+
+e Open your web browser and go to the Clarity Human Services login page at https://wa.clarityhs.com/login.
+
+# Enter And Update Login Credentials
+
+e Enter your username and initial password, and you will be prompted to create a new password.
+e Keep your password in a safe place and do not share it with anyone. Change your password immediately if you believe it may have been compromised.
+e Ifyou forget your password, click on the "Forgot Password" link and follow the email prompts to reset it. Note that resetting your password requires approval from the System Administrator.
+
+# Two-factor Authentication
+
+e After entering your new password, proceed with the two-factor authentication using either email or phone as per system requirements.
+
+# Sign User Policy
+
+e Upon initial login and annually thereafter, review and sign the user policy. e Ensure you understand and agree to all terms, especially those related to the use and protection of client information. For any questions, consult with your Lead Administrator or System Administrator.
+
+# Familiarize Yourself With The System
+
+e Once authenticated, familiarize yourself with the homepage (search page) and the Launchpad.
+e Use the search function to navigate back to the homepage at any point.
+e Navigate to account settings via the search page by clicking the appropriate link.
+e Update profile by adding or modifying a photo, either through upload or taking a new one with the device.
+e Update personal information here such as first and last name, email, and password. Ensure the password is confirmed before leaving the screen.
+e Utilize profile override to select custom client profiles if available.
+e Choose to show or hide recent client services on the profile screen.
+e Enable Auto Suggest for easier client searches by entering partial names.
+e Activate Two-Factor Authentication (2FA) if not enabled system-wide.
+e Configure Assessment Due Warnings by selecting a timeframe for email notifications regarding upcoming assessments. This option is available only to case managers.
+e Save all changes to account settings.
+e Utilize the mailbox icon on the home screen for secure internal communication among staff members.
+e Manage client appointments via the calendar in the launch pad, enabling viewing, adding, and deleting of appointments. To sync
+with external calendars like Outlook or Gmail, refer to the help center. e Use the attendance tool from the home screen for attendance-based services. This involves scanning client cards or manually
+entering client details.
+
+# User Access And Agency Sharing
+
+e User access settings, including requests for additional access for business purposes, are managed by the King County System Administrator. Contact your Lead Administrator to request this from the System Administrator.
+e Agencies in King County share client profile information and have visibility of client program and service history, but you can only edit records created by your own agency. Client notes are only shared within your agency.
+
+# Resources
+
+HMIS Agency Agreement | HMIS Training Resources | HMIS System Administration Team: kc-admin@bitfocus.com | Help Portal | kcsupport@bitfocus.com | 206-444-4001, Ext 2
+Agency Leads Meetings: Quarterly meetings to discuss HMIS-related updates and issues.
+
+    TASK: Extract key terms and definitions JSON:
+    {
+      "terms": [
+        {"term":"...","definition":"...","category":"string"}
+      ]
+    }
+    RULES:
+    - Create up to 24 terms.
+    - Definitions must be derived from the source wording when possible.
+    - Category should be a nearby or parent section heading.
+    - Output JSON only. No extra text.

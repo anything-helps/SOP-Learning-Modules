@@ -1,0 +1,173 @@
+{
+  "questions": [
+    {
+      "id": "q_001",
+      "category": "Programmatic Principles",
+      "text": "What is the primary purpose of the Access to Housing policy?",
+      "options": {
+        "A": "To prioritize units for clients with the highest income",
+        "B": "To ensure equitable access to housing options that fit client needs and preferences",
+        "C": "To require abstinence before housing placement",
+        "D": "To centralize all housing decisions with program staff"
+      },
+      "correct": "B",
+      "explanation": "The policy exists to ensure equitable access to a range of options that match client needs and preferences.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_002",
+      "category": "Harm Reduction",
+      "text": "Which statement best reflects a harm reduction approach in housing?",
+      "options": {
+        "A": "Housing is contingent on full sobriety and treatment completion",
+        "B": "Clients are discharged for any missed appointment",
+        "C": "Support aims to reduce negative consequences without imposing unnecessary conditions",
+        "D": "All clients must meet strict compliance milestones before move-in"
+      },
+      "correct": "C",
+      "explanation": "Harm reduction focuses on minimizing negative consequences rather than requiring abstinence or strict compliance.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "q_003",
+      "category": "Low-Barrier Housing",
+      "text": "Low-barrier housing is best described as housing that:",
+      "options": {
+        "A": "Screens out applicants with any credit issues",
+        "B": "Minimizes entry requirements and conditions",
+        "C": "Requires a co-signer for all applicants",
+        "D": "Limits access to people with no criminal history"
+      },
+      "correct": "B",
+      "explanation": "Low-barrier housing reduces entry requirements to increase accessibility for people with complex needs.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_004",
+      "category": "Equitable Access",
+      "text": "Equitable access in this policy means:",
+      "options": {
+        "A": "First-come, first-served access regardless of needs",
+        "B": "Equal opportunity to secure suitable housing regardless of background",
+        "C": "Prioritizing clients with perfect rental histories",
+        "D": "Reserving units for program graduates only"
+      },
+      "correct": "B",
+      "explanation": "Equitable access ensures all clients have fair opportunities, regardless of circumstances.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_005",
+      "category": "Procedures: Locating Housing",
+      "text": "What is the primary use of the Affordable Housing & Shelter Locator?",
+      "options": {
+        "A": "To schedule clinical appointments",
+        "B": "To identify properties with lowered barriers and review availability",
+        "C": "To apply for public benefits",
+        "D": "To run client background checks"
+      },
+      "correct": "B",
+      "explanation": "Staff use the locator to view properties with negotiated screening criteria and check availability.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_006",
+      "category": "Client Choice",
+      "text": "Respecting client choice in housing means:",
+      "options": {
+        "A": "Staff select the closest available unit to the office",
+        "B": "Clients choose among options even if staff would choose differently",
+        "C": "Clients must accept the first unit offered",
+        "D": "Choices can be limited when the market is tight"
+      },
+      "correct": "B",
+      "explanation": "The policy emphasizes client choice without imposing limitations based on market conditions or staff preferences.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "q_007",
+      "category": "Negotiating Screening Criteria",
+      "text": "Which of the following is a screening barrier that staff may negotiate with landlords?",
+      "options": {
+        "A": "Unit square footage",
+        "B": "Income-to-rent ratio",
+        "C": "Neighborhood zoning",
+        "D": "Building fire code"
+      },
+      "correct": "B",
+      "explanation": "The policy lists income-to-rent ratios among negotiable screening barriers, alongside credit, criminal history, evictions, and debt.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "q_008",
+      "category": "Risk Mitigation",
+      "text": "Which is an example of a risk mitigation strategy to support landlord engagement?",
+      "options": {
+        "A": "Waiving the security deposit entirely",
+        "B": "Offering additional deposits or first and last month's rent",
+        "C": "Guaranteeing immediate eviction for any lease violation",
+        "D": "Requiring a co-signer for all clients"
+      },
+      "correct": "B",
+      "explanation": "The policy encourages using program funds for additional deposits or first and last month's rent to mitigate landlord risk.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_009",
+      "category": "Programmatic Principles",
+      "text": "Why does the policy reference PSH fidelity?",
+      "options": {
+        "A": "To limit eligibility based on diagnosis",
+        "B": "To align practices with high standards in housing provision",
+        "C": "To require sobriety for all placements",
+        "D": "To prioritize shortest leases"
+      },
+      "correct": "B",
+      "explanation": "Referencing PSH fidelity signals adherence to high standards consistent with permanent supportive housing principles.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "q_010",
+      "category": "Procedures: Locating Housing",
+      "text": "Which task is appropriate when assisting a client with housing applications?",
+      "options": {
+        "A": "Completing the application without client input",
+        "B": "Visiting units with the client and supporting their application",
+        "C": "Selecting a unit and informing the client post-lease",
+        "D": "Discouraging applications to higher-cost neighborhoods"
+      },
+      "correct": "B",
+      "explanation": "Staff should visit potential units with clients and assist with application steps while honoring client choice.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_011",
+      "category": "Lowering Barriers",
+      "text": "In a tight rental market, how should staff apply the low-barrier principle?",
+      "options": {
+        "A": "By limiting the client's options to expedite placement",
+        "B": "By maintaining client choice and avoiding unnecessary conditions",
+        "C": "By requiring a higher credit score cutoff",
+        "D": "By refusing to negotiate screening criteria"
+      },
+      "correct": "B",
+      "explanation": "The policy states staff should respect client choices and avoid imposing limitations based on market conditions.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "q_012",
+      "category": "Negotiating Screening Criteria",
+      "text": "Which item is LEAST likely to be a negotiable screening barrier?",
+      "options": {
+        "A": "Prior eviction history",
+        "B": "Outstanding rental debt",
+        "C": "Income-to-rent ratio requirements",
+        "D": "Building fire safety regulations"
+      },
+      "correct": "D",
+      "explanation": "Fire safety regulations are not screening criteria and cannot be negotiated; the policy focuses on credit, criminal, eviction, and debt-related barriers.",
+      "difficulty": "Medium"
+    }
+  ]
+}
+

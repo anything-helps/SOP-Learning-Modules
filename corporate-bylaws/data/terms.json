@@ -1,0 +1,17 @@
+{
+  "terms": [
+    {"term":"Articles of Incorporation","definition":"Foundational document establishing the Corporation and its purposes under state law.","category":"General Provisions"},
+    {"term":"Board of Directors","definition":"Governing body responsible for oversight, policy, and strategic direction.","category":"Governance"},
+    {"term":"Officer","definition":"Elected roles (President, Treasurer, Secretary, etc.) charged with day‑to‑day authority.","category":"Officers"},
+    {"term":"Quorum","definition":"Minimum number of Directors required to conduct official business (typically a majority).","category":"Meetings"},
+    {"term":"Indemnification","definition":"Protection of Directors/Officers against liabilities incurred in service, as permitted by law.","category":"Liability & Indemnification"},
+    {"term":"D&O Insurance","definition":"Directors and Officers liability insurance to cover certain claims arising from governance activities.","category":"Liability & Indemnification"},
+    {"term":"Contracts Authority","definition":"Board‑authorized individuals empowered to execute contracts or instruments on behalf of the Corporation.","category":"General Provisions"},
+    {"term":"Fiscal Year","definition":"Accounting year for financial reporting, set by Board resolution.","category":"General Provisions"},
+    {"term":"Checks and Drafts","definition":"Authorization and signature rules for payments and indebtedness.","category":"General Provisions"},
+    {"term":"Books and Records","definition":"Requirement to keep accurate and complete accounts at the principal office.","category":"General Provisions"},
+    {"term":"Loans to Insiders","definition":"Bylaws generally prohibit loans to Directors or Officers.","category":"General Provisions"},
+    {"term":"Amendments","definition":"Process for altering bylaws, typically by 2/3 Board vote at a meeting called for that purpose.","category":"Amendments"}
+  ]
+}
+

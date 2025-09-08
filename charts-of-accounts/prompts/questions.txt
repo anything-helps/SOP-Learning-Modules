@@ -1,0 +1,411 @@
+You are helping create a training module for staff. Source content below came from the
+    policy PDF called "Charts of Accounts". Generate outputs strictly as compact JSON only. Keep content
+    faithful to the source; do not invent details.
+
+    SOURCE CONTENT (outline; may be truncated):
+
+# Chart Of Accounts
+
+
+# __} Chart Of Accounts — Structure & Intent
+
+This Chart of Accounts was designed for a 501(c)(3) nonprofit organization, built around:
+
+# Key Principles:
+
+GAAP-compliant nonprofit accounting standards
+IRS Form 990 reporting requirements
+Best practices for ERP use (Odoo)
+Support for tagging by program, funding restrictions, and grantor
+Net Assets replace “Retained Earnings” (which is intended for use by for-profit companies) Functional expense categories (Program, Admin, Fundraising) guide budgeting and reporting
+Accounts are grouped logically by category (Assets, Liabilities, Net Assets, Revenue, Expense)
+® e e Analytic Tags and Default Journals help automate classification e e
+Reconciliation is enabled only for accounts that match against external transactions (e.g., Bank, AP/AR)
+
+# | Coa: Fields
+
+Column
+Code
+
+# Account Name
+
+
+# Account Type
+
+
+# Reconciliation Enabled
+
+
+# Default Journal
+
+
+# Functional Category
+
+
+# Example Tags
+
+
+# Purpose / Notes
+
+Meaning
+Unique numeric identifier (grouped by category)
+Friendly label visible to users
+Used for internal logic and report classification
+Only enabled where transactions need to be matched
+Where transactions using this account are normally recorded
+Used for functional expense allocation (990, budgeting)
+Optional analytic tags for filtering and program tracking
+Hover-text guidance visible to users in the interface
+
+# © Anything Helps Coa: Established Taxonomy
+
+Code
+
+# Account Name
+
+
+# Contractor Prepayments
+
+
+# 1000 Becu Checking
+
+
+# 1001 Becu Savings
+
+
+# 1002 Global Cu Checking
+
+1100 Account Receivable 1200 Prepaid Expenses 1250
+
+# 1300 Other Current Assets
+
+
+# Type Reconcilable
+
+Bank and Cash
+
+# Bank And Cash
+
+
+# Bank And Cash
+
+Receivable
+
+# Current Assets X
+
+Prepayments x
+
+# Current Assets X
+
+
+# Purpose / Notes
+
+Main checking account currently used for most transactions
+Savings account for emergency reserves and overdraft protection
+Future primary checking account Default receivable account; not used much Expenses paid in advance (e.g., insurance premiums)
+To track advances to contractors before claims are approved
+For tracking other short-term assets if needed
+
+# 990 Category
+
+Other
+Other
+Other Other Other
+
+# Program Services
+
+Other
+Examp!
+
+# Client Servic
+
+1400
+1900
+2000
+2100
+2200
+2300
+2310
+2320
+2400
+2999
+3000
+3100
+3200
+3300
+4000
+4010
+4020
+4030
+4100
+4110
+
+# Petty Cash
+
+
+# Fixed Assets (placeholder)
+
+
+# Accounts Payable
+
+
+# Accrued Expenses
+
+
+# Deferred Revenue
+
+
+# Employee Salaries And Wages
+
+Payable
+
+# Employee Payroll Taxes
+
+
+# Employer Payroll Taxes
+
+
+# Outstanding Payments
+
+
+# Long-term Liabilities
+
+
+# Opening Balances
+
+
+# Net Assets - Unrestricted
+
+
+# Net Assets - Temporarily Restricted
+
+
+# Net Assets - Permanently Restricted
+
+
+# Contributions - Unrestricted
+
+
+# Contributions - Temporarily
+
+Restricted
+
+# Contributions - Permanently
+
+Restricted
+
+# Contributions - In-kind
+
+
+# Government Grants
+
+
+# Medicaid Reimbursements
+
+
+# Bank Reconciliation Overages
+
+
+# Interest Income
+
+
+# Miscellaneous Income
+
+
+# Client Support Expenses
+
+
+# Client Support - Food & Groceries
+
+
+# Client Support - Fuel / Gas
+
+
+# Client Support - Rides &
+
+Transportation
+
+# Bank And Cash
+
+
+# Fixed Assets
+
+Payable
+
+# Current Liabilities
+
+
+# Current Liabilities
+
+
+# Current Liabilities
+
+
+# Current Liabilities
+
+
+# Current Liabilities
+
+
+# Current Liabilities
+
+
+# Non-current Liabilities
+
+Equity
+Equity
+Equity
+Equity
+Income
+Income
+Income
+Income
+Income
+Income
+
+# Other Income
+
+Income
+
+# Other Income
+
+Expenses
+Expenses
+Expenses
+Expenses
+For tracking cash only. Rarely used.
+For tracking material assets. Unlikely to be used.
+Main AP account for bills owed to vendors and contractors
+Liabilities for known expenses not yet paid
+Grant money received for future expenses (restricted timing)
+Employee wages earned but not yet paid
+FIT, SS, Medicare withheld from employee checks
+
+# Ah's Share Of Ss, Medicare, Futa, Etc.
+
+Temporary holding for payments issued via NACHA but not yet cleared in the bank. Used in payment methods under Outgoing Payments.
+Unlikely to be needed. (Examples: 5-year loan, multi-year restricted grant, etc.)
+Used for manual balance setup
+Primary unrestricted equity
+For donor/time-restricted funds
+Endowments or perpetual restrictions
+General donations with no restrictions
+Donations/grants with specific use or timing requirements
+Donated goods/services (must also be expensed out)
+State/local funding or reimbursements
+For claim-based revenue from Wellpoint
+Used to record small, unexplained positive differences during bank reconciliation; administrative only.
+For interest accrued in bank accounts
+Revenue that doesn’t fit any defined category. Should rarely be used!
+Umbrella category client support expenses hese should be classified into more specific categories.
+e.g., groceries purchased for clients
+e.g., cost of filling up a client's car with fuel
+e.g., Uber for client to take to job interview
+Other
+Other
+
+# Program Services
+
+
+# Program Services
+
+
+# Program Services
+
+
+# Program Services
+
+Salaries/wac yet been pa
+
+# Payroll, Tax
+
+
+# Payroll, Tax
+
+Unrestrictec
+Restricted
+Restricted
+Unrestrictec
+Restricted
+Restricted
+Medicaid
+Admin
+
+# Client Servic
+
+Name]
+
+# Client Servic
+
+
+# Client Servic
+
+
+# 5040 Client Support - Clothing Expenses X E.g., Clothes Purchased For Clients Program Services Client Servic
+
+Name] 5050 Client Support - Lodging Expenses x e.g., cost of motel stay Program Services Client Servic 5060 Client Support - Moving Costs Expenses x e.g., cost of packing materials, moving services, etc. Program Services Client Servic Materials, [€ 5070 Client Support - Harm Reduction Expenses x e.g., Narcan, test strips, condoms Program Services Client Servic 5080 Client Support - Legal & Expenses x e.g., cost of lawyer to defend client, cost of new state ID Program Services Client Servic Documentation Fees card Documenta 5090 Client Support - Other Expenses x Cost of other supplies purchased directly for clients. (Use Program Services Client Servic rarely - try to categorize.) 5200 SaaS Subscriptions & Digital Tools Expenses x Used for recurring SaaS charges and tech tools (e.g. Odoo, Management & General OpenAl, Go: Zoom, Notion) 5290 Bank Reconciliation Shortfalls Expenses x Used to record small, unexplained negative differences Admin Admin during bank reconciliation; administrative only. 5900 Non-refundable Sales Tax Current Assets x Sales tax paid (AH non-exempt) Other 6000 Employee Salaries and Wages Expenses x Salary disbursed to employees Other Payroll 6100 Contractor Payments - Client Expenses Payment to contractors for approved service claims Program Services Client Servic Services 6999 Uncategorized Expense - Expenses Current account for all non-contractor-payment related Other Travel to Cli Placeholder expenses; will be emptied and deprecated. License, Foc 7300 Bank Fees Expenses xX Processing and account service fees Other Processing | 9999 Undistributed Profits/Losses Current Year Earnings x Placeholder required for core Odoo functionality. Not used Other by users.
+
+# A. Special System Accounts
+
+Some accounts have special roles in Odoo and should not be removed or deprecated:
+
+# Name Role In System
+
+Undistributed Profits/Losses Tracks current-year profit/loss before closing
+
+# Net Assets — Unrestricted Year-end Closing Account (replaces Retained Earnings)
+
+Bank Accounts Reconciliation required for automated bank matching Accounts Receivable System default for customer invoices
+Accounts Payable System default for vendor bills and payments
+
+# Ff Primary Journals: Default Account Mapping
+
+
+# Journal Name Default Account
+
+
+# Becu Checking 1000 — Bank — Becu Checking
+
+BECU Savings 1001 — Bank — BECU Savings Global CU Checking 1002 — Bank - Global CU
+
+# Vendor Bills 6100 — Contractor Payments — Client Services
+
+
+# Customer Invoices 4110 — Medicaid Reimbursements
+
+
+# Cash 1400 — Petty Cash
+
+
+# Miscellaneous Operations
+
+
+# Imported Transactions From Prior Fiscal Year
+
+
+# Cash Basis Taxes 2200 — Deferred Tax Liability
+
+Tags
+
+# Odoo Configuration _ Accounting —
+
+    TASK: Create multiple-choice questions JSON with the following shape:
+    {
+      "questions": [
+        {
+          "id": "q_001",  // unique per module
+          "category": "string", // from a relevant section heading
+          "text": "Question?",
+          "options": {"A":"...","B":"...","C":"...","D":"..."},
+          "correct": "A|B|C|D",
+          "explanation": "One-sentence justification based on the source",
+          "difficulty": "Easy|Medium|Hard"
+        }
+      ]
+    }
+    RULES:
+    - Create up to 12 questions.
+    - Prefer concrete, policy-accurate content.
+    - Keep choices concise and non-overlapping.
+    - Difficulty should reflect cognitive effort.
+    - Output JSON only. No trailing commentary.

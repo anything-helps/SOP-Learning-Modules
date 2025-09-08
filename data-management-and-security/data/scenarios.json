@@ -1,0 +1,38 @@
+{
+  "scenarios": [
+    {
+      "id": "s_001",
+      "title": "Lost Laptop with PHI",
+      "description": "A staff laptop containing PHI is lost on public transit.",
+      "question": "What is the immediate step?",
+      "options": {"A": "Wait 48 hours","B": "Post to social media","C": "Report immediately to the Privacy Officer and IT","D": "Disable the user next week"},
+      "correct": "C",
+      "explanation": "Immediate reporting initiates containment and required assessments.",
+      "relatedConcepts": ["Incident Reporting","Containment & Prevention"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "s_002",
+      "title": "Unauthorized Access Detected",
+      "description": "Logs show an account accessing records outside their role.",
+      "question": "What should occur first?",
+      "options": {"A": "Ignore if no complaint","B": "Revoke access and investigate within 24 hours","C": "Announce to media immediately","D": "Do nothing if encryption exists"},
+      "correct": "B",
+      "explanation": "Containment and investigation are part of incident response.",
+      "relatedConcepts": ["RBAC","Initial Investigation"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "s_003",
+      "title": "Role Change",
+      "description": "An employee moves from finance to a program role but retains broad system access.",
+      "question": "What should happen?",
+      "options": {"A": "Keep access for flexibility","B": "Grant vendor‑level access","C": "Update RBAC permissions to least privilege for the new role","D": "Disable all access permanently"},
+      "correct": "C",
+      "explanation": "Access should reflect current responsibilities and least privilege.",
+      "relatedConcepts": ["RBAC","Access Control"],
+      "difficulty": "easy"
+    }
+  ]
+}
+

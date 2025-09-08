@@ -1,0 +1,50 @@
+{
+  "questions": [
+    {
+      "id": "q_001",
+      "category": "Board of Directors",
+      "text": "Why use staggered two‑year terms for Directors?",
+      "options": {"A": "To speed turnover","B": "To preserve continuity and institutional knowledge","C": "To reduce quorum","D": "To avoid elections"},
+      "correct": "B",
+      "explanation": "Staggering terms maintains continuity on the Board.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_002",
+      "category": "Independence",
+      "text": "Which factor may disqualify a Director from independence on certain votes?",
+      "options": {"A": "Attendance at meetings","B": "Recent employment by the Corporation","C": "Committee membership","D": "Volunteer service"},
+      "correct": "B",
+      "explanation": "Recent employment or substantial compensation can affect independence.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "q_003",
+      "category": "Duties of Officers",
+      "text": "Which duty is most aligned with the Treasurer role?",
+      "options": {"A": "Chair Board meetings","B": "Maintain financial records and report to the Board","C": "Maintain minutes","D": "Lead program operations"},
+      "correct": "B",
+      "explanation": "The Treasurer oversees finances and financial reporting.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_004",
+      "category": "Roles & Responsibilities",
+      "text": "Which is a core duty of the Board?",
+      "options": {"A": "Daily case management","B": "Set strategic direction and monitor performance","C": "Execute all contracts","D": "Hire program staff directly"},
+      "correct": "B",
+      "explanation": "Boards govern strategy and oversight while management runs operations.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_005",
+      "category": "Accountability",
+      "text": "A Code of Conduct in governance primarily ensures:",
+      "options": {"A": "Fundraising quotas","B": "Ethical leadership and transparency","C": "Higher stipends","D": "Reduced meeting frequency"},
+      "correct": "B",
+      "explanation": "Codes of conduct set ethical and transparency standards for leaders.",
+      "difficulty": "Easy"
+    }
+  ]
+}
+

@@ -1,0 +1,143 @@
+You are helping create a training module for staff. Source content below came from the
+    policy PDF called "Corporate Bylaws". Generate outputs strictly as compact JSON only. Keep content
+    faithful to the source; do not invent details.
+
+    SOURCE CONTENT (outline; may be truncated):
+
+# Introduction
+
+Corporate Bylaws
+The Governance Policies of Anything Helps establish a framework that guides the organization in fulfilling its mission to create and clear pathways to stability for individuals experiencing homelessness in Washington State. These policies define the structure, roles, and responsibilities of the Board of Directors and organizational leadership to ensure all activities reflect the organization's values: Change through Community, Progress through Partnership, and Trust through Transparency. By maintaining a commitment to integrity, accountability, and community engagement, these policies support innovative practices, effective service delivery, and meaningful partnerships to enhance stability for those in need.
+
+# Corporate Bylaws
+
+Article | — Name, Offices, and Purposes Article Il — Directors Article Ill — Officers Article 1V — Compensation of Directors and Officers Article V — Liability and Indemnification Article VI — General Provisions Article Vil — Amendments Article VIII — Effect of Provisions of Law and Articles of Incorporation
+
+# Article Ix — Nondiscrimination
+
+
+# Article | — Name, Offices, And Purposes
+
+Section 1. The name of this corporation is Anything Helps (hereinafter referred to as the “Corporation”). The Corporation was formed under the Washington Nonprofit Corporation Act, previously Sections 24.03.005 et seq., and now Sections 24.03A.005 et seq. of the Revised Code of Washington (as amended from time to time, the “Act”).
+Section 2. The principal office of the Corporation shall be located in the State of Washington. The Corporation may, from time to time, have such other offices as the Board of Directors (the “Directors”) may determine or as the affairs of the Corporation may require. The initial principal office of the Corporation shall be located at 101 6th Ave. South, WA 98104, or at such other location as the Directors may hereafter designate.
+Section 3. The Corporation shall have and continuously maintain in the State of Washington a registered office and a registered agent. The registered office may, but need not be, located in the principal office of the Corporation. The address of the registered office may from time to time be changed by the Directors.
+Section 4. The Corporation shall be operated exclusively for charitable, educational, and scientific purposes within the meaning of Section 501(c)(3) of the Internal Revenue Code of 1986, as the same may be amended, modified, or replaced. In particular, the Corporation’s mission is to meet people experiencing homelessness where they currently are and make it easier to access housing and quality support when needed through innovative practices or by eliminating financial and other barriers. The Corporation will provide outreach and client-driven services for people who experience unsheltered homelessness. The Corporation shall have and exercise all rights and powers as are now, or may hereafter be, conferred on or exercised by nonprofit corporations under the Act, other laws of the State of Washington, or any other applicable laws, in furtherance of the Corporation's purposes.
+Section 5. Notwithstanding any other provision of these Bylaws, no part of the net earnings of the Corporation shall inure to the benefit of, or be distributable to, its Directors, Officers, or other persons, except that the Corporation shall be authorized to pay reasonable compensation for services rendered and to make payments in furtherance of the purposes set forth herein. Furthermore, no Director or Officer shall be entitled to share in the distribution of any of the corporate assets upon dissolution of the Corporation. No substantial part of the activities of the Corporation shall be the carrying on of propaganda or attempting to influence legislation (except as permitted by Section 501(h) of the Code), and the Corporation shall not participate in or intervene in any political campaign. The Corporation shall not carry on any activities not permitted to be carried on by a corporation exempt from federal income tax under Section 501(c)(3) or by a corporation contributions to which are deductible under Section 170(c)(2) of the Code.
+
+# Article Il — Directors
+
+Section 1. The number of Directors of the Corporation shall be seven (7). Thereafter, the Corporation shall have at least three (3) and no more than nine (9) Directors, as determined from time to time by the Board of Directors. Such numbers may be increased or decreased by the Board; provided, however, that no decrease shall have the effect of shortening the term of any incumbent Director.
+Section 2. The policies of the Corporation shall be determined, and its affairs managed, by the Directors, acting collectively as a Board of Directors or through duly designated committees. Individual Directors shall have no authority acting alone. Directors need not be U.S. citizens or Washington State residents. The Board may, from time to time, elect one Director to serve as Chairman of the Board of Directors, who shall preside at meetings and perform such other duties as assigned by the Board.
+Section 3. Directors shall be elected at the annual meeting by a majority vote of current members, including those whose terms are expiring. The initial Directors shall be MARK GARRETT, GREGORY JONES, JEFFREY MALLAHAN, YAFEI DAI, EVODIO REYES JR, SAMUEL HARRIS, and KEITH BERGMAN. Each Director shall serve a two-year term and continue until a successor is elected and qualified, or until resignation, removal, or death.
+Section 4. Any Director may resign at any time by submitting written notice to the Board. The resignation becomes effective at the time specified, and acceptance by the Board is not required.
+Section 5. A Director may be removed at any time, with or without cause, by majority vote of the Board of Directors.
+Section 6. Vacancies on the Board shall be deemed to exist upon resignation, removal, death, or expansion of the number of Director seats. Vacancies shall be filled by majority vote of the remaining Directors. A Director elected to fill a vacancy shall serve the unexpired term of their predecessor or, in the case of a new position, until the next Director election.
+Section 7. Meetings of the Board of Directors—annual, regular, or special—may be held within or outside the State of Washington.
+Section 8. The annual meeting of the Board shall occur at a time and place designated by the Board and specified in the meeting notice or waiver of notice.
+Section 9. Regular meetings of the Board may be scheduled as determined by the Directors.
+Section 10. Special meetings may be called by the President or, upon request of a majority of Directors, by the Secretary. Notice must state the time and place of the meeting; purposes need not be specified unless otherwise required.
+Section 11. Notice of any meeting shall be in writing, signed by the President or Secretary, and delivered at least seven (7) days prior to the meeting via email, mail, or courier to each Director's last known address.
+Section 12. Any Director may waive notice of a meeting in writing or by email. Attendance at a meeting constitutes a waiver of notice unless the Director expressly objects at the start of the meeting.
+Section 13. A majority of Directors then in office shall constitute a quorum. If a quorum is not present, the meeting may be adjourned by those present and reconvened later without additional notice.
+Section 14. Except where otherwise required, actions taken by majority vote of Directors present at a meeting with quorum shall constitute Board action.
+Section 15. Any action required or permitted to be taken at a meeting may instead be taken without a meeting if all Directors consent in writing or by email to the proposed action.
+Section 16. Directors or committee members may participate in any meeting by telephone or video conference, provided all participants can hear one another and proper notice has been given.
+Section 17. The Board may establish one or more committees, each composed of at least two (2) Directors. The Board may designate committee chairs, fill vacancies, modify membership, or dissolve a committee at any time.
+Section 18. Committees may exercise powers delegated to them by the Board, provided such powers do not conflict with law, the Articles of Incorporation, or these Bylaws. The existence of a committee does not relieve the Board or individual Directors of their responsibilities.
+Section 19. Committee members shall serve until the next annual meeting, unless they resign, are removed, pass away, or the committee is dissolved.
+Section 20. Committee meetings may be held in person or remotely, within or outside Washington State. Each committee shall maintain records of its actions and report to the Board and President.
+
+# Article Ill — Officers
+
+Section 1. The Officers of the Corporation shall consist of a President, a Treasurer, and a Secretary, and may include one (1) or more Vice Presidents and such other officers, assistant officers, and agents as deemed necessary. Each shall have the authority and perform the
+duties outlined in these Bylaws or as determined by the Board of Directors. Any two (2) or more offices may be held by the same person, except the offices of President and Vice President, and the offices of President and Secretary.
+Section 2. Officers shall be elected by the Board of Directors immediately following the election of Directors at the annual Board meeting. If elections are not held at that time, they shall be conducted as soon thereafter as convenient.
+Section 3. Officers shall serve until the next annual meeting of the Board and until their successors are elected and qualified, or until earlier resignation, removal (with or without cause), or death.
+Section 4. Any Officer may resign at any time by providing written notice to the Board of Directors. Such resignation shall take effect at the time and place specified in the notice. Acceptance by the Board is not required for it to be effective.
+Section 5. Any Officer may be removed, with or without cause, by a majority vote of the Directors at any regular or special meeting.
+Section 6. A vacancy in any office resulting from resignation, removal, or death may be filled by the Board for the unexpired portion of the term.
+Section 7. The President shall have general supervision over the affairs of the Corporation and shall perform all duties customary to the role, as well as those assigned by the Board. The President shall preside over meetings of the Board as Chair. The initial President shall be MARK GARRETT, PhD.
+Section 8. The Vice President, if elected, shall perform duties as assigned by the Board or the President. In the absence or incapacity of the President, the Vice President shall assume the President's duties and powers. There shall be no initial Vice President.
+
+# Section 9. The Treasurer Shall:
+
+
+# 1. Collect And Maintain Accurate Records Of All Funds Received And Disbursed On Behalf Of The Corporation;
+
+
+# 2. Deposit Such Funds In The Corporation's Name In Institutions Approved By The Board;
+
+
+# 3. Present Financial Reports At Each Annual Meeting And Upon Request By The President;
+
+
+# 4. Perform Additional Duties As Assigned By The Board Or The President.
+
+The Treasurer's records, books, and financial documents shall at all times be available for review by the Board and the President. Upon completing their term, the Treasurer shall transfer all organizational records, funds, and property to their successor. The initial Treasurer shall be YAFIN DAI, CPA.
+
+# Section 10. The Secretary Shall:
+
+
+# 1. Serve As Secretary For All Meetings Of The Board And Committees, If Any;
+
+
+# 2. Maintain Minutes Of All Such Meetings In Appropriate Books;
+
+
+# 3. Ensure Reports, Filings, And Other Legal Documents Are Properly Maintained And Submitted;
+
+
+# 4. Perform Additional Duties As Assigned By The Board Or The President.
+
+All records maintained by the Secretary shall be open to inspection by the Board and the President. Upon completion of their term, the Secretary shall deliver all books, records, and other corporate property to their successor. The initial Secretary shall be KEITH BERGMAN.
+Section 11. Any other Officers elected or appointed by the Board shall perform such duties and hold such powers as are assigned to them by the Board or the President.
+
+# Article Lv — Compensation Of Directors And Officers
+
+Section 1. Directors may receive reasonable salaries or other compensation for services rendered, as determined by the Board of Directors. Compensation must be for services that are necessary and directly related to the performance of the Corporation's purposes, and must not be excessive. Directors may also be reimbursed for reasonable expenses incurred in connection with their service, including attendance at Board meetings. Nothing in this section shall preclude any Director from serving the Corporation in another capacity.
+Section 2. The salaries or other compensation of Officers may be established from time to time by the Board of Directors. All compensation must be reasonable, not excessive, and tied to services that are necessary to fulfill the Corporation's mission and operations.
+
+# Article V — Liability And Indemnification
+
+Section 1. In the absence of fraud or bad faith, Directors of the Corporation shall not be personally liable for the debts, obligations, or liabilities of the Corporation.
+Section 2. The Corporation shall indemnify each Director, Officer, or employee, present or former, to the fullest extent permitted by law, against all expenses reasonably incurred or imposed in connection with any legal proceeding in which they may be involved by reason of their service to the Corporation. This right of indemnification shall not be exclusive of any other rights to which such persons may be entitled under any law, agreement, or vote of the Board of Directors.
+Section 3. The Corporation shall have the authority to purchase and maintain Directors and Officers (D&O) liability insurance on behalf of any individual who is or was a Director or Officer of the Corporation, to cover liabilities incurred in those roles.
+
+# Article Vi — General Provisions
+
+Section 1. Except as otherwise provided in these Bylaws, the Board of Directors may authorize any Officer or agent to enter into contracts or execute instruments on behalf of the Corporation, either generally or for specific transactions.
+Section 2. The Board may authorize the President or any other Officer or agent to:
+
+# 1. Obtain Loans Or Advances For The Corporation;
+
+2. Execute promissory notes, bonds, or other debt instruments; 3. Pledge or transfer Corporation property as collateral. No loans shall be made to any Director or Officer of the Corporation.
+Section 3. The Board of Directors may accept, on behalf of the Corporation, any contribution, gift, bequest, or devise that supports the Corporation’s mission and purposes.
+Section 4. The Corporation shall have the authority to retain or invest assets in accordance with the Board's judgment, provided such investments comply with applicable laws and fiduciary standards.
+Section 5. Stocks and securities owned by the Corporation shall be voted, in person or by proxy, as directed by the Board. In the absence of a Board directive, such votes may be cast by the President.
+Section 6. Accurate and complete books of account for the Corporation's operations shall be kept at its principal office.
+Section 7. Corporate funds not currently needed shall be deposited into accounts with financial institutions approved by the Board or designated Officers or agents.
+Section 8. All checks, drafts, and orders for payment of money, and all notes and other evidences of indebtedness issued in the name of the Corporation, shall be signed by authorized individuals as determined by Board resolution. If no such resolution exists, the Treasurer shall be the default signatory.
+Section 9. The Board may choose to have the Corporation
+
+[TRUNCATED]
+
+    TASK: Create multiple-choice questions JSON with the following shape:
+    {
+      "questions": [
+        {
+          "id": "q_001",  // unique per module
+          "category": "string", // from a relevant section heading
+          "text": "Question?",
+          "options": {"A":"...","B":"...","C":"...","D":"..."},
+          "correct": "A|B|C|D",
+          "explanation": "One-sentence justification based on the source",
+          "difficulty": "Easy|Medium|Hard"
+        }
+      ]
+    }
+    RULES:
+    - Create up to 12 questions.
+    - Prefer concrete, policy-accurate content.
+    - Keep choices concise and non-overlapping.
+    - Difficulty should reflect cognitive effort.
+    - Output JSON only. No trailing commentary.

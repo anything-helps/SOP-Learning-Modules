@@ -169,6 +169,21 @@ def build_root_index(slugs: list[str]) -> str:
   </body>
   </html>\n"""
 
+def bootstrap_index_html() -> str:
+    return """<!DOCTYPE html>
+<html lang=\"en\">
+  <head>
+    <meta charset=\"utf-8\" />
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
+    <title>Learning Module</title>
+    <link rel=\"stylesheet\" href=\"../assets/module.css\" />
+  </head>
+  <body>
+    <div class=\"wrap\" id=\"app\"></div>
+    <script defer src=\"../assets/module.js\"></script>
+  </body>
+  </html>\n"""
+
 def is_module_dir(d: Path) -> bool:
     if not d.is_dir():
         return False
@@ -178,6 +193,10 @@ def is_module_dir(d: Path) -> bool:
     return pdf.exists()
 
 def main() -> None:
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--stamp-index', action='store_true', help='Overwrite each module index.html with shared bootstrap if assets exist')
+    args = ap.parse_args([]) if False else ap.parse_args()
     os.chdir(ROOT)
 
     # 1) Find root PDFs and move them to slug dirs
@@ -192,20 +211,32 @@ def main() -> None:
             if not target_pdf.exists():
                 entry.rename(target_pdf)
 
-    # 2) Ensure placeholder index.html exists for each module dir
+    # 2) Ensure placeholder index.html exists for each module dir (or keep existing)
     modules = []
     for d in sorted(ROOT.iterdir()):
         if is_module_dir(d):
             modules.append(d.name)
             idx = d / 'index.html'
-            if not idx.exists():
-                # Derive display title from slug
-                human = display_title_from_title(clean_title_from_filename(d.name))
-                idx.write_text(build_placeholder_html(human), encoding='utf-8')
+            if args.stamp_index:
+                assets_css = ROOT / 'assets' / 'module.css'
+                assets_js = ROOT / 'assets' / 'module.js'
+                if assets_css.exists() and assets_js.exists():
+                    idx.write_text(bootstrap_index_html(), encoding='utf-8')
+                else:
+                    human = display_title_from_title(clean_title_from_filename(d.name))
+                    idx.write_text(build_placeholder_html(human), encoding='utf-8')
+            elif not idx.exists():
+                # Default to bootstrap shared UI if assets exist; else use placeholder
+                assets_css = ROOT / 'assets' / 'module.css'
+                assets_js = ROOT / 'assets' / 'module.js'
+                if assets_css.exists() and assets_js.exists():
+                    idx.write_text(bootstrap_index_html(), encoding='utf-8')
+                else:
+                    human = display_title_from_title(clean_title_from_filename(d.name))
+                    idx.write_text(build_placeholder_html(human), encoding='utf-8')
 
     # 3) Regenerate root index.html
     (ROOT / 'index.html').write_text(build_root_index(modules), encoding='utf-8')
 
 if __name__ == '__main__':
     main()
-

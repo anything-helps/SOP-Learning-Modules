@@ -1,0 +1,38 @@
+{
+  "scenarios": [
+    {
+      "id": "s_001",
+      "title": "Neighborhood Connections",
+      "description": "A client is housed in a new neighborhood and feels isolated.",
+      "question": "What is the best first step?",
+      "options": {"A": "Schedule daily check‑ins","B": "Introduce the client to neighbors and nearby community spaces","C": "Move to a PSH building immediately","D": "Wait for the client to reach out"},
+      "correct": "B",
+      "explanation": "Introducing neighbors and local spaces supports integration and inclusion.",
+      "relatedConcepts": ["Re‑establish Healthy Social Norms","Neighborhood Orientation"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "s_002",
+      "title": "Transit Orientation",
+      "description": "The client wants to join a community program but is unsure about travel routes.",
+      "question": "What supports integration?",
+      "options": {"A": "Send a map by email","B": "Accompany on the first trip to learn the route","C": "Schedule rideshare permanently","D": "Cancel participation"},
+      "correct": "B",
+      "explanation": "Accompanying early trips builds confidence and access to resources.",
+      "relatedConcepts": ["Public Transportation Orientation"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "s_003",
+      "title": "Placement Review",
+      "description": "At the three‑month follow‑up, the client reports safety concerns and poor fit in the area.",
+      "question": "What should the team consider?",
+      "options": {"A": "No changes for 12 months","B": "Review supports and consider adjustments in placement or plan","C": "End services","D": "Require PSH placement"},
+      "correct": "B",
+      "explanation": "Monitoring & adjustment includes revisiting supports and placements based on feedback.",
+      "relatedConcepts": ["Monitoring & Adjustment"],
+      "difficulty": "medium"
+    }
+  ]
+}
+

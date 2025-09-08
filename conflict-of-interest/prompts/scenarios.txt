@@ -1,0 +1,90 @@
+You are helping create a training module for staff. Source content below came from the
+    policy PDF called "Conflict of Interest". Generate outputs strictly as compact JSON only. Keep content
+    faithful to the source; do not invent details.
+
+    SOURCE CONTENT (outline; may be truncated):
+
+# Introduction
+
+onflicts of Interest
+All Directors, Officers, and staff owe a duty of loyalty to Anything Helps (the "Corporation") and must act in good faith and in the Corporation's best interests, not in their own interests or in the interests of another individual or entity. This Conflicts of Interest Policy ("Policy") outlines procedures for identifying, disclosing, reviewing, and managing conflicts of interest, particularly those involving private benefit to a Director, Officer, or disqualified person under IRS regulations. This Policy supplements, but does not replace, any applicable state or federal conflict of interest laws.
+
+# Conflicts Of Interest
+
+Definitions Scope Conflicts Compensation Approval Conflict Disclosure and Questionnaire
+
+# Review And Approval
+
+Compliance Definitions Scope Affiliate: any entity that is directly or indirectly controlled by, in e Directors or Officers of the Corporation or an Affiliate; control of, or under common control with the Corporation. e Key Employees of the Corporation or an Affiliate;
+e Disqualified persons as defined in Code Section 4958(f)(1);
+Key Employee: someone in a position to exercise substantial e Arelative of any of the above; influence over the Corporation and may include founders, e Any other employee, volunteer, independent contractor, or substantial contributors, those controlling significant budgets or substantial contributor to the Corporation.
+programs, highly compensated individuals, or those whose compensation is based on the Corporation's revenues.
+Conflicts
+A conflict of interest arises when a Covered Person’s personal or financial interests may interfere with their objectivity or duty to act in the Corporation’s best interests. Typical situations include:
+e Direct or indirect financial or personal interest in a transaction involving the Corporation or an Affiliate;
+e Compensation arrangements with the Corporation or with entities doing business with the Corporation;
+e Affiliation with or financial interest in an entity that competes with or transacts with the Corporation;
+e Use of confidential information or position for personal gain or illegal purposes;
+e Receipt of gifts, favors, or entertainment that may influence judgment (excluding nominal gifts of goodwill); e Acquisition of property or interests the Corporation may have an interest in;
+e Business opportunities related to the Corporation’s mission unless the Board has declined the opportunity; e Indebtedness to the Corporation, excluding routine advances;
+e Any situation impairing the individual’s ability to act impartially or effectively.
+
+# Compensation Approval
+
+A Director or committee member receiving compensation from the Corporation must not vote on matters related to their compensation. When approving compensation for any Director, Officer, employee, or contractor, the Board (or an authorized committee) must:
+
+# 1. Approve The Arrangement In Advance;
+
+
+# 2. Ensure That Approving Members Have No Conflict Of Interest, Meaning They:
+
+e Are not related to or employed by the person receiving compensation; e Do not receive compensation approved by the person under review; e Are not financially interested in the arrangement; e Are not engaged in reciprocal benefit arrangements.
+
+# 3. Rely On Comparable Data From Similar Organizations, Third-party Surveys, Offers From Other Employers, Or At Least Three Comparables
+
+if gross receipts are under $1M.
+
+# 4. Document In The Minutes:
+
+e The terms and approval date; e Attendance and voting records;
+e The comparability data and rationale used; e Any adjustments for geographic or organizational conditions; e Conflict disclosures and safeguards applied during review.
+
+# Conflict Disclosure And Questionnaire
+
+Covered Persons must disclose all actual or potential conflicts to the Board in writing and in good faith, prior to Board consideration of the matter. Disclosure must include relevant details to enable proper review. Individuals should err on the side of caution and disclose even potential or apparent conflicts.
+All current Directors, Officers, and Key Employees—and any nominees for Director—must submit an annual conflict disclosure questionnaire and update it as appropriate. The Secretary shall distribute and maintain all submitted forms for Board review.
+
+# Review And Approval
+
+The Board will review conflicts and determine whether to approve or ratify the associated matter based on fairness, reasonableness, alignment with the Corporation’s mission, and avoidance of reputational risk. Approval requires a majority vote of non-interested Board members.
+Persons with a conflict may not participate in or be present for deliberations or voting, though they may provide background information if requested prior to discussion.
+If a conflict-related action was taken without prior approval, the matter must be promptly reviewed by the Board, which may choose to:
+e Ratify the transaction;
+e Rescind or amend the transaction;
+e Enforce disciplinary action;
+Strengthen internal procedures to prevent recurrence.
+Compliance
+If the Board has reasonable cause to believe a Covered Person has violated this Policy, it will conduct an investigation and, if warranted, take appropriate corrective measures, including removal from office or termination of employment or affiliation with the Corporation.
+
+# Resources: Next:
+
+    TASK: Create scenario-based questions JSON:
+    {
+      "scenarios": [
+        {
+          "id":"s_001",
+          "title":"Short scenario title",
+          "description":"1-2 sentence realistic situation",
+          "question":"What should staff do?",
+          "options":{"A":"...","B":"...","C":"...","D":"..."},
+          "correct":"A|B|C|D",
+          "explanation":"One-sentence justification from source",
+          "relatedConcepts":["..."],
+          "difficulty":"easy|medium|hard"
+        }
+      ]
+    }
+    RULES:
+    - Create up to 6 scenarios.
+    - Situations should match the spirit and constraints of the source.
+    - Output JSON only. No extra commentary.

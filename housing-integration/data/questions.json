@@ -1,0 +1,41 @@
+{
+  "questions": [
+    {
+      "id": "q_001",
+      "category": "Programmatic Principles",
+      "text": "What is the primary goal of Housing Integration?",
+      "options": {"A": "Centralize clients in one building","B": "Foster community inclusion and long‑term stability","C": "Limit client movement","D": "Require on‑site services"},
+      "correct": "B",
+      "explanation": "The policy aims at social inclusion, stigma reduction, and stability.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_002",
+      "category": "Definitions",
+      "text": "Scattered‑site housing refers to:",
+      "options": {"A": "One large complex","B": "Units distributed across neighborhoods","C": "Temporary hotel rooms","D": "Campus housing only"},
+      "correct": "B",
+      "explanation": "Scattered‑site promotes integration across communities.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_003",
+      "category": "Procedures",
+      "text": "Which action best supports re‑establishing healthy social norms?",
+      "options": {"A": "Require curfews","B": "Facilitate neighbor introductions and accompany clients to events","C": "Restrict visitors","D": "Daily mandatory groups"},
+      "correct": "B",
+      "explanation": "Building community ties and exposure to activities supports norms and inclusion.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "q_004",
+      "category": "Procedures",
+      "text": "Why accompany clients on public transportation initially?",
+      "options": {"A": "To monitor attendance","B": "To familiarize clients with routes to resources","C": "To replace case management","D": "To reduce fare costs"},
+      "correct": "B",
+      "explanation": "Orientation builds confidence and access to community resources.",
+      "difficulty": "Easy"
+    }
+  ]
+}
+

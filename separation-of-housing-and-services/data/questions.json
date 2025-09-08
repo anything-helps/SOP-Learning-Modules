@@ -1,0 +1,117 @@
+{
+  "questions": [
+    {
+      "id": "q_001",
+      "category": "Program Purpose",
+      "text": "What is the core intent of keeping housing and services separate?",
+      "options": {
+        "A": "To allow services to enforce lease compliance",
+        "B": "To ensure non‑coercive support that does not gatekeep housing",
+        "C": "To consolidate roles for efficiency",
+        "D": "To enable property staff to supervise service plans"
+      },
+      "correct": "B",
+      "explanation": "The policy emphasizes psychological safety and non‑coercive relationships; services must never gatekeep housing.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_002",
+      "category": "Role Separation",
+      "text": "Which task must NOT be performed by a case manager?",
+      "options": {
+        "A": "Lease enforcement or eviction actions",
+        "B": "Coordinating community‑based services",
+        "C": "Attending lease signings to advocate",
+        "D": "Offering voluntary support"
+      },
+      "correct": "A",
+      "explanation": "Case managers do not handle rent collection, lease enforcement, or eviction tasks; those are property functions.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_003",
+      "category": "Voluntary Service Engagement",
+      "text": "Tenant engagement in services should be:",
+      "options": {
+        "A": "Required to maintain housing",
+        "B": "A condition of lease renewal",
+        "C": "Voluntary and separate from tenancy",
+        "D": "Determined by property management"
+      },
+      "correct": "C",
+      "explanation": "Tenancy is governed by the lease, not by participation in services.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_004",
+      "category": "Privacy Protections",
+      "text": "Which practice violates required privacy protections?",
+      "options": {
+        "A": "Meeting in a neutral private space",
+        "B": "Installing monitoring equipment inside units",
+        "C": "Scheduling coordination meetings",
+        "D": "Separating service and housing records"
+      },
+      "correct": "B",
+      "explanation": "Client units must remain private; monitoring equipment cannot be installed inside.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "q_005",
+      "category": "Coordination",
+      "text": "How should housing and service teams coordinate?",
+      "options": {
+        "A": "Under shared management to streamline decisions",
+        "B": "Via scheduled, structured communication that maintains distinct roles",
+        "C": "By allowing service staff to approve evictions",
+        "D": "Through joint access to all tenancy records without consent"
+      },
+      "correct": "B",
+      "explanation": "Teams coordinate through structured communication while keeping responsibilities distinct.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "q_006",
+      "category": "Service Design",
+      "text": "When services are delivered on‑site, they must:",
+      "options": {
+        "A": "Be integrated with property management",
+        "B": "Prioritize surveillance to prevent incidents",
+        "C": "Preserve privacy and avoid any sense of coercion",
+        "D": "Replace community‑based options"
+      },
+      "correct": "C",
+      "explanation": "On‑site services should preserve privacy and avoid surveillance or coercion.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_007",
+      "category": "Advocacy",
+      "text": "Why might a case manager attend a lease signing?",
+      "options": {
+        "A": "To add service compliance to the lease",
+        "B": "To ensure tenancy isn’t conditioned on services",
+        "C": "To authorize rent increases",
+        "D": "To approve guest policies"
+      },
+      "correct": "B",
+      "explanation": "Advocacy includes ensuring leases do not tie tenancy to service participation.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_008",
+      "category": "Boundaries",
+      "text": "Which statement best reflects proper role boundaries?",
+      "options": {
+        "A": "Property managers deliver case management when short‑staffed",
+        "B": "Service staff may collect rent during crises",
+        "C": "Different entities/staff hold clearly delineated duties",
+        "D": "Either team can lead eviction decisions"
+      },
+      "correct": "C",
+      "explanation": "The policy calls for distinct roles held by different entities or clearly separated staff functions.",
+      "difficulty": "Medium"
+    }
+  ]
+}
+

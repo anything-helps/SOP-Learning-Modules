@@ -1,0 +1,536 @@
+[
+  {
+    "heading": "Chart Of Accounts",
+    "paragraphs": []
+  },
+  {
+    "heading": "__} Chart Of Accounts — Structure & Intent",
+    "paragraphs": [
+      "This Chart of Accounts was designed for a 501(c)(3) nonprofit organization, built around:"
+    ]
+  },
+  {
+    "heading": "Key Principles:",
+    "paragraphs": [
+      "GAAP-compliant nonprofit accounting standards",
+      "IRS Form 990 reporting requirements",
+      "Best practices for ERP use (Odoo)",
+      "Support for tagging by program, funding restrictions, and grantor",
+      "Net Assets replace “Retained Earnings” (which is intended for use by for-profit companies) Functional expense categories (Program, Admin, Fundraising) guide budgeting and reporting",
+      "Accounts are grouped logically by category (Assets, Liabilities, Net Assets, Revenue, Expense)",
+      "® e e Analytic Tags and Default Journals help automate classification e e",
+      "Reconciliation is enabled only for accounts that match against external transactions (e.g., Bank, AP/AR)"
+    ]
+  },
+  {
+    "heading": "| Coa: Fields",
+    "paragraphs": [
+      "Column",
+      "Code"
+    ]
+  },
+  {
+    "heading": "Account Name",
+    "paragraphs": []
+  },
+  {
+    "heading": "Account Type",
+    "paragraphs": []
+  },
+  {
+    "heading": "Reconciliation Enabled",
+    "paragraphs": []
+  },
+  {
+    "heading": "Default Journal",
+    "paragraphs": []
+  },
+  {
+    "heading": "Functional Category",
+    "paragraphs": []
+  },
+  {
+    "heading": "Example Tags",
+    "paragraphs": []
+  },
+  {
+    "heading": "Purpose / Notes",
+    "paragraphs": [
+      "Meaning",
+      "Unique numeric identifier (grouped by category)",
+      "Friendly label visible to users",
+      "Used for internal logic and report classification",
+      "Only enabled where transactions need to be matched",
+      "Where transactions using this account are normally recorded",
+      "Used for functional expense allocation (990, budgeting)",
+      "Optional analytic tags for filtering and program tracking",
+      "Hover-text guidance visible to users in the interface"
+    ]
+  },
+  {
+    "heading": "© Anything Helps Coa: Established Taxonomy",
+    "paragraphs": [
+      "Code"
+    ]
+  },
+  {
+    "heading": "Account Name",
+    "paragraphs": []
+  },
+  {
+    "heading": "Contractor Prepayments",
+    "paragraphs": []
+  },
+  {
+    "heading": "1000 Becu Checking",
+    "paragraphs": []
+  },
+  {
+    "heading": "1001 Becu Savings",
+    "paragraphs": []
+  },
+  {
+    "heading": "1002 Global Cu Checking",
+    "paragraphs": [
+      "1100 Account Receivable 1200 Prepaid Expenses 1250"
+    ]
+  },
+  {
+    "heading": "1300 Other Current Assets",
+    "paragraphs": []
+  },
+  {
+    "heading": "Type Reconcilable",
+    "paragraphs": [
+      "Bank and Cash"
+    ]
+  },
+  {
+    "heading": "Bank And Cash",
+    "paragraphs": []
+  },
+  {
+    "heading": "Bank And Cash",
+    "paragraphs": [
+      "Receivable"
+    ]
+  },
+  {
+    "heading": "Current Assets X",
+    "paragraphs": [
+      "Prepayments x"
+    ]
+  },
+  {
+    "heading": "Current Assets X",
+    "paragraphs": []
+  },
+  {
+    "heading": "Purpose / Notes",
+    "paragraphs": [
+      "Main checking account currently used for most transactions",
+      "Savings account for emergency reserves and overdraft protection",
+      "Future primary checking account Default receivable account; not used much Expenses paid in advance (e.g., insurance premiums)",
+      "To track advances to contractors before claims are approved",
+      "For tracking other short-term assets if needed"
+    ]
+  },
+  {
+    "heading": "990 Category",
+    "paragraphs": [
+      "Other",
+      "Other",
+      "Other Other Other"
+    ]
+  },
+  {
+    "heading": "Program Services",
+    "paragraphs": [
+      "Other",
+      "Examp!"
+    ]
+  },
+  {
+    "heading": "Client Servic",
+    "paragraphs": [
+      "1400",
+      "1900",
+      "2000",
+      "2100",
+      "2200",
+      "2300",
+      "2310",
+      "2320",
+      "2400",
+      "2999",
+      "3000",
+      "3100",
+      "3200",
+      "3300",
+      "4000",
+      "4010",
+      "4020",
+      "4030",
+      "4100",
+      "4110",
+      "4190",
+      "4200",
+      "4999",
+      "5000",
+      "5010",
+      "5020",
+      "5030"
+    ]
+  },
+  {
+    "heading": "Petty Cash",
+    "paragraphs": []
+  },
+  {
+    "heading": "Fixed Assets (placeholder)",
+    "paragraphs": []
+  },
+  {
+    "heading": "Accounts Payable",
+    "paragraphs": []
+  },
+  {
+    "heading": "Accrued Expenses",
+    "paragraphs": []
+  },
+  {
+    "heading": "Deferred Revenue",
+    "paragraphs": []
+  },
+  {
+    "heading": "Employee Salaries And Wages",
+    "paragraphs": [
+      "Payable"
+    ]
+  },
+  {
+    "heading": "Employee Payroll Taxes",
+    "paragraphs": []
+  },
+  {
+    "heading": "Employer Payroll Taxes",
+    "paragraphs": []
+  },
+  {
+    "heading": "Outstanding Payments",
+    "paragraphs": []
+  },
+  {
+    "heading": "Long-term Liabilities",
+    "paragraphs": []
+  },
+  {
+    "heading": "Opening Balances",
+    "paragraphs": []
+  },
+  {
+    "heading": "Net Assets - Unrestricted",
+    "paragraphs": []
+  },
+  {
+    "heading": "Net Assets - Temporarily Restricted",
+    "paragraphs": []
+  },
+  {
+    "heading": "Net Assets - Permanently Restricted",
+    "paragraphs": []
+  },
+  {
+    "heading": "Contributions - Unrestricted",
+    "paragraphs": []
+  },
+  {
+    "heading": "Contributions - Temporarily",
+    "paragraphs": [
+      "Restricted"
+    ]
+  },
+  {
+    "heading": "Contributions - Permanently",
+    "paragraphs": [
+      "Restricted"
+    ]
+  },
+  {
+    "heading": "Contributions - In-kind",
+    "paragraphs": []
+  },
+  {
+    "heading": "Government Grants",
+    "paragraphs": []
+  },
+  {
+    "heading": "Medicaid Reimbursements",
+    "paragraphs": []
+  },
+  {
+    "heading": "Bank Reconciliation Overages",
+    "paragraphs": []
+  },
+  {
+    "heading": "Interest Income",
+    "paragraphs": []
+  },
+  {
+    "heading": "Miscellaneous Income",
+    "paragraphs": []
+  },
+  {
+    "heading": "Client Support Expenses",
+    "paragraphs": []
+  },
+  {
+    "heading": "Client Support - Food & Groceries",
+    "paragraphs": []
+  },
+  {
+    "heading": "Client Support - Fuel / Gas",
+    "paragraphs": []
+  },
+  {
+    "heading": "Client Support - Rides &",
+    "paragraphs": [
+      "Transportation"
+    ]
+  },
+  {
+    "heading": "Bank And Cash",
+    "paragraphs": []
+  },
+  {
+    "heading": "Fixed Assets",
+    "paragraphs": [
+      "Payable"
+    ]
+  },
+  {
+    "heading": "Current Liabilities",
+    "paragraphs": []
+  },
+  {
+    "heading": "Current Liabilities",
+    "paragraphs": []
+  },
+  {
+    "heading": "Current Liabilities",
+    "paragraphs": []
+  },
+  {
+    "heading": "Current Liabilities",
+    "paragraphs": []
+  },
+  {
+    "heading": "Current Liabilities",
+    "paragraphs": []
+  },
+  {
+    "heading": "Current Liabilities",
+    "paragraphs": []
+  },
+  {
+    "heading": "Non-current Liabilities",
+    "paragraphs": [
+      "Equity",
+      "Equity",
+      "Equity",
+      "Equity",
+      "Income",
+      "Income",
+      "Income",
+      "Income",
+      "Income",
+      "Income"
+    ]
+  },
+  {
+    "heading": "Other Income",
+    "paragraphs": [
+      "Income"
+    ]
+  },
+  {
+    "heading": "Other Income",
+    "paragraphs": [
+      "Expenses",
+      "Expenses",
+      "Expenses",
+      "Expenses",
+      "For tracking cash only. Rarely used.",
+      "For tracking material assets. Unlikely to be used.",
+      "Main AP account for bills owed to vendors and contractors",
+      "Liabilities for known expenses not yet paid",
+      "Grant money received for future expenses (restricted timing)",
+      "Employee wages earned but not yet paid",
+      "FIT, SS, Medicare withheld from employee checks"
+    ]
+  },
+  {
+    "heading": "Ah's Share Of Ss, Medicare, Futa, Etc.",
+    "paragraphs": [
+      "Temporary holding for payments issued via NACHA but not yet cleared in the bank. Used in payment methods under Outgoing Payments.",
+      "Unlikely to be needed. (Examples: 5-year loan, multi-year restricted grant, etc.)",
+      "Used for manual balance setup",
+      "Primary unrestricted equity",
+      "For donor/time-restricted funds",
+      "Endowments or perpetual restrictions",
+      "General donations with no restrictions",
+      "Donations/grants with specific use or timing requirements",
+      "Donated goods/services (must also be expensed out)",
+      "State/local funding or reimbursements",
+      "For claim-based revenue from Wellpoint",
+      "Used to record small, unexplained positive differences during bank reconciliation; administrative only.",
+      "For interest accrued in bank accounts",
+      "Revenue that doesn’t fit any defined category. Should rarely be used!",
+      "Umbrella category client support expenses hese should be classified into more specific categories.",
+      "e.g., groceries purchased for clients",
+      "e.g., cost of filling up a client's car with fuel",
+      "e.g., Uber for client to take to job interview",
+      "Other",
+      "Other",
+      "Other",
+      "Other",
+      "Other",
+      "Other",
+      "Other",
+      "Other",
+      "Other",
+      "Other",
+      "Other",
+      "Other",
+      "Other",
+      "Other",
+      "Fundraising",
+      "Fundraising",
+      "Fundraising",
+      "Fundraising",
+      "Revenue",
+      "Revenue",
+      "Admin",
+      "Revenue",
+      "Other"
+    ]
+  },
+  {
+    "heading": "Program Services",
+    "paragraphs": []
+  },
+  {
+    "heading": "Program Services",
+    "paragraphs": []
+  },
+  {
+    "heading": "Program Services",
+    "paragraphs": []
+  },
+  {
+    "heading": "Program Services",
+    "paragraphs": [
+      "Salaries/wac yet been pa"
+    ]
+  },
+  {
+    "heading": "Payroll, Tax",
+    "paragraphs": []
+  },
+  {
+    "heading": "Payroll, Tax",
+    "paragraphs": [
+      "Unrestrictec",
+      "Restricted",
+      "Restricted",
+      "Unrestrictec",
+      "Restricted",
+      "Restricted",
+      "Medicaid",
+      "Admin"
+    ]
+  },
+  {
+    "heading": "Client Servic",
+    "paragraphs": [
+      "Name]"
+    ]
+  },
+  {
+    "heading": "Client Servic",
+    "paragraphs": []
+  },
+  {
+    "heading": "Client Servic",
+    "paragraphs": []
+  },
+  {
+    "heading": "5040 Client Support - Clothing Expenses X E.g., Clothes Purchased For Clients Program Services Client Servic",
+    "paragraphs": [
+      "Name] 5050 Client Support - Lodging Expenses x e.g., cost of motel stay Program Services Client Servic 5060 Client Support - Moving Costs Expenses x e.g., cost of packing materials, moving services, etc. Program Services Client Servic Materials, [€ 5070 Client Support - Harm Reduction Expenses x e.g., Narcan, test strips, condoms Program Services Client Servic 5080 Client Support - Legal & Expenses x e.g., cost of lawyer to defend client, cost of new state ID Program Services Client Servic Documentation Fees card Documenta 5090 Client Support - Other Expenses x Cost of other supplies purchased directly for clients. (Use Program Services Client Servic rarely - try to categorize.) 5200 SaaS Subscriptions & Digital Tools Expenses x Used for recurring SaaS charges and tech tools (e.g. Odoo, Management & General OpenAl, Go: Zoom, Notion) 5290 Bank Reconciliation Shortfalls Expenses x Used to record small, unexplained negative differences Admin Admin during bank reconciliation; administrative only. 5900 Non-refundable Sales Tax Current Assets x Sales tax paid (AH non-exempt) Other 6000 Employee Salaries and Wages Expenses x Salary disbursed to employees Other Payroll 6100 Contractor Payments - Client Expenses Payment to contractors for approved service claims Program Services Client Servic Services 6999 Uncategorized Expense - Expenses Current account for all non-contractor-payment related Other Travel to Cli Placeholder expenses; will be emptied and deprecated. License, Foc 7300 Bank Fees Expenses xX Processing and account service fees Other Processing | 9999 Undistributed Profits/Losses Current Year Earnings x Placeholder required for core Odoo functionality. Not used Other by users."
+    ]
+  },
+  {
+    "heading": "A. Special System Accounts",
+    "paragraphs": [
+      "Some accounts have special roles in Odoo and should not be removed or deprecated:"
+    ]
+  },
+  {
+    "heading": "Name Role In System",
+    "paragraphs": [
+      "Undistributed Profits/Losses Tracks current-year profit/loss before closing"
+    ]
+  },
+  {
+    "heading": "Net Assets — Unrestricted Year-end Closing Account (replaces Retained Earnings)",
+    "paragraphs": [
+      "Bank Accounts Reconciliation required for automated bank matching Accounts Receivable System default for customer invoices",
+      "Accounts Payable System default for vendor bills and payments"
+    ]
+  },
+  {
+    "heading": "Ff Primary Journals: Default Account Mapping",
+    "paragraphs": []
+  },
+  {
+    "heading": "Journal Name Default Account",
+    "paragraphs": []
+  },
+  {
+    "heading": "Becu Checking 1000 — Bank — Becu Checking",
+    "paragraphs": [
+      "BECU Savings 1001 — Bank — BECU Savings Global CU Checking 1002 — Bank - Global CU"
+    ]
+  },
+  {
+    "heading": "Vendor Bills 6100 — Contractor Payments — Client Services",
+    "paragraphs": []
+  },
+  {
+    "heading": "Customer Invoices 4110 — Medicaid Reimbursements",
+    "paragraphs": []
+  },
+  {
+    "heading": "Cash 1400 — Petty Cash",
+    "paragraphs": []
+  },
+  {
+    "heading": "Miscellaneous Operations",
+    "paragraphs": []
+  },
+  {
+    "heading": "Imported Transactions From Prior Fiscal Year",
+    "paragraphs": []
+  },
+  {
+    "heading": "Cash Basis Taxes 2200 — Deferred Tax Liability",
+    "paragraphs": [
+      "Tags"
+    ]
+  },
+  {
+    "heading": "Odoo Configuration _ Accounting —",
+    "paragraphs": []
+  }
+]

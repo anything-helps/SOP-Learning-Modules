@@ -1,0 +1,97 @@
+{
+  "questions": [
+    {
+      "id": "q_001",
+      "category": "Intake",
+      "text": "What immediately follows completing the JotForm Enrollment with the client?",
+      "options": {
+        "A": "Manual file upload by staff",
+        "B": "Zapier saves a PDF to the client’s Drive folder and creates tracking records",
+        "C": "Client is auto‑enrolled in services",
+        "D": "A billing record is created in ProviderOne"
+      },
+      "correct": "B",
+      "explanation": "Automation creates the Monday.com record and saves the completed Enrollment PDF to Drive.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_002",
+      "category": "Eligibility Review",
+      "text": "Which system is used to verify Medicaid status and obtain the ProviderOne ID?",
+      "options": {"A": "Wellpoint","B": "OneHealthPort / ProviderOne","C": "Slack","D": "JotForm"},
+      "correct": "B",
+      "explanation": "Eligibility verification occurs in ProviderOne via OneHealthPort.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_003",
+      "category": "Tracking",
+      "text": "Where is the client tracked after intake submission?",
+      "options": {
+        "A": "FCS Client Roster in Monday.com (Intake Processing group)",
+        "B": "Shared email inbox",
+        "C": "A local spreadsheet",
+        "D": "Only in ProviderOne"
+      },
+      "correct": "A",
+      "explanation": "The roster organizes clients in the Intake Processing group for next steps.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_004",
+      "category": "Medicaid Status",
+      "text": "If Medicaid is inactive, which action is correct?",
+      "options": {
+        "A": "Set AH Intake to Medicaid Inactive and notify the case manager via automation",
+        "B": "Proceed with SH/SE enrollment anyway",
+        "C": "Mark client as ineligible permanently",
+        "D": "Skip eligibility review"
+      },
+      "correct": "A",
+      "explanation": "The process notifies the case manager and delays enrollment until coverage resumes.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "q_005",
+      "category": "Enrollment Submission",
+      "text": "Setting Intake Status to Eligible triggers what action?",
+      "options": {
+        "A": "Manual fax to Wellpoint",
+        "B": "Zapier submits SH and SE assessments online and stores confirmations",
+        "C": "Client record deletion",
+        "D": "Appointment with Wellpoint reviewer"
+      },
+      "correct": "B",
+      "explanation": "Automation submits online assessments and saves PDFs and confirmation numbers.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "q_006",
+      "category": "Enrollment Review",
+      "text": "Where do you confirm that SH/SE statuses changed to Submitted with confirmation numbers?",
+      "options": {"A": "Slack","B": "Client Files folder","C": "‘I2. Enrollment Review’ view in Monday.com","D": "JotForm"},
+      "correct": "C",
+      "explanation": "The Enrollment Review view consolidates submission statuses and confirmations.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_007",
+      "category": "Notifications",
+      "text": "A denial from Wellpoint triggers which notification?",
+      "options": {"A": "SMS to client","B": "Email to case manager only","C": "Slack #admin message via automation","D": "No notification"},
+      "correct": "C",
+      "explanation": "Zapier posts a summary to the Slack #admin channel when a denial is received.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_008",
+      "category": "Data Entry",
+      "text": "What data from ProviderOne must be copied into Monday.com?",
+      "options": {"A": "Credit score","B": "ProviderOne ID and County","C": "Tax ID","D": "Parole status"},
+      "correct": "B",
+      "explanation": "ProviderOne ID and the listed county are entered to complete eligibility review.",
+      "difficulty": "Easy"
+    }
+  ]
+}
+

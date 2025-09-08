@@ -1,0 +1,118 @@
+[
+  {
+    "heading": "Common Finance Functions: Process & Account Mappings",
+    "paragraphs": [
+      "* #1: Paying Contractors for Approved Claims"
+    ]
+  },
+  {
+    "heading": "Step 1: Post Vendor Bill For Approved Claim",
+    "paragraphs": [
+      "Recognizes the liability and the expense"
+    ]
+  },
+  {
+    "heading": "Account Debit / Credit Purpose",
+    "paragraphs": []
+  },
+  {
+    "heading": "6100 Contractor Payments — Client Services Debit Recognize Expense",
+    "paragraphs": []
+  },
+  {
+    "heading": "2000 Accounts Payable",
+    "paragraphs": []
+  },
+  {
+    "heading": "Credit Record Vendor Liability",
+    "paragraphs": []
+  },
+  {
+    "heading": "| Odoo Flow: Create > Confirm Vendor Bill",
+    "paragraphs": []
+  },
+  {
+    "heading": "Step 2: Pay The Bill (via Nacha)",
+    "paragraphs": [
+      "Relieves A/P and moves funds into “in transit” when using NACHA",
+      "Using NACHA, Gusto, or other delayed method:"
+    ]
+  },
+  {
+    "heading": "Account Debit / Credit Purpose",
+    "paragraphs": []
+  },
+  {
+    "heading": "2000 Accounts Payable Debit Clear Vendor Liability",
+    "paragraphs": [
+      "2400 Outstanding Payments Credit",
+      "Funds in transit"
+    ]
+  },
+  {
+    "heading": "- Odoo Flow: Register Payment > Select Nacha As Payment Method",
+    "paragraphs": []
+  },
+  {
+    "heading": "Step 3: Reconcile Bank Transaction (nacha Clears)",
+    "paragraphs": [
+      "Matches actual bank movement to pending liability"
+    ]
+  },
+  {
+    "heading": "Account Debit / Credit Purpose",
+    "paragraphs": []
+  },
+  {
+    "heading": "2400 Outstanding Payments",
+    "paragraphs": []
+  },
+  {
+    "heading": "Debit Clear Ach Pending Amount",
+    "paragraphs": []
+  },
+  {
+    "heading": "1000 Becu Checking",
+    "paragraphs": []
+  },
+  {
+    "heading": "Credit Bank Withdrawal",
+    "paragraphs": [
+      "\\ Odoo Flow: Bank Import > Match transaction to payment"
+    ]
+  },
+  {
+    "heading": "“ #2: Paying For Saas And Other Subscriptions",
+    "paragraphs": [
+      "Context:",
+      "Recurring operating expense",
+      "Paid monthly via automatic charge (bank or card)",
+      "You only find out about it after it appears in the bank feed You do not record a vendor bill in advance",
+      "Examples: OpenAl subscription/credits, Zapier, Odoo, etc."
+    ]
+  },
+  {
+    "heading": "Step 1: Imported Bank Transaction Appears In Odoo",
+    "paragraphs": [
+      "The first time this shows up in your books"
+    ]
+  },
+  {
+    "heading": "Account Debit / Credit",
+    "paragraphs": [
+      "2400 Outstanding Payments Debit Credit"
+    ]
+  },
+  {
+    "heading": "1000 Becu Checking",
+    "paragraphs": [
+      "Purpose"
+    ]
+  },
+  {
+    "heading": "Clear Ach Pending Amount",
+    "paragraphs": [
+      "Bank withdrawal"
+    ]
+  }
+]

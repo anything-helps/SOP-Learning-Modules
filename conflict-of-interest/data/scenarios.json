@@ -1,0 +1,69 @@
+{
+  "scenarios": [
+    {
+      "id": "s_001",
+      "title": "Vendor on the Board",
+      "description": "A Director owns a company bidding on a services contract up for Board approval.",
+      "question": "What should occur?",
+      "options": {
+        "A": "Director participates and votes to show transparency",
+        "B": "Director discloses and recuses; independent Directors review comparable data",
+        "C": "Proceed without disclosure to avoid delays",
+        "D": "Director negotiates price during the meeting"
+      },
+      "correct": "B",
+      "explanation": "Disclosure, recusal, and independent review with documentation are required safeguards.",
+      "relatedConcepts": ["Disclosure","Recusal","Comparable Data"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "s_002",
+      "title": "Compensation Committee Member",
+      "description": "A committee member is being considered for a paid consulting engagement with the Corporation.",
+      "question": "How should the approval process be handled?",
+      "options": {
+        "A": "Member votes but avoids discussion",
+        "B": "Member discloses, recuses, and independent members approve in advance using comparables",
+        "C": "CEO sets the rate without Board involvement",
+        "D": "Approval is automatic if budgeted"
+      },
+      "correct": "B",
+      "explanation": "Advance approval, independence, comparable data, and minutes are required.",
+      "relatedConcepts": ["Compensation Approval","Independent Director"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "s_003",
+      "title": "Gift with Strings",
+      "description": "A potential vendor offers sports tickets to a Key Employee during an active RFP.",
+      "question": "What is the most appropriate response?",
+      "options": {
+        "A": "Accept to build rapport",
+        "B": "Accept if disclosed later",
+        "C": "Decline and report per policy",
+        "D": "Accept if below $50"
+      },
+      "correct": "C",
+      "explanation": "Gifts that may influence judgment should be declined and disclosed.",
+      "relatedConcepts": ["Conflicts","Compliance"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "s_004",
+      "title": "Business Opportunity",
+      "description": "A Director learns of a grant opportunity aligned with the mission and plans to apply personally.",
+      "question": "What should they do first?",
+      "options": {
+        "A": "Apply personally then inform the Board",
+        "B": "Disclose to the Board; allow the Board to accept/decline before personal pursuit",
+        "C": "Ignore it to avoid conflict",
+        "D": "Delegate decision to staff"
+      },
+      "correct": "B",
+      "explanation": "Mission‑related opportunities should be presented to the Board before personal use.",
+      "relatedConcepts": ["Conflicts","Private Benefit"],
+      "difficulty": "medium"
+    }
+  ]
+}
+

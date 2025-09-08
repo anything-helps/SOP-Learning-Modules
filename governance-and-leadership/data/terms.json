@@ -1,0 +1,17 @@
+{
+  "terms": [
+    {"term":"Board Composition","definition":"Minimum and maximum number of Directors; diversity and lived experience encouraged.","category":"Board of Directors"},
+    {"term":"Staggered Terms","definition":"Directors serve overlapping two‑year terms to preserve continuity.","category":"Board of Directors"},
+    {"term":"Independence","definition":"Directors free from certain employment, compensation, or substantial financial ties.","category":"Board of Directors"},
+    {"term":"Strategic Oversight","definition":"Setting direction, monitoring performance, and safeguarding mission and values.","category":"Roles & Responsibilities"},
+    {"term":"Fiscal Integrity","definition":"Board duty to ensure accurate reporting and sound financial decisions.","category":"Roles & Responsibilities"},
+    {"term":"Officers","definition":"President, Treasurer, Secretary (and optional Vice President) elected by the Board.","category":"Officers"},
+    {"term":"President","definition":"Chairs Board meetings; ensures alignment with mission and strategy.","category":"Duties of Officers"},
+    {"term":"Treasurer","definition":"Oversees finances, records, and financial reports to the Board.","category":"Duties of Officers"},
+    {"term":"Secretary","definition":"Maintains official records and minutes; supports Board communications.","category":"Duties of Officers"},
+    {"term":"Code of Conduct","definition":"Standards for ethical leadership, transparency, and respectful governance.","category":"Accountability"},
+    {"term":"Policy Review & Amendment","definition":"Periodic evaluation and updates to governance policies.","category":"Policy Review & Amendment"},
+    {"term":"Committees","definition":"Board groups established to focus on areas such as finance, governance, or programs.","category":"Meetings & Committees"}
+  ]
+}
+

@@ -1,0 +1,42 @@
+You are helping create a training module for staff. Source content below came from the
+    policy PDF called "Access to Housing". Generate outputs strictly as compact JSON only. Keep content
+    faithful to the source; do not invent details.
+
+    SOURCE CONTENT (outline; may be truncated):
+
+# Access To Housing
+
+
+# Previous: Rights Of Tenancy Next: Flexible, Voluntary Services
+
+
+# Programmatic Principles
+
+Purpose
+To ensure that all clients have equitable access to a range of housing options that meet their individual needs and preferences. This policy aligns with the Permanent Supportive Housing (PSH) fidelity review process to ensure high standards in housing provision, with a focus on low barrier and harm reduction principles.
+Definitions Housing Access: The ability to obtain housing that meets the needs, preferences, and financial capabilities of a household.
+Equitable Access: Ensuring that all clients, regardless of background or circumstances, have equal opportunities to secure suitable housing.
+Low-Barrier Housing: Housing that minimizes entry requirements and conditions, making it accessible to individuals with complex needs, including those with substance use or untreated mental health issues.
+Harm Reduction: A set of practical strategies and ideas aimed at reducing negative consequences associated with drug use and other high-risk behaviors.
+Procedures Locating Housing
+Use the Affordable Housing & Shelter Locator to view properties with negotiated screening criteria and lowered barriers on a map. Contact the properties or check online for availability. Engage clients in the selection process to ensure they understand all available options and their implications. Visit potential units with clients and assist them with the application process.
+
+# Lowering Barriers
+
+Ensure housing options are low-barrier to minimize entry requirements and make housing accessible. Respect client choices without imposing limitations based on market conditions or availability.
+
+# Negotiating Screening Criteria
+
+Negotiate with landlords to reduce screening barriers for clients, including those related to credit scores, criminal history, evictions, financial debt, and income-to-rent ratios. Use Anything Helps and other community programs to offer risk mitigation to landlords, such as additional deposits, and first and last month's rent.
+
+    TASK: Extract key terms and definitions JSON:
+    {
+      "terms": [
+        {"term":"...","definition":"...","category":"string"}
+      ]
+    }
+    RULES:
+    - Create up to 24 terms.
+    - Definitions must be derived from the source wording when possible.
+    - Category should be a nearby or parent section heading.
+    - Output JSON only. No extra text.

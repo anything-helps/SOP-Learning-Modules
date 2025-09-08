@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "id": "q_001",
+      "category": "Amendments",
+      "text": "How are the Bylaws amended under typical provisions?",
+      "options": {
+        "A": "By staff majority vote",
+        "B": "By a two‑thirds Board vote at a meeting called for that purpose",
+        "C": "By the President alone",
+        "D": "By simple email poll"
+      },
+      "correct": "B",
+      "explanation": "Amendments generally require Board action by supermajority and proper notice.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "q_002",
+      "category": "Liability & Indemnification",
+      "text": "What is the purpose of indemnification provisions?",
+      "options": {
+        "A": "To provide personal loans to Directors",
+        "B": "To protect Directors/Officers, as permitted by law, for actions in service to the Corporation",
+        "C": "To avoid keeping records",
+        "D": "To replace D&O insurance"
+      },
+      "correct": "B",
+      "explanation": "Indemnification shields qualifying individuals for actions taken in their official roles.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_003",
+      "category": "Meetings",
+      "text": "A quorum for Board business is typically defined as:",
+      "options": {"A": "All Directors","B": "Any two Directors","C": "A majority of current Directors","D": "Only Officers"},
+      "correct": "C",
+      "explanation": "Most bylaws use a majority of current Directors as quorum.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_004",
+      "category": "General Provisions",
+      "text": "Who may execute contracts on behalf of the Corporation?",
+      "options": {
+        "A": "Any employee",
+        "B": "Any Director",
+        "C": "Only those authorized by Board resolution or the Bylaws",
+        "D": "Vendors with purchase orders"
+      },
+      "correct": "C",
+      "explanation": "Authority is granted by the Board or specified in the Bylaws.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "q_005",
+      "category": "General Provisions",
+      "text": "Bylaws commonly prohibit which action?",
+      "options": {"A": "Loans to Directors/Officers","B": "Keeping books and records","C": "Setting a fiscal year","D": "Adopting D&O insurance"},
+      "correct": "A",
+      "explanation": "Loans to insiders are typically prohibited.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_006",
+      "category": "Liability & Indemnification",
+      "text": "D&O insurance is used to:",
+      "options": {
+        "A": "Insure property only",
+        "B": "Cover certain claims against Directors/Officers for governance activities",
+        "C": "Replace minutes and records",
+        "D": "Pay vendor invoices"
+      },
+      "correct": "B",
+      "explanation": "D&O insurance complements indemnification for covered claims.",
+      "difficulty": "Easy"
+    }
+  ]
+}
+

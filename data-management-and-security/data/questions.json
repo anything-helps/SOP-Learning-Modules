@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "id": "q_001",
+      "category": "Data Protection",
+      "text": "Which practice supports all three CIA objectives?",
+      "options": {"A": "Open file sharing","B": "Encryption and secure systems for storage and transmission","C": "Shared passwords","D": "Public Wi‑Fi for PHI"},
+      "correct": "B",
+      "explanation": "Encryption and secure systems protect confidentiality and integrity while supporting availability.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_002",
+      "category": "Access Control",
+      "text": "RBAC primarily ensures:",
+      "options": {"A": "Access based on seniority","B": "Access based on job role and least privilege","C": "Access for all volunteers","D": "Access for vendors by default"},
+      "correct": "B",
+      "explanation": "Role‑based access grants only the permissions needed for responsibilities.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_003",
+      "category": "Incident Response",
+      "text": "A suspected PHI breach should be reported:",
+      "options": {"A": "At the next team meeting","B": "Immediately to the Privacy Officer","C": "Only if confirmed","D": "To IT after 30 days"},
+      "correct": "B",
+      "explanation": "Immediate reporting initiates timely investigation and containment.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_004",
+      "category": "Breach Notification",
+      "text": "If fewer than 500 individuals are affected by a breach, notification to HHS must occur:",
+      "options": {"A": "Within 7 days","B": "Within 60 days of discovery","C": "Within 60 days of the end of the calendar year","D": "Only on request"},
+      "correct": "C",
+      "explanation": "Policy specifies the year‑end 60‑day window for <500 individuals.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "q_005",
+      "category": "Breach Notification",
+      "text": "If 500 or more individuals are affected, notifications must be sent to:",
+      "options": {"A": "Individuals and HHS only","B": "Individuals, HHS, and media as appropriate within 60 days of discovery","C": "Media only","D": "Insurers only"},
+      "correct": "B",
+      "explanation": "≥500 triggers broader notice requirements within 60 days of discovery.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "q_006",
+      "category": "Monitoring & Compliance",
+      "text": "Which supports ongoing compliance?",
+      "options": {"A": "Annual training and regular audits","B": "Ad hoc reminders","C": "One‑time onboarding only","D": "Verbal policies"},
+      "correct": "A",
+      "explanation": "The policy calls for regular audits and annual training.",
+      "difficulty": "Easy"
+    }
+  ]
+}
+

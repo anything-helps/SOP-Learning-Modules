@@ -1,0 +1,65 @@
+You are helping create a training module for staff. Source content below came from the
+    policy PDF called "Obtaining and Documenting Consent". Generate outputs strictly as compact JSON only. Keep content
+    faithful to the source; do not invent details.
+
+    SOURCE CONTENT (outline; may be truncated):
+
+# Obtaining And Documenting Consent
+
+Previous: HMIS User Access and Security Settings Next: Managing Client Data in Clarity
+
+# Policy: Data Management And Security
+
+Purpose
+To ensure that clients of Anything Helps provide informed consent for their Personally Identifiable Information (PII) to be included in the Homeless Management Information System (HMIS), in compliance with federal and Washington State regulations. This process ensures the protection of client data and supports our outreach, case management, and housing navigation services.
+Definitions
+Informed Consent: The process of providing clients with adequate information about what they are consenting to, ensuring they understand and agree to the collection and use of their data.
+Personally Identifiable Information (Pll): Information that can uniquely identify an individual, including names, birthdates, and other personal details.
+Release of Information (ROI) Consent Form: A form that clients must sign to provide consent for their Pll to be entered into HMIS.
+De-identified Profile: A profile in HMIS where the client's personal information is removed or obscured to protect their identity.
+Procedures
+
+# Inform And Explain
+
+e Display a sign summarizing the purpose of data collection at intake locations.
+e Explain HMIS, including the importance of collecting Pll for service delivery.
+e Describe informed consent, including potential risks and benefits, and provide the duration of consent (7 years from the last HMIS update).
+e Explain the consent form and security protocols in simple terms.
+
+# Collect And Document Consent
+
+e Written Consent: Attach a PDF or file the consent form at the office.
+¢ Verbal/Telephonic Consent: Obtain verbal consent over the phone and follow up with written consent at the next in-person meeting.
+e Electronic Consent: Record the consent in the client's HMIS profile, specifying whether it is for identifying or de-identified data.
+
+# Special Situations
+
+e Ensure each household member over the age of 13 provides individual consent in families.
+e Manage special situations by de-identifying profiles for clients who are fleeing domestic violence, minors under 13, or clients who disclose an HIV status.
+e For veterans, collect a universal ROI in addition to the HMIS ROI, and follow specific procedures for sharing information with VA and coordinated entry teams.
+e Document situations where ROI is not required (e.g., unaccompanied youth 13 years or older).
+
+# Handling Declined/refused Consent
+
+e For clients who decline consent, create a de-identified record by: © Clicking "Add Client" and toggling "Consent Refused”. © Entering demographic information accurately but without identifiable details. © Leaving the middle name and suffix/prefix fields blank. © Adding the record and selecting "No" in the permission field under "Privacy Shield". e |faclient revokes consent and is already in HMIS, contact the help desk to de-identify the profile and ensure all PII is removed. Do not attempt to de-identify the information yourself.
+
+    TASK: Create scenario-based questions JSON:
+    {
+      "scenarios": [
+        {
+          "id":"s_001",
+          "title":"Short scenario title",
+          "description":"1-2 sentence realistic situation",
+          "question":"What should staff do?",
+          "options":{"A":"...","B":"...","C":"...","D":"..."},
+          "correct":"A|B|C|D",
+          "explanation":"One-sentence justification from source",
+          "relatedConcepts":["..."],
+          "difficulty":"easy|medium|hard"
+        }
+      ]
+    }
+    RULES:
+    - Create up to 6 scenarios.
+    - Situations should match the spirit and constraints of the source.
+    - Output JSON only. No extra commentary.

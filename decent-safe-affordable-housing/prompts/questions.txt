@@ -1,0 +1,57 @@
+You are helping create a training module for staff. Source content below came from the
+    policy PDF called "Decent Safe Affordable Housing". Generate outputs strictly as compact JSON only. Keep content
+    faithful to the source; do not invent details.
+
+    SOURCE CONTENT (outline; may be truncated):
+
+# Decent, Safe, Affordable
+
+HOUSING
+
+# Decent, Safe, Affordable Housing
+
+
+# Previous: Separation Of Housing & Services Next: Housing Integration
+
+
+# Programmatic Principles
+
+Purpose
+To ensure that clients are afforded viable, long-term housing options that they perceive to be safe and secure, and that fully restore their human right to housing.
+Definitions Chronically Homeless: Individuals experiencing homelessness for at least a year or repeatedly, while dealing with a disabling condition such as a mental illness, substance use disorder, or physical disability.
+Unsheltered Homelessness: People without a fixed address, sleeping in a place not meant for human habitation. It is crucial to realize that this term is used to differentiate between sheltered and unsheltered homelessness, promoting pushes for “quick-fixes" like shelters and sweeps. Terms like this de-incentivize future investments in long-term solutions and harm our clients.
+Procedures Safety in familiarity
+People experiencing chronic or unsheltered homelessness often find safety in familiar environments, feeling more comfortable in encampments than in preferred housing options. Anything Helps believes transitions should occur at the client's pace, honoring household composition and location whenever possible. Utilize the client's support network to ease transitions.
+Temporary should not be Permanent
+Emergency shelters, intended to be short-term, average a stay of 255 days, with housing typically offered after nearly a year. This prolonged period in institutional settings leads nine out of ten people experiencing unsheltered homelessness to decline shelter offers. Anything Helps believes shelters are not safe or decent housing options and should be a last resort, not a first step.
+Permanent should not be Temporary
+PSH buildings often place the poor in disadvantaged areas and create unsuitable environments for recovery. As a result, 88% of our clients see PSH as transitional and request to move before their first lease ends. Anything Helps believes PSH buildings are not decent housing options and should only be prioritized over emergency shelters for chronically homeless clients.
+
+# Affordable Housing
+
+Clients should not pay more than 30% of their income for housing. Subsidize rents through eligible entitlements, housing authority programs, or subsidized units. Enroll clients in utility discount programs, low-income internet and phone plans, and other government assistance programs.
+
+# Quality Standards
+
+Ensure housing meets HUD quality standards with a unit inspection upon move-in. If clients prefer housing that doesn't meet these standards, inform them of any deficits before they sign the lease.
+
+    TASK: Create multiple-choice questions JSON with the following shape:
+    {
+      "questions": [
+        {
+          "id": "q_001",  // unique per module
+          "category": "string", // from a relevant section heading
+          "text": "Question?",
+          "options": {"A":"...","B":"...","C":"...","D":"..."},
+          "correct": "A|B|C|D",
+          "explanation": "One-sentence justification based on the source",
+          "difficulty": "Easy|Medium|Hard"
+        }
+      ]
+    }
+    RULES:
+    - Create up to 12 questions.
+    - Prefer concrete, policy-accurate content.
+    - Keep choices concise and non-overlapping.
+    - Difficulty should reflect cognitive effort.
+    - Output JSON only. No trailing commentary.

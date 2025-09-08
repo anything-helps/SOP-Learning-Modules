@@ -1,0 +1,67 @@
+You are helping create a training module for staff. Source content below came from the
+    policy PDF called "Rights of Tenancy". Generate outputs strictly as compact JSON only. Keep content
+    faithful to the source; do not invent details.
+
+    SOURCE CONTENT (outline; may be truncated):
+
+# Rights Of Tenancy
+
+
+# Previous: Housing Integration Next: Access To Housing
+
+
+# Programmatic Principles
+
+Purpose
+To ensure that clients have secure and protected rights as tenants, enabling them to maintain stable housing without fear of unjust eviction or discrimination. This policy aims to uphold legal and equitable standards that protect tenants’ rights and foster the living conditions necessary for our clients to recover.
+Definitions Tenant Rights: The legal rights and protections afforded to individuals renting housing, including the right to fair treatment, privacy, and security.
+Eviction: The legal process by which a landlord removes a tenant from rental property, typically due to non-compliance with lease terms.
+Discrimination: Unfair treatment of tenants based on characteristics such as race, gender, disability, or economic status, prohibited under federal and state law.
+Fair Housing Act: A federal act prohibiting discrimination in housing based on race, color, religion, sex, national origin, familial status, and disability.
+Procedures
+
+# Lease Agreements
+
+Ensure all clients review and receive a detailed lease agreement outlining their rights and responsibilities under relevant housing laws. Property management must not enter a client’s unit without consent or proper notice, except in emergencies, as per the RLTA. Include a process for clients to report and track issues related to the unit and property. Implement strategies to prevent housing discrimination based on protected classes under the Fair Housing Act, Washington State Fair Housing Law, and local ordinances.
+
+# Tenant Education
+
+Educate clients on the Fair Housing Act, Washington State Fair Housing Law, Seattle Rental Housing Code, King County Tenant Protection Ordinance, and other applicable laws to ensure they understand their rights and protections during the application and leasing processes. Educate clients about their rights as tenants to empower them to advocate for themselves. Provide clients with information and resources about their responsibilities as tenants, including how to handle disputes, request repairs, and seek legal assistance if necessary.
+
+# Maintenance And Grievances
+
+Ensure timely and effective responses to maintenance and repair requests to maintain safe and habitable living conditions for all clients, as required by the RLTA and local ordinances. Address all grievances promptly and fairly, with a clear resolution process in place.
+
+# Eviction Prevention
+
+Ensure landlords follow Washington state eviction reform laws, using eviction only as a last resort after exhausting all other options. Develop strategies with landlords to prevent eviction, including mediation services, financial assistance programs, and flexible payment plans. Request extended notice periods when necessary, adhering to just cause eviction requirements. Ensure landlords and property managers comply with local eviction protections under the Seattle Rental Housing Code and King County Tenant Protection Ordinance. Negotiate mutual termination of tenancy agreements to avoid eviction.
+
+# Legal Assistance
+
+Provide access to legal resources and assistance for clients facing eviction or other tenancy-related legal issues. Partner with local legal aid organizations to offer pro bono services and support for clients in need.
+Resources Washington Law Help - Housing | Residential Landlord-Tenant Act (RLTA) - Washington State Legislature
+
+# Eviction Prevention Directory.pdf|northwest Justice Project|tenantlawcenter@ctsww.org
+
+Washington State Human Rights Commission - Fair Housing | Attorney General Tenant Resource List
+
+    TASK: Create multiple-choice questions JSON with the following shape:
+    {
+      "questions": [
+        {
+          "id": "q_001",  // unique per module
+          "category": "string", // from a relevant section heading
+          "text": "Question?",
+          "options": {"A":"...","B":"...","C":"...","D":"..."},
+          "correct": "A|B|C|D",
+          "explanation": "One-sentence justification based on the source",
+          "difficulty": "Easy|Medium|Hard"
+        }
+      ]
+    }
+    RULES:
+    - Create up to 12 questions.
+    - Prefer concrete, policy-accurate content.
+    - Keep choices concise and non-overlapping.
+    - Difficulty should reflect cognitive effort.
+    - Output JSON only. No trailing commentary.

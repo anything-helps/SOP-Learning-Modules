@@ -1,0 +1,52 @@
+You are helping create a training module for staff. Source content below came from the
+    policy PDF called "the Helping Process". Generate outputs strictly as compact JSON only. Keep content
+    faithful to the source; do not invent details.
+
+    SOURCE CONTENT (outline; may be truncated):
+
+# The Helping Process
+
+Engagement Phase is Case Managers only and it is an upaid phase. The Assessment phase is where all the intake statuses are covered and begins once the enrollment form is submitted. It ends when a client gets enrolled successfully or is deemed ineligible.
+
+# Policy Statement
+
+This policy outlines the Helping Process as the foundation of the Pathfinders Project service model. It defines how client relationships are structured, how Medicaid compliance is maintained, and how services are delivered and tracked across all participating roles. The Helping Process ensures consistent, transparent, and client-centered service delivery across partner agencies.
+Overview
+The Helping Process is the core structure that guides every client relationship in the Pathfinders Project. It’s a well-established service framework in the fields of social work and human services, grounded in decades of evidence from behavior change models such as trauma-informed care. It emphasizes regular interaction, collaborative goal-setting, and support that is paced to the client’s readiness and needs.
+In Pathfinders, this process is more than a conceptual model—it defines the structure of the work itself. Each phase determines how services are initiated, how eligibility is confirmed, how goals are defined, how support is delivered, and how progress is reviewed. These phases are built into every form, contract, and workflow across the project. They support shared documentation systems, team-based accountability, and a consistent rhythm for service delivery that aligns with Medicaid requirements.
+Every provider-client relationship in the Pathfinders Project moves through five distinct phases: Engagement, Assessment, Planning, Intervention, and Evaluation. Each phase marks a transition in how services are offered and coordinated, and each carries specific documentation and compliance expectations. The Helping Process creates structure while maintaining flexibility. It supports autonomy, protects client choice, and ensures that services remain relevant and accountable from first contact through long-term support.
+
+# Phase Descriptions
+
+Engagement
+Engagement begins the moment a Case Manager initiates contact with a potential client. This phase includes low-barrier outreach, informal eligibility checks, relationship development, and the explanation of the Pathfinders Project. It is also where the Enrollment Form is completed and consent is obtained. Clients learn what services are available, what participation involves, and how their data will be used. Engagement is led exclusively by Case Managers and is not reimbursable. It concludes once the client agrees to enroll and the completed Enrollment Form is submitted via the Pathfinders App.
+Assessment
+Assessment starts when the Enrollment Form has been submitted and reviewed. The Case Manager works with the client to complete the Intake Form, which documents formal eligibility for Foundational Community Supports (FCS), captures baseline needs, and reaffirms informed consent. This phase also includes identifying functional impairments and health-related risk factors required for Medicaid justification. Intake statuses are assigned by the administrative team and may include “Eligible,” “Completed,” “Not Completed,” or “Rejected.” The phase ends when the client is either approved for services or determined to be ineligible.
+Planning
+Planning begins once the client is successfully enrolled. It is a shared conversation between the client and the Case Manager that defines goals, identifies barriers, and determines how support will be delivered. This phase does not require a formal care plan document— instead, the conversation is summarized in a service voicemail that establishes direction and scope. The 21-day hold period begins during Planning. Services may be delivered during this time, but payment will be delayed until the hold concludes. Planning sets the foundation for all future service interactions and informs what support is provided, how often, and by whom.
+Intervention
+Intervention is the active phase of service delivery. It includes both direct and indirect support, ranging from housing navigation and resource referrals to emotional support and appointment coordination. Services must align with the client's goals, last at least 15 minutes per day, and be documented through a Service Mailbox voicemail to qualify for reimbursement. Both Case Managers and Specialists participate in this phase. Voicemails must include the provider's name, client initials, date, time, and a description of the service provided. Specialist requests, resource follow-up, and system-level advocacy all fall under this phase.
+Evaluation Evaluation is a continuous process that ensures services remain aligned with client needs and Medicaid standards. Every active client
+must be reviewed at least once every 30 days during weekly Case Conferences. These virtual meetings are facilitated by a Pathfinder and include all relevant team members. Evaluation focuses on reviewing progress, addressing new barriers, updating goals, and confirming
+service alignment. It also tracks engagement levels, identifies gaps in care, and supports transitions—including specialist engagement or disenrollment. Documentation from this phase informs internal review, compliance audits, and continuity of care across the network.
+
+    TASK: Create multiple-choice questions JSON with the following shape:
+    {
+      "questions": [
+        {
+          "id": "q_001",  // unique per module
+          "category": "string", // from a relevant section heading
+          "text": "Question?",
+          "options": {"A":"...","B":"...","C":"...","D":"..."},
+          "correct": "A|B|C|D",
+          "explanation": "One-sentence justification based on the source",
+          "difficulty": "Easy|Medium|Hard"
+        }
+      ]
+    }
+    RULES:
+    - Create up to 12 questions.
+    - Prefer concrete, policy-accurate content.
+    - Keep choices concise and non-overlapping.
+    - Difficulty should reflect cognitive effort.
+    - Output JSON only. No trailing commentary.

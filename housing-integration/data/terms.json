@@ -1,0 +1,17 @@
+{
+  "terms": [
+    {"term":"Community Integration","definition":"Supporting participation in social, cultural, economic, and civic life.","category":"Programmatic Principles"},
+    {"term":"Scattered‑Site Housing","definition":"Units distributed across neighborhoods to promote integration.","category":"Definitions"},
+    {"term":"PSH Buildings","definition":"Permanent Supportive Housing with on‑site services.","category":"Definitions"},
+    {"term":"Social Inclusion","definition":"Reducing isolation and stigma by fostering connection to community.","category":"Programmatic Principles"},
+    {"term":"Re‑establish Healthy Social Norms","definition":"Activities that build neighborly ties and community participation.","category":"Procedures"},
+    {"term":"Public Transportation Orientation","definition":"Accompanying clients to learn routes to resources and activities.","category":"Procedures"},
+    {"term":"Client Preference","definition":"Respect for location and household composition choices.","category":"Programmatic Principles"},
+    {"term":"Partnership & Collaboration","definition":"Working with local groups and providers to expand supports.","category":"Partnership"},
+    {"term":"Monitoring & Adjustment","definition":"3‑ and 6‑month follow‑ups to review placements and plans.","category":"Monitoring"},
+    {"term":"Independence‑Oriented Services","definition":"Supports that avoid coercion and build self‑reliance.","category":"Programmatic Principles"},
+    {"term":"Neighborhood Orientation","definition":"Introducing clients to nearby resources, stores, and events.","category":"Procedures"},
+    {"term":"Household Composition","definition":"Client’s choice about who lives in the home and how it’s set up.","category":"Programmatic Principles"}
+  ]
+}
+

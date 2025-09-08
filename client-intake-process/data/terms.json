@@ -1,0 +1,17 @@
+{
+  "terms": [
+    {"term":"JotForm Enrollment","definition":"Client intake form completed with the client; creates the initial record for processing.","category":"Intake"},
+    {"term":"Monday.com FCS Client Roster","definition":"Board used to track intake, eligibility, and enrollment; initial group is ‘Intake Processing’.","category":"Tracking"},
+    {"term":"Zapier Automation","definition":"Saves the Enrollment Form PDF to the client’s Google Drive folder and triggers downstream steps.","category":"Automation"},
+    {"term":"ProviderOne (OneHealthPort)","definition":"System to verify Medicaid status and obtain the client’s ProviderOne ID.","category":"Eligibility Review"},
+    {"term":"AH Intake Status","definition":"Status field in Monday.com indicating intake progress (e.g., More PII Needed, Medicaid Inactive, Eligible, Enrollment Submitted).","category":"Tracking"},
+    {"term":"Medicaid Review Date","definition":"Date from ProviderOne entered into Monday.com to track coverage review end date.","category":"Eligibility Review"},
+    {"term":"Eligibility Review View","definition":"Board view used to verify identity, address, Medicaid status, and case manager assignment.","category":"Eligibility Review"},
+    {"term":"Enrollment Review View","definition":"Board view used to confirm SH/SE enrollment submissions and responses.","category":"Enrollment Review"},
+    {"term":"SH / SE Enrollment","definition":"Online submissions to Wellpoint for Supportive Housing (SH) and Supported Employment (SE) services.","category":"Enrollment"},
+    {"term":"Confirmation Numbers","definition":"Identifiers returned by Wellpoint upon successful submission, stored in Monday.com.","category":"Enrollment"},
+    {"term":"Slack #admin Notification","definition":"Automated message posted when a denial or rejection is received from Wellpoint.","category":"Notifications"},
+    {"term":"Client Files Folder","definition":"Google Drive directory where all client PDFs and documents are stored.","category":"Records"}
+  ]
+}
+

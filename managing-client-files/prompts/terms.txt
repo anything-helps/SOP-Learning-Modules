@@ -1,0 +1,77 @@
+You are helping create a training module for staff. Source content below came from the
+    policy PDF called "Managing Client Files". Generate outputs strictly as compact JSON only. Keep content
+    faithful to the source; do not invent details.
+
+    SOURCE CONTENT (outline; may be truncated):
+
+# Managing Client Files
+
+
+# Income Verification
+
+C1 Pay stubs — most recent, covering at least the last 30 days
+O W-2 forms — most recent year
+
+# 0 1099 Forms -— If Applicable
+
+
+# O Social Security Income Statements
+
+
+# O Disability Income Statements
+
+
+# O Unemployment Benefits Statements
+
+
+# 0) Child Support Or Alimony Payment Records
+
+CO Pension or retirement income statements
+XO Documentation of any other income sources
+
+# Housing Verification
+
+CJ ROI (Request for Owner Information) forms from other agencies O Current signed and dated lease agreement
+XO Previous lease agreements — if applicable
+
+# C1 Hqs Inspection Reports
+
+
+# Xc HUD Inspection Reports
+
+XO Landlord correspondence, notices, and court documents (e.g., eviction records) O Proof of rent payments, security deposits, and other housing-related expenses QO Housing applications, denials, or wait-list confirmations
+
+# 0 Recent Utility Bills Showing Residency
+
+
+# Financial Information
+
+O Bank statements — most recent three months
+O Credit report from at least one major bureau
+XO Debt schedule with current balances and payment arrangements C1) Most recent tax return
+O Investment account statements — if applicable
+XO Proof of any additional assets or financial resources Background Information
+O Criminal background check results from reputable provider
+O Sex offender registry check — if required
+XC Employment verification — if applicable
+XO) Educational records — if applicable
+XO Personal references with contact information
+O Any other relevant background documents specific to the program or service
+
+# Additional Documentation (as Needed)
+
+XO Medical records relevant to health-related service eligibility O Legal documents for any ongoing court proceedings
+XO Records from other agencies (e.g., DSHS, health care facilities)
+XO Other supporting documents requested to clarify the client's situation and needs
+
+    TASK: Extract key terms and definitions JSON:
+    {
+      "terms": [
+        {"term":"...","definition":"...","category":"string"}
+      ]
+    }
+    RULES:
+    - Create up to 24 terms.
+    - Definitions must be derived from the source wording when possible.
+    - Category should be a nearby or parent section heading.
+    - Output JSON only. No extra text.

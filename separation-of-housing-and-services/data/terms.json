@@ -1,0 +1,17 @@
+{
+  "terms": [
+    {"term":"Separation of Housing and Services","definition":"The principle that tenancy is governed by the lease and is independent of service participation.","category":"Program Purpose"},
+    {"term":"Voluntary Service Engagement","definition":"Clients choose whether to engage in services; refusal does not jeopardize housing.","category":"Voluntary Service Engagement"},
+    {"term":"Role Separation","definition":"Property managers handle tenancy matters; service providers deliver support and do not enforce leases.","category":"Role Separation"},
+    {"term":"Privacy Protections","definition":"Measures ensuring client units remain private and services occur in confidential spaces.","category":"Privacy Protections"},
+    {"term":"Community‑Based Services","definition":"Support delivered within the community to maximize accessibility and client choice.","category":"Service Design"},
+    {"term":"On‑Site Services","definition":"Services provided where clients live; must preserve privacy and avoid coercion.","category":"Service Design"},
+    {"term":"Psychological Safety","definition":"Clients experience support without fear of surveillance, punishment, or losing housing.","category":"Program Purpose"},
+    {"term":"Gatekeeping","definition":"Improper practice of conditioning housing access on service participation.","category":"Program Purpose"},
+    {"term":"Structured Coordination","definition":"Scheduled, purposeful communication that maintains distinct responsibilities between teams.","category":"Coordination"},
+    {"term":"Lease Enforcement","definition":"Actions to address lease non‑compliance; a property management function, not a service role.","category":"Role Separation"},
+    {"term":"Advocacy at Lease Signing","definition":"Case manager presence to ensure no service conditions are embedded in the lease.","category":"Advocacy"},
+    {"term":"Non‑Coercive Support","definition":"Help offered in a way that respects autonomy and avoids implicit or explicit pressure.","category":"Program Purpose"}
+  ]
+}
+

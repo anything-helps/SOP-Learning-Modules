@@ -1,0 +1,68 @@
+Managing Client Data in Clarity
+
+Previous: Obtaining and Documenting Consent
+
+Policy: Data Management and Security
+
+Purpose
+
+Ensuring that Anything Helps clients are enrolled in the programs they are eligible for and receive the resources they require in a timely
+and compliant manner. These processes ensure the protection of client data and support our outreach, case management, tenancy
+support and housing navigation services.
+
+Definitions
+
+Dynamic Field: Fields that appear or disappear based on the information entered, enhancing the efficiency of data entry.
+
+Program Enrollment: The process of formally recording a client's participation in a service program within the system.
+
+Procedures
+Client Intake
+
+Ensure the client is not already in the system by entering the first three letters of their first and last names and verify the client's
+identity using their social security number and date of birth.
+
+If no duplicate is found, click on "Add Client” to open the client intake page.
+
+Fill out the client information as accurately as possible, completing any dynamic fields that generate based on the entered
+information. For clients under 18, the veteran status question will not appear.
+
+Complete and collect the ROI as required — If the ROI is soft required, a yellow bar will appear indicating the absence of an ROI, but
+this will not prevent client creation.
+
+Click “Add Record” once all fields are completed. A green ribbon indicates successful client creation. If there are errors that need to
+be corrected, a red ribbon will appear.
+
+Program Enrollment
+
+Navigate to the client profile and click on the "Programs" tab.
+
+Select the relevant program for enrollment.
+
+Complete the enrollment by filling in the required universal data elements such as income and other relevant details.
+After enrollment, navigate to the program page to view client activity and manage staff assignments.
+
+For households, follow the same steps above, and ensure all members are correctly enrolled.
+
+Data Management
+
+Add case notes via the “Programs” and “Client” tabs, ensuring Pll is appropriately handled.
+
+Manage public alerts for urgent client needs and remove alerts when they are no longer necessary.
+
+Upload forms and files at either the client or program level as pertinent to the context.
+
+Provide services to clients via the “Client” and “Programs” tabs, tracking appropriately.
+
+Capture client location data using the “Location” tab, inputting addresses or using GPS for accuracy.
+Manage client contact information under the “Contact” tab, toggling active/inactive status as needed.
+Regularly update client information using the “Status Assessment” if there are any changes in their situation.
+Conduct an “Annual Assessment” within the 30-day window of the client's program start date.
+
+Maintain historical data and ensure it is stored for a minimum of seven years.
+
+Client Exit
+
+Navigate to the client profile and select the appropriate program.
+Click on the "Exit" button and complete the exit form, ensuring accurate data collection.
+For households, follow the same steps above, and ensure all members are correctly exited.

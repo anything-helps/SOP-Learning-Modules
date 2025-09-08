@@ -1,0 +1,54 @@
+You are helping create a training module for staff. Source content below came from the
+    policy PDF called "Cash Management". Generate outputs strictly as compact JSON only. Keep content
+    faithful to the source; do not invent details.
+
+    SOURCE CONTENT (outline; may be truncated):
+
+# Introduction
+
+Cash Management
+To ensure the secure handling, accurate recording, and timely deposit of cash and checks received by Anything Helps. This policy aims to prevent theft, reduce errors, and ensure the integrity of financial transactions.
+
+# Cash Management
+
+Definitions
+Procedures Receiving Cash Spending Cash
+
+# Review And Monitoring
+
+Definitions
+e Cash Handling: The process of receiving, counting, and depositing cash and checks.
+e Petty Cash: A small amount of cash kept on hand for minor or incidental expenses.
+e Restrictive Endorsement: An endorsement on a check that limits its further negotiation
+e Payment Authorization: The process of approving payments before they are made.
+e Dual Signatures: Requirement for two authorized signatures on checks over a predetermined amount.
+Procedures
+
+# Receiving Cash
+
+e The person who handles cash is not the same person who does record-keeping, ensuring proper separation of duties. A maximum amount of cash on hand is kept in a secure location with a cash box ledger, and petty cash is counted and reconciled monthly.
+e Cash received is always counted and recorded with initials by at least two people to ensure accuracy and accountability. Checks received are immediately endorsed with a restrictive “for deposit only” stamp and recorded ona daily receipt record with copies of the checks attached.
+¢ Credit card receipts have authorized approvals or signatures and are batched daily for accurate tracking. All cash and checks received are deposited daily to minimize the risk of loss or theft.
+
+# Spending Cash
+
+e The person who writes checks and pays bills does not have the authority to sign checks, ensuring a separation of duties for financial security. Additionally, the person who approves purchases is not the same person who pays the bills, maintaining further checks and balances. All purchases must be within budget or approved by a vote of the board of directors.
+e Payroll checks are compared with employee records to verify accuracy. All signed checks must have a matching check stub with supporting approved documents attached, and checks issued for large amounts over a predetermined level require two signatures for added security.
+e Signing blank checks is not allowed, and all checks are prenumbered with the organization's information printed at the top. All signed checks are issued to a verified business vendor or employee reimbursement to ensure legitimacy.
+¢ Online payments, credit card purchases, and petty cash payments follow the same procedures and approvals as paper checks, maintaining consistent oversight across all payment methods.
+
+# Review And Monitoring
+
+e The Money Management Policy will be reviewed annually by the Board of Directors to ensure its effectiveness and compliance with legal and regulatory requirements.
+
+    TASK: Extract key terms and definitions JSON:
+    {
+      "terms": [
+        {"term":"...","definition":"...","category":"string"}
+      ]
+    }
+    RULES:
+    - Create up to 24 terms.
+    - Definitions must be derived from the source wording when possible.
+    - Category should be a nearby or parent section heading.
+    - Output JSON only. No extra text.

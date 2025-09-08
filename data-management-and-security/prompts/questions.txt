@@ -1,0 +1,102 @@
+You are helping create a training module for staff. Source content below came from the
+    policy PDF called "Data Management and Security". Generate outputs strictly as compact JSON only. Keep content
+    faithful to the source; do not invent details.
+
+    SOURCE CONTENT (outline; may be truncated):
+
+# HMIS Security Standards
+
+Data Management &
+security
+This policy establishes the overarching principles for managing and securing data at Anything Helps. It sets out the procedures for protecting all types of sensitive data, ensuring compliance with internal data management protocols. This policy aims to safeguard the confidentiality, integrity, and availability of data, while supporting operational needs. This policy applies to all employees, contractors, and volunteers who handle data within the organization. It ensures that data is appropriately managed throughout its lifecycle, from
+collection and storage to sharing and disposal.
+
+# Ii
+
+
+# HIPAA Compliance
+
+
+# Data Management & Security
+
+Data Protection
+
+# Incident Response And Breach Notification
+
+
+# Monitoring And Compliance
+
+
+# Data Protection
+
+Anything Helps will ensure the confidentiality, integrity, and availability of sensitive information through the following practices:
+
+# 1. All Physical And Electronic Data Must Be Encrypted And Stored Securely.
+
+
+# 2. Access To Sensitive Information Will Be Limited To Authorized Personnel.
+
+
+# 3. Secure Systems Will Be Used For Data Entry, Storage, Retrieval, And Transmission To Preserve Data Integrity.
+
+
+# 4. Role-based Access Control (rbac) Will Be Implemented To Assign Access Privileges Based On User Responsibilities.
+
+
+# Incident Response And Breach Notification
+
+Incident Reporting: Employees, contractors, and business associates must immediately report any suspected or actual PHI breach to the designated Privacy Officer.
+Initial Investigation: Within 24 hours of discovery, the Privacy Officer shall:
+
+# 1. Investigate The Cause Of The Breach;
+
+2. Determine the type and scope of PHI involved; 3. Assess whether the breach has been contained; 4. Evaluate the potential impact, including: e The nature and sensitivity of the PHI; e The potential harm to affected individuals; e Whether unauthorized individuals accessed the PHI.
+
+# Breach Notification Requirements:
+
+e If fewer than 500 individuals are affected, notify the individuals and the U.S. Department of Health and Human Services (HHS) within
+
+# 60 Days Of The End Of The Calendar Year.
+
+e If 500 or more individuals are affected, notify affected individuals, HHS, and the media (if appropriate) within 60 days of breach
+discovery. Containment and Prevention measures may include:
+e Immediate actions to contain the breach;
+e Updating or revising security protocols;
+e Staff retraining on data protection practices;
+e Implementation of new technical safeguards, such as stronger encryption or access controls.
+Documentation: The Privacy Officer shall compile a written report that includes:
+
+# 1. A Description Of How The Breach Occurred;
+
+2. Details on containment and mitigation actions; 3. The process and timeline used to notify all required parties.
+
+# Monitoring And Compliance
+
+To support ongoing data protection:
+e Regular audits will be conducted to ensure adherence to this policy and related protocols.
+e All staff will participate in annual training on data security and incident response. e Any suspected breach will be promptly evaluated and managed under the procedures outlined in this policy.
+
+# Previous: ~ Systemization Standards Next: = Service Provision
+
+References:
+
+    TASK: Create multiple-choice questions JSON with the following shape:
+    {
+      "questions": [
+        {
+          "id": "q_001",  // unique per module
+          "category": "string", // from a relevant section heading
+          "text": "Question?",
+          "options": {"A":"...","B":"...","C":"...","D":"..."},
+          "correct": "A|B|C|D",
+          "explanation": "One-sentence justification based on the source",
+          "difficulty": "Easy|Medium|Hard"
+        }
+      ]
+    }
+    RULES:
+    - Create up to 12 questions.
+    - Prefer concrete, policy-accurate content.
+    - Keep choices concise and non-overlapping.
+    - Difficulty should reflect cognitive effort.
+    - Output JSON only. No trailing commentary.

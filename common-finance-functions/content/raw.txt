@@ -1,0 +1,76 @@
+Common Finance Functions: Process & Account Mappings
+* #1: Paying Contractors for Approved Claims
+
+Step 1: Post Vendor Bill for Approved Claim
+
+Recognizes the liability and the expense
+
+Account Debit / Credit Purpose
+
+6100 Contractor Payments — Client Services Debit Recognize expense
+
+2000 Accounts Payable
+
+Credit Record vendor liability
+
+| Odoo Flow: Create > Confirm Vendor Bill
+
+Step 2: Pay the Bill (via NACHA)
+
+Relieves A/P and moves funds into “in transit” when using NACHA
+
+Using NACHA, Gusto, or other delayed method:
+
+Account Debit / Credit Purpose
+
+2000 Accounts Payable Debit Clear vendor liability
+2400 Outstanding Payments Credit
+
+Funds in transit
+
+- Odoo Flow: Register Payment > Select NACHA as payment method
+
+Step 3: Reconcile Bank Transaction (NACHA clears)
+
+Matches actual bank movement to pending liability
+
+Account Debit / Credit Purpose
+
+2400 Outstanding Payments
+
+Debit Clear ACH pending amount
+
+1000 BECU Checking
+
+Credit Bank withdrawal
+
+\ Odoo Flow: Bank Import > Match transaction to payment
+
+“ #2: Paying for SaaS and Other Subscriptions
+Context:
+
+Recurring operating expense
+
+Paid monthly via automatic charge (bank or card)
+
+You only find out about it after it appears in the bank feed
+You do not record a vendor bill in advance
+
+Examples:
+OpenAl subscription/credits, Zapier, Odoo, etc.
+
+Step 1: Imported Bank Transaction Appears in Odoo
+
+The first time this shows up in your books
+
+Account Debit / Credit
+2400 Outstanding Payments Debit
+Credit
+
+1000 BECU Checking
+
+Purpose
+
+Clear ACH pending amount
+
+Bank withdrawal

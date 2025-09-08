@@ -1,0 +1,117 @@
+{
+  "questions": [
+    {
+      "id": "q_001",
+      "category": "Duty of Loyalty",
+      "text": "What does the duty of loyalty require of Covered Persons?",
+      "options": {
+        "A": "Pursue personal opportunities first",
+        "B": "Act in good faith for the Corporation’s best interests",
+        "C": "Avoid disclosing potential conflicts",
+        "D": "Prioritize affiliated vendors"
+      },
+      "correct": "B",
+      "explanation": "Covered Persons must act in good faith and in the Corporation’s best interests.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_002",
+      "category": "Conflicts of Interest",
+      "text": "Which scenario most clearly represents a conflict of interest?",
+      "options": {
+        "A": "Director reads the agenda in advance",
+        "B": "Director’s company bids on a contract being approved by the Board",
+        "C": "Staff takes required training",
+        "D": "Volunteer attends a public meeting"
+      },
+      "correct": "B",
+      "explanation": "A financial interest in a transaction before the Board is a typical conflict.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_003",
+      "category": "Compensation Approval",
+      "text": "Who may vote on a compensation arrangement under review?",
+      "options": {
+        "A": "Any Director, including the person compensated",
+        "B": "Only Directors with no conflict of interest",
+        "C": "The compensated person if recused from discussion",
+        "D": "Staff representatives only"
+      },
+      "correct": "B",
+      "explanation": "Approving members must be independent of the arrangement.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "q_004",
+      "category": "Comparable Data",
+      "text": "Before approving compensation, the Board should:",
+      "options": {
+        "A": "Rely on comparable data from similar organizations",
+        "B": "Ask the candidate to set their own pay",
+        "C": "Skip data if the role is part‑time",
+        "D": "Use last year’s budget only"
+      },
+      "correct": "A",
+      "explanation": "Comparable data helps establish reasonableness and avoid private inurement.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "q_005",
+      "category": "Disclosure",
+      "text": "When must Covered Persons disclose conflicts?",
+      "options": {
+        "A": "Only after the Board votes",
+        "B": "At year‑end only",
+        "C": "In writing and in good faith before consideration of the matter",
+        "D": "Disclosure is optional"
+      },
+      "correct": "C",
+      "explanation": "Conflicts are disclosed in good faith prior to Board review.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_006",
+      "category": "Recusal & Minutes",
+      "text": "Which documentation is appropriate for minutes in a conflict review?",
+      "options": {
+        "A": "Only the final vote",
+        "B": "Terms approved, attendance, data relied on, and safeguards",
+        "C": "Personal notes of each Director",
+        "D": "Drafts of unrelated policies"
+      },
+      "correct": "B",
+      "explanation": "Minutes should reflect key facts, attendance, data, and safeguards.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "q_007",
+      "category": "Improper Benefit",
+      "text": "Which is an example of private benefit/inurement?",
+      "options": {
+        "A": "Paying fair‑market compensation after independent review",
+        "B": "Awarding a no‑bid contract to a Director’s company without safeguards",
+        "C": "Obtaining three competitive bids",
+        "D": "Independent committee review"
+      },
+      "correct": "B",
+      "explanation": "Unreasonable insider benefit without independent process can be private inurement.",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "q_008",
+      "category": "Safeguards",
+      "text": "Which safeguard helps manage conflicts?",
+      "options": {
+        "A": "Allow conflicted members to vote but not speak",
+        "B": "Recusal and independent data review",
+        "C": "Secret ballots only",
+        "D": "Not recording minutes"
+      },
+      "correct": "B",
+      "explanation": "Recusal plus independent review and documentation are common safeguards.",
+      "difficulty": "Easy"
+    }
+  ]
+}
+

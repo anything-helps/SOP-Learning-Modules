@@ -1,0 +1,103 @@
+You are helping create a training module for staff. Source content below came from the
+    policy PDF called "Client Intake Process". Generate outputs strictly as compact JSON only. Keep content
+    faithful to the source; do not invent details.
+
+    SOURCE CONTENT (outline; may be truncated):
+
+# Ient Intake Process
+
+A Case Manager initiates the client intake process by filling out the Enrollment Form using JotForm with the client present. After the form is submitted, the following steps occur automatically:
+e Jotform creates a client record in the Monday.com FCS Client Roster within the “Intake Processing” group.
+e Zapier saves a PDF copy of the completed Enrollment Form to a new folder named after the client in the Client Files shared drive in Google Drive.
+
+# 1. Eligibility Review:
+
+a. Navigate to the FCS Client Roster in Monday.com and select the "!1. Eligibility Review" view at the top of the board (may need to click “More v” option to find). i. Review the client's address in the “Address Text” field and modify as necessary. ii. Use the case manager's name from the “Case Manager Text” field, if filled out, to select the correct name in the "Case Manager" field.
+b. Open a new tab or window and Navigate to OneHealthPort to access ProviderOne. i. Login with password provided by Anything Helps staff. ii. Select “Benefit Inquiry” and enter the clients first, last name, and date of birth then press “Submit”.
+
+# C. Did The Client Record Appear?
+
+i. Client Record Not Found:
+
+# 1. Change The Ah Intake Status To “*more Pll Needed”. This Will Automatically Notify The Case Manager That You Will
+
+need the Client's social security number to determine eligibility.
+
+# Ii, Once Client Record Is Found:
+
+
+# 1. Copy The Providerone Id And Paste It Into The “provider One Id” Field In Monday.com For This Client.
+
+
+# 2. Copy The County Listed In Providerone Into The “county” Field In Monday.com For The Client.
+
+
+# D. What Is The Clients’ Medicaid Status?
+
+
+# I. Medicaid Is Inactive:
+
+
+# 1. Change The “ah Intake” Status In Monday.com To _*medicaid Inactive_. This Will Automatically Notify The Case
+
+Manager that clients’ medicaid is currently inactive, and that we are working on getting it back on for them. Once the clients’ medicaid is turned back on, we will submit them for enrollment in fcs services. This process can take two weeks or more to complete.
+
+# Ii. Medicaid Is Active
+
+
+# 1. Set The “medicaid Review Date” Field In Monday.com To The “review End Date” Value Listed In Providerone.
+
+
+# E. Does The Client Appear Eligible For Fcs?
+
+i. Client appears ineligible:
+
+# 1. Move The Client To The “ineligible Clients” Group.. This Will Automatically Change The “ah Intake” Status For The Client
+
+in Monday.com to _*Not_Completed_ and notify the case manager that unfortunately, the client is not eligible for the FCS Program.
+ii. Client appears eligible:
+
+# 1. Change The Intake Status To _*eligible_. This Action Triggers Zapier To Submit The Online Supportive Housing
+
+Assessment and the Online Supported Employment Assessment to Wellpoint. This automation submits both forms, saves each as a PDF in the client’s folder, and saves the confirmation number from Wellpoint for each program in Monday.com. Once the automation is completed, the “AH Intake” status will automatically change to _Enrollment Submitted_, which will remove them from the "11. Eligibility Review” view on Monday.com.
+
+# 2. Enrollment Review:
+
+a. Navigate to the “I2. Enrollment Review” view in the FCS Client Roster in Monday.com.
+i. Confirm that the “SH Enrollment” and “SE Enrollment” statuses have changed to _Submitted_ and there are confirmation numbers listed in the “SH Confirmation” and “SE Confirmation’ fields.
+ii. If Clients’ “Housing Status” in Monday.com is NOT _Housed_ or _Unstably Housed_, an automation will email WellPoint the client’s AH Enrollment form PDF with the data that WellPoint requires.
+b. Wellpoint will email a response to the submission within five business days.
+i. Once received, the file is saved automatically in the Temp Wellpoint Email Attachments folder located in the automation@anything-helps.org Google Drive account. Wellpoints response file will also be copied to the clients’ folder in the “Client Files” shared drive.
+c. If the Client has been denied or rejected:
+i. Zapier will automatically post a message in the Slack #admin channel with the details.
+ii. In the “I2 Enrollment Review” view of the FCS Client Roster, use the details in the Slack message to select the correct “AH Intake” status:
+
+# 1. _*validate Health Need_ - This Will Notify The Case Manager Via Email That The Client Must Either Obtain A Diagnosis
+
+from a mental health provider or complete a coordinated entry assessment to enroll the client in the FCS Program, and will provide a link to the file identified in step 2.3.2, which can be used as an ROI! in order to obtain this documentation. It will also include a link to the standalone RO! Form, in case the institution does not accept the file.
+
+# 2. _*validate Risk Factor_ - This Will Notify The Case Manager Via Email That A Letter Or Documentation From An
+
+institutional setting is required to enroll the client in the FCS program, and will provide a link to the file identified in
+step 2.3.2, which can be used as an ROI in order to obtain this documentation. It will also include a link to the standalone ROI Form, in case the institution does not accept the file. 3. _*Provider Switch Eligible_ - This will notify the Case Manager that the client is already enrolled in the FCS program with another provider, and will provide a link to the Provider Change Form. d. If the Client has been authorized: i. Zapier and Monday.com will complete the following tasks automatically: 1. Set the authorization periods for housing and/or employment based on the data in the spreadsheet. 2. Change the SH/SE Enrollment statuses to _Completed_. 3. Increase the “SH Claims Left” value by 30, if appropriate. 4. Increase the “SE Claim Units Left” value by 120, if appropriate. 5. Change the “AH Intake” status to _*Ready for Intake_. 6. Move the client from the “Intake Processing” group to the “Active Clients” group. 7. Send an email to the Case Manager asking them to complete the Intake Form with the client. e. Once the Intake Form is submitted by the Case Manager, Zapier will automatically perform the following tasks: i. A PDF copy of the completed form is saved to both the clients’ folder in the “Client Files” shared drive and the Case Managers folder in the “Provider Files” Shared Drive in Google Drive. ii, Client data from the completed form is updated in the FCS Client Roster in Monday.com. iii. Client's “AH Intake status” is changed to "_Completed_" iv. Any error during this process will trigger a message in the #admin slack channel asking a staff member to manually make the necessary data changes.
+
+    TASK: Create multiple-choice questions JSON with the following shape:
+    {
+      "questions": [
+        {
+          "id": "q_001",  // unique per module
+          "category": "string", // from a relevant section heading
+          "text": "Question?",
+          "options": {"A":"...","B":"...","C":"...","D":"..."},
+          "correct": "A|B|C|D",
+          "explanation": "One-sentence justification based on the source",
+          "difficulty": "Easy|Medium|Hard"
+        }
+      ]
+    }
+    RULES:
+    - Create up to 12 questions.
+    - Prefer concrete, policy-accurate content.
+    - Keep choices concise and non-overlapping.
+    - Difficulty should reflect cognitive effort.
+    - Output JSON only. No trailing commentary.

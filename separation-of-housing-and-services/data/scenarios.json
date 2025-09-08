@@ -1,0 +1,69 @@
+{
+  "scenarios": [
+    {
+      "id": "s_001",
+      "title": "Service Refusal and Tenancy",
+      "description": "A tenant stops meeting with their case manager and declines all services for now.",
+      "question": "How should staff proceed?",
+      "options": {
+        "A": "Notify property to initiate eviction",
+        "B": "Respect the decision; keep support available and separate from tenancy",
+        "C": "Require weekly check‑ins to keep the unit",
+        "D": "Assign property staff to deliver case management"
+      },
+      "correct": "B",
+      "explanation": "Service engagement is voluntary and separate from tenancy; keep support available without coercion.",
+      "relatedConcepts": ["Voluntary Service Engagement","Non‑Coercive Support"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "s_002",
+      "title": "Lease Signing Advocacy",
+      "description": "A landlord proposes a lease addendum requiring participation in services as a condition of tenancy.",
+      "question": "What is the correct response?",
+      "options": {
+        "A": "Agree because it supports client stability",
+        "B": "Accept if services are on‑site only",
+        "C": "Decline and advocate for a lease free of service requirements",
+        "D": "Ask property staff to supervise service plans"
+      },
+      "correct": "C",
+      "explanation": "Tenancy must not be conditioned on services; advocate to remove the requirement.",
+      "relatedConcepts": ["Role Separation","Advocacy"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "s_003",
+      "title": "On‑Site Space Use",
+      "description": "The only available space for meetings is the property office with foot traffic from residents and staff.",
+      "question": "What is the best plan?",
+      "options": {
+        "A": "Proceed there; privacy is not required",
+        "B": "Install cameras in units to avoid office use",
+        "C": "Identify a neutral, confidential space or use community‑based locations",
+        "D": "Conduct meetings at the unit door in the hallway"
+      },
+      "correct": "C",
+      "explanation": "Meetings should occur in confidential spaces that protect privacy; community‑based options are preferred.",
+      "relatedConcepts": ["Privacy Protections","Service Design"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "s_004",
+      "title": "Boundary Drift",
+      "description": "Property asks the case manager to collect rent while the office is short‑staffed.",
+      "question": "How should the case manager respond?",
+      "options": {
+        "A": "Collect rent to help teamwork",
+        "B": "Decline and clarify role boundaries; offer to coordinate support for tenants",
+        "C": "Collect rent for on‑site clients only",
+        "D": "Collect rent in exchange for service office space"
+      },
+      "correct": "B",
+      "explanation": "Collecting rent is a property function; service roles should remain distinct.",
+      "relatedConcepts": ["Role Separation","Structured Coordination"],
+      "difficulty": "medium"
+    }
+  ]
+}
+

@@ -1,0 +1,106 @@
+[
+  {
+    "heading": "HMIS Security Standards",
+    "paragraphs": [
+      "Data Management &",
+      "security",
+      "This policy establishes the overarching principles for managing and securing data at Anything Helps. It sets out the procedures for protecting all types of sensitive data, ensuring compliance with internal data management protocols. This policy aims to safeguard the confidentiality, integrity, and availability of data, while supporting operational needs. This policy applies to all employees, contractors, and volunteers who handle data within the organization. It ensures that data is appropriately managed throughout its lifecycle, from",
+      "collection and storage to sharing and disposal."
+    ]
+  },
+  {
+    "heading": "Ii",
+    "paragraphs": []
+  },
+  {
+    "heading": "HIPAA Compliance",
+    "paragraphs": []
+  },
+  {
+    "heading": "Data Management & Security",
+    "paragraphs": [
+      "Data Protection"
+    ]
+  },
+  {
+    "heading": "Incident Response And Breach Notification",
+    "paragraphs": []
+  },
+  {
+    "heading": "Monitoring And Compliance",
+    "paragraphs": []
+  },
+  {
+    "heading": "Data Protection",
+    "paragraphs": [
+      "Anything Helps will ensure the confidentiality, integrity, and availability of sensitive information through the following practices:"
+    ]
+  },
+  {
+    "heading": "1. All Physical And Electronic Data Must Be Encrypted And Stored Securely.",
+    "paragraphs": []
+  },
+  {
+    "heading": "2. Access To Sensitive Information Will Be Limited To Authorized Personnel.",
+    "paragraphs": []
+  },
+  {
+    "heading": "3. Secure Systems Will Be Used For Data Entry, Storage, Retrieval, And Transmission To Preserve Data Integrity.",
+    "paragraphs": []
+  },
+  {
+    "heading": "4. Role-based Access Control (rbac) Will Be Implemented To Assign Access Privileges Based On User Responsibilities.",
+    "paragraphs": []
+  },
+  {
+    "heading": "Incident Response And Breach Notification",
+    "paragraphs": [
+      "Incident Reporting: Employees, contractors, and business associates must immediately report any suspected or actual PHI breach to the designated Privacy Officer.",
+      "Initial Investigation: Within 24 hours of discovery, the Privacy Officer shall:"
+    ]
+  },
+  {
+    "heading": "1. Investigate The Cause Of The Breach;",
+    "paragraphs": [
+      "2. Determine the type and scope of PHI involved; 3. Assess whether the breach has been contained; 4. Evaluate the potential impact, including: e The nature and sensitivity of the PHI; e The potential harm to affected individuals; e Whether unauthorized individuals accessed the PHI."
+    ]
+  },
+  {
+    "heading": "Breach Notification Requirements:",
+    "paragraphs": [
+      "e If fewer than 500 individuals are affected, notify the individuals and the U.S. Department of Health and Human Services (HHS) within"
+    ]
+  },
+  {
+    "heading": "60 Days Of The End Of The Calendar Year.",
+    "paragraphs": [
+      "e If 500 or more individuals are affected, notify affected individuals, HHS, and the media (if appropriate) within 60 days of breach",
+      "discovery. Containment and Prevention measures may include:",
+      "e Immediate actions to contain the breach;",
+      "e Updating or revising security protocols;",
+      "e Staff retraining on data protection practices;",
+      "e Implementation of new technical safeguards, such as stronger encryption or access controls.",
+      "Documentation: The Privacy Officer shall compile a written report that includes:"
+    ]
+  },
+  {
+    "heading": "1. A Description Of How The Breach Occurred;",
+    "paragraphs": [
+      "2. Details on containment and mitigation actions; 3. The process and timeline used to notify all required parties."
+    ]
+  },
+  {
+    "heading": "Monitoring And Compliance",
+    "paragraphs": [
+      "To support ongoing data protection:",
+      "e Regular audits will be conducted to ensure adherence to this policy and related protocols.",
+      "e All staff will participate in annual training on data security and incident response. e Any suspected breach will be promptly evaluated and managed under the procedures outlined in this policy."
+    ]
+  },
+  {
+    "heading": "Previous: ~ Systemization Standards Next: = Service Provision",
+    "paragraphs": [
+      "References:"
+    ]
+  }
+]

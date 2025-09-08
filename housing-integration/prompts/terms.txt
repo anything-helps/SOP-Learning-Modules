@@ -1,0 +1,42 @@
+You are helping create a training module for staff. Source content below came from the
+    policy PDF called "Housing Integration". Generate outputs strictly as compact JSON only. Keep content
+    faithful to the source; do not invent details.
+
+    SOURCE CONTENT (outline; may be truncated):
+
+# Housing Integration
+
+
+# Previous: Decent, Safe, And Affordable Housing Next: Rights Of Tenancy
+
+
+# Programmatic Principles
+
+Purpose
+To ensure that clients are supported in achieving long-term stability through access to integrated housing and community resources within the broader community in which they live, fostering social inclusion, reducing stigma, and promoting healthy social behavior.
+Definitions
+Community Integration: The process of facilitating the participation of individuals in the social, cultural, economic, and political life of the community.
+Scattered-Site Housing: Housing units distributed throughout various neighborhoods rather than concentrated in a single building or area, aimed at promoting community integration.
+PSH Buildings: Permanent Supportive Housing buildings that provide affordable housing with on-site supportive services.
+Procedures Re-establish Healthy Social Norms
+Conduct a comprehensive assessment of each client's integration needs and preferences, considering factors such as proximity to social supports, access to community resources, and engagement in activities of interest. Respect clients’ preferences for location and household composition to ensure agency and foster a supportive environment. Facilitate introductions to neighbors to help clients build a sense of community. Accompany clients to local stores, resources, and community events to encourage community participation. Provide supportive services in a manner that promotes independence and integration, not coercion and dependency. Offer to take public transportation with clients to familiarize them with routes to community resources.
+
+# Partnership And Collaboration
+
+Develop partnerships with local organizations, community groups, and service providers to enhance the support network for clients. Collaborate with stakeholders to create opportunities for clients to participate in community activities and access resources.
+
+# Monitoring And Adjustment
+
+Regularly review and adjust housing placements and support plans based on client feedback and care needs. Conduct three- and six- month follow-up assessments to ensure clients continue to feel integrated and supported in their communities.
+
+    TASK: Extract key terms and definitions JSON:
+    {
+      "terms": [
+        {"term":"...","definition":"...","category":"string"}
+      ]
+    }
+    RULES:
+    - Create up to 24 terms.
+    - Definitions must be derived from the source wording when possible.
+    - Category should be a nearby or parent section heading.
+    - Output JSON only. No extra text.

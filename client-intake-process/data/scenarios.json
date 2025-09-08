@@ -1,0 +1,69 @@
+{
+  "scenarios": [
+    {
+      "id": "s_001",
+      "title": "No ProviderOne Record",
+      "description": "During eligibility review, the client’s record does not appear in ProviderOne.",
+      "question": "What is the correct next step?",
+      "options": {
+        "A": "Skip verification and proceed with enrollment",
+        "B": "Change AH Intake to ‘More PII Needed’ and request missing identifiers",
+        "C": "Mark permanently ineligible",
+        "D": "Submit SE only"
+      },
+      "correct": "B",
+      "explanation": "Update the status so the case manager is notified to gather additional PII.",
+      "relatedConcepts": ["Eligibility Review","AH Intake Status"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "s_002",
+      "title": "Medicaid Inactive",
+      "description": "ProviderOne shows Medicaid inactive; the client is otherwise eligible.",
+      "question": "How should intake proceed?",
+      "options": {
+        "A": "Set status to ‘Medicaid Inactive’ and inform case manager; pause enrollment",
+        "B": "Proceed with SH and SE submissions immediately",
+        "C": "Start services and backdate coverage",
+        "D": "Move directly to ineligible group"
+      },
+      "correct": "A",
+      "explanation": "Enrollment is delayed until coverage resumes; automation notifies the case manager.",
+      "relatedConcepts": ["Medicaid Status","Enrollment Submission"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "s_003",
+      "title": "Eligible and Submitting",
+      "description": "All checks are complete; the client appears eligible.",
+      "question": "Which action triggers online submissions to Wellpoint?",
+      "options": {
+        "A": "Switch AH Intake to ‘Eligible’",
+        "B": "Email the PDFs to Wellpoint",
+        "C": "Post in Slack #admin",
+        "D": "Upload to ProviderOne"
+      },
+      "correct": "A",
+      "explanation": "Changing the status triggers Zapier to submit SH and SE and save confirmations.",
+      "relatedConcepts": ["Enrollment Submission","Automation"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "s_004",
+      "title": "Denial Handling",
+      "description": "Wellpoint returns a denial for SH.",
+      "question": "What should staff expect from automation?",
+      "options": {
+        "A": "A Slack #admin message and the email file saved to the client’s folder",
+        "B": "No automated recordkeeping",
+        "C": "Only a ProviderOne note",
+        "D": "An automatic appeal submission"
+      },
+      "correct": "A",
+      "explanation": "Automation posts to Slack and saves the response file to Drive and the client folder.",
+      "relatedConcepts": ["Notifications","Records"],
+      "difficulty": "medium"
+    }
+  ]
+}
+

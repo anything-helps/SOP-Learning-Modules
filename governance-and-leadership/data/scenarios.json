@@ -1,0 +1,38 @@
+{
+  "scenarios": [
+    {
+      "id": "s_001",
+      "title": "Independence on a Vote",
+      "description": "The Board will vote on a consulting contract for a recently departed employee (within 1 year).",
+      "question": "How should independence be handled?",
+      "options": {"A": "All Directors vote","B": "Only independent Directors without ties should vote","C": "The consultant may vote","D": "Committee chairs only"},
+      "correct": "B",
+      "explanation": "Independence criteria help avoid conflicts and ensure objective approval.",
+      "relatedConcepts": ["Independence","Roles & Responsibilities"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "s_002",
+      "title": "Quorum at a Special Meeting",
+      "description": "A special meeting is called with too few Directors present to meet quorum.",
+      "question": "What should the Board do?",
+      "options": {"A": "Proceed for urgent matters","B": "Vote by those present","C": "Adjourn and reschedule with proper quorum","D": "Have Officers substitute"},
+      "correct": "C",
+      "explanation": "Official actions generally require quorum.",
+      "relatedConcepts": ["Meetings & Committees","Quorum"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "s_003",
+      "title": "Officer Role Clarity",
+      "description": "The Secretary is asked to approve a bank transfer.",
+      "question": "What is the appropriate step?",
+      "options": {"A": "Secretary approves financial transactions","B": "Refer to signatory rules; Treasurer or authorized signers should act","C": "Any Officer may sign","D": "Defer to program staff"},
+      "correct": "B",
+      "explanation": "Financial authority lies with authorized signers per policy/bylaws.",
+      "relatedConcepts": ["Duties of Officers","General Provisions"],
+      "difficulty": "medium"
+    }
+  ]
+}
+

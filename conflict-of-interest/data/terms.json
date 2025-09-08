@@ -1,0 +1,17 @@
+{
+  "terms": [
+    {"term":"Duty of Loyalty","definition":"Obligation of Directors, Officers, and staff to act in good faith for the Corporation’s best interests.","category":"Introduction"},
+    {"term":"Conflict of Interest","definition":"A personal or financial interest that could interfere with objective, loyal decision‑making for the Corporation.","category":"Definitions"},
+    {"term":"Affiliate","definition":"An entity directly or indirectly controlled by, in control of, or under common control with the Corporation.","category":"Definitions"},
+    {"term":"Disqualified Person (IRC §4958)","definition":"Individuals with substantial influence over the organization, subject to intermediate sanctions rules.","category":"Definitions"},
+    {"term":"Key Employee","definition":"A person able to exercise substantial influence over the Corporation (e.g., founders, highly compensated leaders).","category":"Definitions"},
+    {"term":"Private Benefit / Inurement","definition":"Improper use of charitable assets for the personal benefit of insiders or disqualified persons.","category":"Compliance"},
+    {"term":"Disclosure Questionnaire","definition":"Annual written statement where Covered Persons disclose actual or potential conflicts in good faith.","category":"Disclosure"},
+    {"term":"Recusal","definition":"Withdrawing from deliberation and voting when a conflict exists; may provide facts if requested before discussion.","category":"Review & Approval"},
+    {"term":"Comparable Data","definition":"Compensation comparables and surveys used to determine reasonableness before approval.","category":"Compensation Approval"},
+    {"term":"Independent Director","definition":"Voting member without conflicting employment, compensation, or substantial financial ties to the matter.","category":"Compensation Approval"},
+    {"term":"Board Minutes Documentation","definition":"Records of terms, attendance, data relied on, decisions, and conflict safeguards for approvals.","category":"Documentation"},
+    {"term":"Safeguards","definition":"Controls applied to manage conflicts (e.g., recusal, independent review, competitive bids).","category":"Review & Approval"}
+  ]
+}
+

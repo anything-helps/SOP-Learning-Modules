@@ -1,0 +1,117 @@
+{
+  "questions": [
+    {
+      "id": "q_001",
+      "category": "Programmatic Principles",
+      "text": "What is the main aim of the Rights of Tenancy policy?",
+      "options": {
+        "A": "To allow service participation to determine tenancy",
+        "B": "To secure tenants’ legal protections and prevent unjust eviction or discrimination",
+        "C": "To prioritize short‑term leases",
+        "D": "To centralize landlord decision‑making"
+      },
+      "correct": "B",
+      "explanation": "The policy seeks to uphold tenant protections and stable housing free from unjust eviction and discrimination.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_002",
+      "category": "Fair Housing",
+      "text": "Which of the following is protected under the Fair Housing Act?",
+      "options": {
+        "A": "Employment status",
+        "B": "Familial status",
+        "C": "Credit score",
+        "D": "Length of tenancy"
+      },
+      "correct": "B",
+      "explanation": "The Fair Housing Act protects against discrimination including based on familial status, disability, race, etc.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_003",
+      "category": "Lease Agreements",
+      "text": "Under most landlord‑tenant laws, a landlord may enter a unit:",
+      "options": {
+        "A": "At any time without notice",
+        "B": "Only with a court order",
+        "C": "With proper notice or in emergencies",
+        "D": "Only when rent is overdue"
+      },
+      "correct": "C",
+      "explanation": "Entry generally requires advanced notice, except in emergencies.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "q_004",
+      "category": "Tenant Education",
+      "text": "A tenant requests a reasonable accommodation related to a disability. The property should:",
+      "options": {
+        "A": "Deny requests unless accompanied by medical records",
+        "B": "Engage in an interactive process and grant reasonable adjustments",
+        "C": "Require higher rent for additional effort",
+        "D": "Defer all decisions to service providers"
+      },
+      "correct": "B",
+      "explanation": "Landlords should engage in an interactive process and provide reasonable accommodations.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "q_005",
+      "category": "Eviction Process",
+      "text": "Which best describes lawful eviction?",
+      "options": {
+        "A": "Immediate lockout by the landlord",
+        "B": "Court‑supervised process for just cause with due notice",
+        "C": "Notice only, no court involvement",
+        "D": "Only for nonpayment of rent"
+      },
+      "correct": "B",
+      "explanation": "Evictions must follow due process and local just‑cause rules.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "q_006",
+      "category": "Discrimination",
+      "text": "Which scenario may indicate illegal discrimination?",
+      "options": {
+        "A": "Refusing to fix a broken heater during winter",
+        "B": "Refusing to rent to a family with children",
+        "C": "Charging a late fee stated in the lease",
+        "D": "Requesting proof of income"
+      },
+      "correct": "B",
+      "explanation": "Familial status is a protected class under the Fair Housing Act.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_007",
+      "category": "Lease Agreements",
+      "text": "Habitability generally requires landlords to:",
+      "options": {
+        "A": "Provide daily wellness checks",
+        "B": "Maintain safe, sanitary, and functional living conditions",
+        "C": "Offer free utilities",
+        "D": "Provide transportation services"
+      },
+      "correct": "B",
+      "explanation": "Habitability includes maintaining essential services and safe conditions.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q_008",
+      "category": "Retaliation",
+      "text": "After a tenant reports code violations, the landlord issues a no‑cause notice. This is likely:",
+      "options": {
+        "A": "Routine policy",
+        "B": "Legal if notice is posted",
+        "C": "Retaliatory and unlawful",
+        "D": "Required by insurers"
+      },
+      "correct": "C",
+      "explanation": "Retaliation for exercising legal rights is prohibited.",
+      "difficulty": "Medium"
+    }
+  ]
+}
+

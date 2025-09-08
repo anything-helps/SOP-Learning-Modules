@@ -1,0 +1,83 @@
+You are helping create a training module for staff. Source content below came from the
+    policy PDF called "Systemization Standards". Generate outputs strictly as compact JSON only. Keep content
+    faithful to the source; do not invent details.
+
+    SOURCE CONTENT (outline; may be truncated):
+
+# Introduction
+
+systemization Standards
+This policy establishes a structure for documenting and standardizing operational processes across Anything Helps to support long-term systemization. The goal is to document and standardize our operational processes, establishing a foundation for systemization that emphasizes collaboration and clear accountability for all roles and responsibilities within Anything Helps. Creating accessible, living documentation that aligns with the organization's mission and facilitates will improve collaboration, clarity, and scalability. This SOP applies to all team members, from the Executive Director to frontline case managers, specialty providers, and support staff. It emphasizes collaboration and clear documentation of all roles and responsibilities within the non-profit.
+
+# Systemization Standards
+
+Responsibilities Chart of Activities Areas of Responsibility Activities Services Best Practices for Documentation Templates Frequently Asked Questions (FAQs)
+
+# Ongoing Review For Continuous Improvement
+
+Responsibilities
+e The Executive Director leads the standardization initiative, ensuring documentation accuracy and alignment with Anything Helps’ values. They engage team members in reviews and guide strategic integration.
+e The Lead Administrator documents all tasks tied to client support, referrals, and coordination, ensuring that specialty services align with organizational standards.
+e Pathfinders document case managemert, client interaction, and crisis response activities. They participate in scheduled reviews to keep documentation current and relevant.
+
+# Chart Of Activities
+
+Time should be set aside during meetings or administrative hours to identify and document activities. This process should be ongoing and responsive to changes in operations. New initiatives, services, or policy changes must trigger a review and update of relevant documentation within a defined timeline. Departments should identify and track milestones for documentation completeness, with progress updates shared at leadership meetings to promote momentum and accountability.
+
+# Areas Of Responsibility
+
+Start by identifying broad functional domains that are essential to Anything Helps’ mission, such as service delivery, compliance, fundraising, and community engagement. These domains help structure documentation and ensure focus on mission-critical work. Each department lead should be responsible for maintaining up-to-date records of their team’s respective domains. Consider applying task tags (e.g., “urgent,” “routine,” “client-facing,” “administrative”) within each domain to help staff filter and prioritize actions effectively.
+aoa WoW
+Activities
+Within each domain, outline the high-frequency, client-centered tasks that define core responsibilities. These should be practical and tied to measurable outcomes. For example: housing navigation, benefits enrollment, or crisis intervention. Include indicators for each activity that signal when documentation or process revisions may be needed (e.g., funding source change, scope of service expansion). Where possible, link each activity to a short explanation or onboarding guide to support new team members and ensure role clarity.
+Services
+For each activity, record key supporting services that occur less frequently but are essential to overall success. These might include tasks like landlord negotiation, document preparation for clients, or specialized referrals. Clear cross-referencing between services and
+activities should be maintained to support staff in identifying appropriate next steps when client needs evolve. For shared services, include diagrams or annotations that clarify which role is responsible under different conditions or phases of service.
+
+# Best Practices For Documentation
+
+e Real-time observation should inform documentation, with monthly reflections on both routine and emerging tasks. As client needs shift, new activities should be added promptly. Documentation must reflect reality and be tested periodically against actual practice to ensure alignment.
+e The process should be revisited on a quarterly basis or during team check-ins. Team members should be encouraged to contribute updates from their own workflows. Teams should be given designated documentation time to complete updates rather than relying on discretionary administrative time. A structured feedback mechanism—such as a quarterly form or comment field within the documentation system—should be used to capture staff suggestions for improving documentation accuracy or completeness.
+e Start documentation with broad categories, refining them over time. Detail should be appropriate to support onboarding, but flexible enough to evolve with program scale and staffing. Documentation must include decision-making criteria and flags for when supervisor consultation or escalation is required.
+e Overlapping responsibilities should be noted under each relevant role with clarifying context. Scheduled audits can help identify and reduce duplication, strengthening role clarity and system efficiency. Teams should aim to resolve ambiguity, ensuring that any shared responsibilities are defined by thresholds or scenarios that determine ownership.
+e Focus on developing a functional first version of the activity list, rather than aiming for completeness at the outset. Refinement and elaboration should follow in planned phases. Incomplete documentation should be flagged within the system and assigned a resolution deadline.
+e Designate one day each year for organization-wide documentation review. Protected time should be given to staff to update, refine, and flag outdated or incomplete documentation.
+e Documentation should be centralized in a secure, HIPAA-compliant system such as Monday.com. All users must be trained and granted access appropriate to their role.
+Templates Templates should be created to support clarity and consistency. These may include: e Flowcharts for outlining workflows
+e JotForm for real-time documentation e Standard invoicing templates for specialty providers
+
+# Frequently Asked Questions (faqs)
+
+Do We Need to Capture Every Action? Yes—especially those linked to compliance, documentation, grant reporting, or client records.
+How Detailed Should Each Category Be? Start simple. Add more detail where necessary to reflect specialized responsibilities or technical requirements.
+What If an Activity Overlaps Across Roles? List the task under each role with notes to explain how responsibilities differ in execution or scope.
+
+# Ongoing Review For Continuous Improvement
+
+e Use bi-monthly or quarterly meetings to refine the documentation. Staff feedback should inform updates, ensuring the documentation evolves alongside programs. Feedback mechanisms should be actively monitored and incorporated into review cycles.
+e Regularly revisit the master list to confirm that documented activities reflect the organization's mission. Use these reviews to center client-focused practices and refine workflows. Documentation quality should be included in staff evaluations to promote a culture of accuracy and shared accountability.
+
+# Resources: | Previous: Next:
+
+Automation Documentation = Governance & Leadership = Data Management & Security
+
+    TASK: Create scenario-based questions JSON:
+    {
+      "scenarios": [
+        {
+          "id":"s_001",
+          "title":"Short scenario title",
+          "description":"1-2 sentence realistic situation",
+          "question":"What should staff do?",
+          "options":{"A":"...","B":"...","C":"...","D":"..."},
+          "correct":"A|B|C|D",
+          "explanation":"One-sentence justification from source",
+          "relatedConcepts":["..."],
+          "difficulty":"easy|medium|hard"
+        }
+      ]
+    }
+    RULES:
+    - Create up to 6 scenarios.
+    - Situations should match the spirit and constraints of the source.
+    - Output JSON only. No extra commentary.

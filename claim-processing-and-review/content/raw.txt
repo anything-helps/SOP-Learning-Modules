@@ -1,0 +1,59 @@
+Claim Processing & Review
+
+Voicemail and Note Creation
+
+The case manager or case worker leaves a voicemail in the Open Phone Service Mailbox, stating:
+
+e Their name, the client's name, the date of the service.
+e Ideally, the duration of the service
+e A description of what was done
+
+Zapier automatically transcribes the voicemail and, in Monday.com:
+
+¢ Converts it into a compliant note.
+e Adds it as a sub-item claim to the client's item.
+
+Staff Review
+
+e Using the “C1. Note Review” view on the FCS Client Roster board, the staff member reviews the contents of the compliant note for
+accuracy, including:
+
+e Submission date, case manager name, claim type, and duration.
+
+e Once verified and/or modified, the staff member changes the Claim Status to "Ready to Submit."
+
+Submission and Approval
+
+1. Once in the “Ready to Submit” status, designated staff (e.g., Gail) reviews and sets the “Contractor Cost” field appropriately:
+
+e Ifthe case manager for claim is a staff member, then “Contractor Cost” is set to 0.
+e If the case manager for claim is a contractor, then “Contractor Cost” is set to the value in “Contractor Owed”.
+2. Staff then submits the claim to Availity, setting the submission date in the subitem claim Submitted field.
+3. The sub-item claim status is automatically updated to "Submitted" (Monday.com)
+4. Availity (the system) responds, indicating approval
+5. The staff member then sets the approval date in the sub item claim Approved field.
+6. The sub-item claim status is automatically updated to “Approved” and the appropriate claim units are decremented automatically.
+
+(Monday.com)
+
+Denial Handling
+If a claim is denied, the designated staff member (e.g., Gail) must manually change the status to "Denied" or “21-day Hold” as directed by
+Availity.
+
+Payment Process
+
+1. WellPoint has a check is issued
+
+2. A staff member adds the check number to the sub item claim Check # field.
+
+3. The sub-item claims status changes to "Deposited." (Monday.com)
+
+4. If the case manager is a contractor, then a staff member then adds this claim into Gusto Payroll, otherwise just sets the Paid Out
+date to today.
+
+5. When the payroll for this claim is actually sent to the contractor, the staff member then sets the Paid Out date.
+
+6. When the Paid Out field is set, the Claim Status automatically changes to “Paid” (Monday.com)
+
+7. The designated staff member (e.g., Gail) attaches the invoice file to the sub-item claim and may move it to the client's drive folder if
+needed.

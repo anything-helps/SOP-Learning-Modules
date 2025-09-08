@@ -1,0 +1,76 @@
+[
+  {
+    "heading": "Claim Processing & Review",
+    "paragraphs": []
+  },
+  {
+    "heading": "Voicemail And Note Creation",
+    "paragraphs": [
+      "The case manager or case worker leaves a voicemail in the Open Phone Service Mailbox, stating:",
+      "e Their name, the client's name, the date of the service. e Ideally, the duration of the service e A description of what was done",
+      "Zapier automatically transcribes the voicemail and, in Monday.com:",
+      "¢ Converts it into a compliant note. e Adds it as a sub-item claim to the client's item."
+    ]
+  },
+  {
+    "heading": "Staff Review",
+    "paragraphs": [
+      "e Using the “C1. Note Review” view on the FCS Client Roster board, the staff member reviews the contents of the compliant note for accuracy, including:",
+      "e Submission date, case manager name, claim type, and duration.",
+      "e Once verified and/or modified, the staff member changes the Claim Status to \"Ready to Submit.\""
+    ]
+  },
+  {
+    "heading": "Submission And Approval",
+    "paragraphs": []
+  },
+  {
+    "heading": "1. Once In The “ready To Submit” Status, Designated Staff (e.g., Gail) Reviews And Sets The “contractor Cost” Field Appropriately:",
+    "paragraphs": [
+      "e Ifthe case manager for claim is a staff member, then “Contractor Cost” is set to 0. e If the case manager for claim is a contractor, then “Contractor Cost” is set to the value in “Contractor Owed”. 2. Staff then submits the claim to Availity, setting the submission date in the subitem claim Submitted field. 3. The sub-item claim status is automatically updated to \"Submitted\" (Monday.com) 4. Availity (the system) responds, indicating approval 5. The staff member then sets the approval date in the sub item claim Approved field. 6. The sub-item claim status is automatically updated to “Approved” and the appropriate claim units are decremented automatically.",
+      "(Monday.com)"
+    ]
+  },
+  {
+    "heading": "Denial Handling",
+    "paragraphs": [
+      "If a claim is denied, the designated staff member (e.g., Gail) must manually change the status to \"Denied\" or “21-day Hold” as directed by Availity."
+    ]
+  },
+  {
+    "heading": "Payment Process",
+    "paragraphs": []
+  },
+  {
+    "heading": "1. Wellpoint Has A Check Is Issued",
+    "paragraphs": []
+  },
+  {
+    "heading": "2. A Staff Member Adds The Check Number To The Sub Item Claim Check # Field.",
+    "paragraphs": []
+  },
+  {
+    "heading": "3. The Sub-item Claims Status Changes To \"deposited.\" (monday.com)",
+    "paragraphs": []
+  },
+  {
+    "heading": "4. If The Case Manager Is A Contractor, Then A Staff Member Then Adds This Claim Into Gusto Payroll, Otherwise Just Sets The Paid Out",
+    "paragraphs": [
+      "date to today."
+    ]
+  },
+  {
+    "heading": "5. When The Payroll For This Claim Is Actually Sent To The Contractor, The Staff Member Then Sets The Paid Out Date.",
+    "paragraphs": []
+  },
+  {
+    "heading": "6. When The Paid Out Field Is Set, The Claim Status Automatically Changes To “paid” (monday.com)",
+    "paragraphs": []
+  },
+  {
+    "heading": "7. The Designated Staff Member (e.g., Gail) Attaches The Invoice File To The Sub-item Claim And May Move It To The Client's Drive Folder If",
+    "paragraphs": [
+      "needed."
+    ]
+  }
+]

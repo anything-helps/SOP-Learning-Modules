@@ -1,0 +1,85 @@
+{
+  "scenarios": [
+    {
+      "id": "s_001",
+      "title": "Prior Eviction and Low Credit",
+      "description": "A client with a prior eviction and a low credit score finds a suitable unit but fears automatic denial.",
+      "question": "What should staff do first to uphold low-barrier access?",
+      "options": {
+        "A": "Advise the client to give up and look elsewhere",
+        "B": "Submit the application without disclosure",
+        "C": "Engage the landlord to negotiate screening criteria and offer risk mitigation",
+        "D": "Require a co-signer before applying"
+      },
+      "correct": "C",
+      "explanation": "The policy directs staff to negotiate barriers like evictions/credit and use risk mitigation (e.g., additional deposits, first/last month).",
+      "relatedConcepts": ["Negotiating Screening Criteria", "Risk Mitigation", "Low-Barrier Housing"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "s_002",
+      "title": "Client Preference vs. Staff Preference",
+      "description": "A client prefers a unit farther from services due to proximity to family. Staff prefer a closer unit that is available sooner.",
+      "question": "How should staff proceed?",
+      "options": {
+        "A": "Override the client and place in the closer unit",
+        "B": "Respect the client’s choice and support their preferred option",
+        "C": "Delay both options until a perfect unit appears",
+        "D": "Require a written justification from the client"
+      },
+      "correct": "B",
+      "explanation": "The policy emphasizes respecting client choice without imposing limitations based on market conditions or staff preference.",
+      "relatedConcepts": ["Client Choice", "Equitable Access"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "s_003",
+      "title": "Landlord Concern about Income Ratio",
+      "description": "A landlord requires a 3x income-to-rent ratio. The client’s income falls slightly below this threshold but rent is otherwise sustainable with supports.",
+      "question": "What is the best next step?",
+      "options": {
+        "A": "Abandon the unit due to policy",
+        "B": "Ask the landlord to waive or adjust the ratio and offer risk mitigation",
+        "C": "Suggest the client take on new debt to raise income",
+        "D": "Apply without mentioning the ratio"
+      },
+      "correct": "B",
+      "explanation": "Income-to-rent ratios are a negotiable screening criterion. Staff should negotiate and offer risk mitigation where appropriate.",
+      "relatedConcepts": ["Negotiating Screening Criteria", "Risk Mitigation"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "s_004",
+      "title": "Supporting the Application Process",
+      "description": "A client is overwhelmed by the application process and unsure how to evaluate options.",
+      "question": "How should staff proceed according to procedures?",
+      "options": {
+        "A": "Select a unit on the client’s behalf and submit",
+        "B": "Visit potential units with the client, review options, and assist with the application",
+        "C": "Refer the client to a different program",
+        "D": "Wait for the client to finish the process independently"
+      },
+      "correct": "B",
+      "explanation": "Procedures include engaging clients in selection, visiting units together, and assisting with applications.",
+      "relatedConcepts": ["Procedures: Locating Housing", "Client Choice"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "s_005",
+      "title": "Criminal History Disclosure",
+      "description": "A client has an old misdemeanor. A landlord expresses concern and is considering denial.",
+      "question": "What is the most aligned response?",
+      "options": {
+        "A": "Avoid discussion of the history",
+        "B": "Encourage the client not to apply",
+        "C": "Open a conversation to individualize consideration and propose risk mitigation",
+        "D": "Ask the landlord to keep the requirement but raise the deposit excessively"
+      },
+      "correct": "C",
+      "explanation": "Staff should pursue individualized, reasonable consideration and propose risk mitigation to lower barriers.",
+      "relatedConcepts": ["Negotiating Screening Criteria", "Low-Barrier Housing", "Landlord Engagement"],
+      "difficulty": "hard"
+    }
+  ]
+}
+

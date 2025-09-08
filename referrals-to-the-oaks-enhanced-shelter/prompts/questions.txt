@@ -1,0 +1,180 @@
+You are helping create a training module for staff. Source content below came from the
+    policy PDF called "Referrals to the Oaks Enhanced Shelter". Generate outputs strictly as compact JSON only. Keep content
+    faithful to the source; do not invent details.
+
+    SOURCE CONTENT (outline; may be truncated):
+
+# Reterrals To The Oaks
+
+Ennanced Shelter
+This policy includes detailed guidance on identifying eligible clients and submitting appropriate referrals to the Aurora Oaks Enhanced Shelter, a low-barrier, 60-bed emergency shelter operated by Lake City Partners. It serves single adults and couples experiencing homelessness in North Seattle and surrounding areas. The shelter is not transitional housing and does not guarantee permanent housing placement, but it supports a housing-first model and requires participant engagement in housing search and case planning, The goal is to ensure alignment with the shelter's intake priorities, reduce rejections, and accelerate placement for those most in need.
+
+# Overview Of Aurora Oaks Enhanced Shelter
+
+
+# E Location: 16357 Aurora Ave N, Shoreline, Wa 98133
+
+e Capacity: 60 people (single adults & couples)
+e Referral Pool: Maintains a rolling pool of 30+ active referrals
+e Length of Stay: 3 to 6 months
+e Monthly Intakes: Approximately 5 to 10 new residents
+e Priority Placement: Clients who are unsheltered, chronically homeless, and located in North Seattle/North King County e Housing Focus: Participants are required to engage in a housing search program.
+Shelter operations maintain a 99% bed utilization rate and achieve a 133% annual housing placement rate (relative to total census). Most residents are referred by external service providers, making the quality of the referral critical.
+
+# Eligibility Requirements
+
+x
+Clients must meet at least one of the following:
+
+# E Category 1: Literally Homeless
+
+© Sleeping in places not meant for habitation (e.g., tents, cars, sidewalks) or staying in emergency shelter. e Category 4: Fleeing Domestic Violence o Fleeing or attempting to flee domestic violence or similar threats, lacking safe alternative housing and the resources to obtain it.
+Referrers must attest to the client's eligibility and provide narrative details supporting this classification during the referral submission process.
+
+# Suitability Criteria
+
+In addition to HUD eligibility, clients must:
+e Be 18 or older (no minors)
+e Ideally be residing locally in North Seattle or North King County
+e Be willing to live communally in a diverse environment
+¢ Be willing to work with a housing case manager
+e Be able to self-manage daily tasks (bathing, medications, room maintenance) e Be capable of complying with basic behavioral expectations
+e Not be actively violent or recently involved in violent threats
+
+# Pet Policy
+
+e One pre-existing pet (cat or dog under 35 pounds) is allowed. e No new pets may be acquired during the stay.
+
+# Policy Statement
+
+Anything Helps will only refer clients to the Oaks who:
+Anything Helps staff may submit referrals to the Oaks only for clients who meet the most current HUD homelessness definitions and demonstrate readiness to safely reside in a communal, low-barrier shelter environment and engage with housing services in that setting. Submissions must be complete, accurate, and responsive to the shelter’s prioritization of vulnerability.
+All referral submissions must be truthful, thorough, and completed through the designated HIPAA-compliant referral form.
+Staff must also remain responsive after submission to support the intake process as needed.
+
+# Pre-referral Preparation
+
+Before submitting the referral:
+
+# Gather Required Information
+
+Review the shelter expectations and program structure with the client.
+Ensure the client understands that this is a shelter program, not transitional or permanent housing.
+Explain that housing is not guaranteed, but the shelter supports progress toward it.
+Confirm they are comfortable with communal living, required check-ins, weekly room inspections, and the shelter’s requirement of regularly engaging with housing case management.
+The majority of the requested information can be
+Collect the following details: found on the Clients completed enrollment and
+¢ intake forms located in their client folder in google
+. . . drive. For HMIS ID, please reach out to one of our Client full legal name and preferred name, gender identity, Housing Specialists before starting the form with
+and pronouns your client! Date of birth and Social Security number (if available) HMIS ID (if available)
+Primary contact number
+Location where client typically stays (must be in one of the prioritized service areas)
+Start date of the current homelessness episode
+Physical and behavioral health information
+Pet/ESA status and details
+Notes on communication needs (language interpretation) Confirmation of capability to self-manage and maintain space
+Attestation to HUD homelessness criteria
+Referrer’s name, agency, contact info, and duration of relationship with client
+
+# Referral Submission
+
+
+# Access The Referral Form
+
+
+# Open The Official Referral Form: Aurora Oaks Enhanced Shelter Referral Form
+
+Important: Log in using your Anything Helps email account to ensure the form is submitted properly. Do not use personal Gmail accounts:
+
+# Aurora Oaks Enhanced Shelter Referral
+
+
+# 16357 Aurc
+
+For Thomas‘
+* Indicates
+michael.t.mathias@gmail.com Switch account
+
+# ‘ora Ave N Shoreline Wa 98133 206-629-5924
+
+
+# Tions Please Contact Thomas Burnside, Director Of Client Services:
+
+ityPartners.org or 9 5921
+required question
+
+# Complete All Fields
+
+Answer each question thoroughly and honestly.
+Use narrative fields to explain client's vulnerability, behavioral context, and housing goals.
+Reiterate client's suitability and willingness to engage with the program.
+Ensure the final sections are completed to confirm both client and referrer have reviewed and accepted: © The shelter’s structure and expectations © The fact that this is not transitional housing © That housing placement is not guaranteed
+
+# Submission Confirmation
+
+After submitting the form: © Take a screenshot of the confirmation/submitted page Upload the referral confirmation to the client's folder in Google Drive under the folder labeled
+
+# Post-submission Follow-up
+
+
+# Wait Period And Referral Pool
+
+e Clients are placed into a rolling referral pool.
+e Intake occurs based on availability and match—timeline may range from 1 to 10 weeks, depending on the number of referrals received.
+e Staff should maintain regular contact with the client and provide support during the waiting period.
+
+# Communication With The Oaks
+
+e Be responsive to communication from Lake City Partners, especially if they request additional context or confirm readiness for intake.
+e Ifyou learn of a client's change in status (e.g., hospitalization, arrest, relocation), notify the Oaks and update internal records.
+e Usually the Oaks will provide the client with less than 48 hours to arrive at the shelter and claim their spot - be sure to keep in regular touch with your referrals so when an offer is made, they can get there within that window.
+© Anything Helps will pay for a rideshare if necessary to meet this window. email mike@anything-helps.org if you feel this is needed.
+Documentation
+e Record any updates, outcomes, or communications via the Service Mailbox
+
+# Roles And Responsibilities
+
+
+# E Referring Staff (case Managers/outreach):
+
+° Identify eligible clients
+© Prepare and submit the referral
+© Maintain engagement and support post-submission
+© Notify internal and external contacts of any significant client status changes e Program Manager or Pathfinder:
+© Support staff with eligibility questions
+© Track referral trends and outcomes
+© Serve as point-of-contact with Lake City Partners as needed e Administrative Team:
+© Archive submission records and outcomes
+© Ensure compliance with data privacy and HIPAA protocols
+
+# 9. Contact For Questions
+
+
+# E Lake City Partners:
+
+Thomas Burnside, Director of Client Services Email: Thomas@LakeCityPartners.org Phone: 206-629-5921
+
+# E Anything Helps Internal Contact:
+
+Mike Mathias Email: mike@anything-helps.org
+
+    TASK: Create multiple-choice questions JSON with the following shape:
+    {
+      "questions": [
+        {
+          "id": "q_001",  // unique per module
+          "category": "string", // from a relevant section heading
+          "text": "Question?",
+          "options": {"A":"...","B":"...","C":"...","D":"..."},
+          "correct": "A|B|C|D",
+          "explanation": "One-sentence justification based on the source",
+          "difficulty": "Easy|Medium|Hard"
+        }
+      ]
+    }
+    RULES:
+    - Create up to 12 questions.
+    - Prefer concrete, policy-accurate content.
+    - Keep choices concise and non-overlapping.
+    - Difficulty should reflect cognitive effort.
+    - Output JSON only. No trailing commentary.

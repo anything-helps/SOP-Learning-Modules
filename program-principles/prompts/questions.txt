@@ -1,0 +1,35 @@
+You are helping create a training module for staff. Source content below came from the
+    policy PDF called "Program Principles". Generate outputs strictly as compact JSON only. Keep content
+    faithful to the source; do not invent details.
+
+    SOURCE CONTENT (outline; may be truncated):
+
+# Program Principals
+
+
+# 1. Honoring Client Voice & Choice
+
+We center each client's own goals, values, and self-defined priorities. Services are guided by what matters most to the people we serve, not by rigid program designs or external expectations. We provide information clearly, offer real choices without coercion, and honor the dignity of each decision—even when it's different from what we might choose ourselves.
+
+# 2. Community As Client
+
+    TASK: Create multiple-choice questions JSON with the following shape:
+    {
+      "questions": [
+        {
+          "id": "q_001",  // unique per module
+          "category": "string", // from a relevant section heading
+          "text": "Question?",
+          "options": {"A":"...","B":"...","C":"...","D":"..."},
+          "correct": "A|B|C|D",
+          "explanation": "One-sentence justification based on the source",
+          "difficulty": "Easy|Medium|Hard"
+        }
+      ]
+    }
+    RULES:
+    - Create up to 12 questions.
+    - Prefer concrete, policy-accurate content.
+    - Keep choices concise and non-overlapping.
+    - Difficulty should reflect cognitive effort.
+    - Output JSON only. No trailing commentary.

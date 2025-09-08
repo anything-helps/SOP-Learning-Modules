@@ -1,0 +1,38 @@
+{
+  "scenarios": [
+    {
+      "id": "s_001",
+      "title": "No Quorum",
+      "description": "Only two of seven Directors are present at a special meeting to approve a major contract.",
+      "question": "What is the correct action?",
+      "options": {"A": "Proceed anyway","B": "Obtain written consents after","C": "Adjourn; reconvene when a quorum is present","D": "Have Officers vote instead"},
+      "correct": "C",
+      "explanation": "Board business generally requires a quorum.",
+      "relatedConcepts": ["Quorum","Meetings"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "s_002",
+      "title": "Unauthorized Signatory",
+      "description": "A program manager signs a multi‑year service contract without Board‑delegated authority.",
+      "question": "How should this be addressed?",
+      "options": {"A": "Accept because it benefits clients","B": "Retroactively authorize without review","C": "Review per bylaws; require proper authorization for execution","D": "Ignore if under $50k"},
+      "correct": "C",
+      "explanation": "Contracts should be executed by authorized individuals per bylaws/Board resolution.",
+      "relatedConcepts": ["Contracts Authority","General Provisions"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "s_003",
+      "title": "Loan Request",
+      "description": "An Officer requests a short‑term personal loan from the Corporation.",
+      "question": "What do bylaws typically require?",
+      "options": {"A": "Approve if repaid in 30 days","B": "Deny; loans to insiders are prohibited","C": "Approve if documented","D": "Refer to staff"},
+      "correct": "B",
+      "explanation": "Loans to Directors/Officers are generally prohibited by bylaws.",
+      "relatedConcepts": ["Loans to Insiders"],
+      "difficulty": "easy"
+    }
+  ]
+}
+

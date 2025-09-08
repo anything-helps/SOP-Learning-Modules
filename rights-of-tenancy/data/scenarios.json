@@ -1,0 +1,69 @@
+{
+  "scenarios": [
+    {
+      "id": "s_001",
+      "title": "Notice of Entry",
+      "description": "Property staff want to enter a tenant’s unit tomorrow to check a leak, but no formal notice has been given.",
+      "question": "What should occur before entry?",
+      "options": {
+        "A": "Immediate entry without notice is allowed",
+        "B": "Provide proper notice unless there is an emergency",
+        "C": "Ask the service provider to approve entry",
+        "D": "Post a notice after entering"
+      },
+      "correct": "B",
+      "explanation": "Landlords generally must give proper notice before entry, absent an emergency.",
+      "relatedConcepts": ["Notice of Entry","RLTA"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "s_002",
+      "title": "Family with Children",
+      "description": "A leasing agent says they won’t rent upper‑floor units to families with children for ‘noise concerns’.",
+      "question": "Is this lawful?",
+      "options": {
+        "A": "Yes, if it’s written policy",
+        "B": "Yes, if noise complaints are frequent",
+        "C": "No, it likely violates the Fair Housing Act (familial status)",
+        "D": "No, but only in rent‑controlled buildings"
+      },
+      "correct": "C",
+      "explanation": "Steering or denying based on familial status is discriminatory under fair housing laws.",
+      "relatedConcepts": ["Fair Housing Act","Protected Classes"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "s_003",
+      "title": "No‑Cause Notice after Complaint",
+      "description": "After a tenant reports mold and requests repairs, the landlord issues a no‑cause notice to vacate.",
+      "question": "How should this be viewed?",
+      "options": {
+        "A": "Likely lawful if rent is current",
+        "B": "Likely retaliatory and unlawful",
+        "C": "Required by local code",
+        "D": "Acceptable if repairs are expensive"
+      },
+      "correct": "B",
+      "explanation": "Issuing a notice after a tenant asserts rights may constitute unlawful retaliation.",
+      "relatedConcepts": ["Retaliation","Habitability"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "s_004",
+      "title": "Accommodation Request",
+      "description": "A tenant with a mobility disability requests a reserved parking space close to the entrance.",
+      "question": "What is the best response?",
+      "options": {
+        "A": "Deny because spaces are first‑come, first‑served",
+        "B": "Deny unless the tenant reveals all medical records",
+        "C": "Engage in the interactive process to provide a reasonable accommodation",
+        "D": "Approve only if rent is increased"
+      },
+      "correct": "C",
+      "explanation": "Reasonable accommodations should be considered to ensure equal access.",
+      "relatedConcepts": ["Reasonable Accommodation","Fair Housing"],
+      "difficulty": "easy"
+    }
+  ]
+}
+

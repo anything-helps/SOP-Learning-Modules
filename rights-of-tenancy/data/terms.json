@@ -1,0 +1,17 @@
+{
+  "terms": [
+    {"term":"Residential Landlord‑Tenant Act (RLTA)","definition":"State law establishing rights and duties of landlords and tenants, including notice and entry rules.","category":"Programmatic Principles"},
+    {"term":"Fair Housing Act","definition":"Federal law prohibiting housing discrimination based on protected classes such as race, sex, disability, and more.","category":"Programmatic Principles"},
+    {"term":"Protected Classes","definition":"Groups shielded from discrimination under federal and state fair housing laws.","category":"Programmatic Principles"},
+    {"term":"Notice of Entry","definition":"Advance notice landlords must provide before entering a unit, except in emergencies.","category":"Lease Agreements"},
+    {"term":"Habitability","definition":"The landlord’s duty to maintain a safe, sanitary, and functional dwelling.","category":"Lease Agreements"},
+    {"term":"Reasonable Accommodation","definition":"Adjustment to policies or practices to allow equal housing opportunity for people with disabilities.","category":"Tenant Education"},
+    {"term":"Retaliation","definition":"Illegal landlord action in response to a tenant’s exercise of legal rights.","category":"Tenant Education"},
+    {"term":"Just Cause","definition":"Legal standard restricting evictions to specific, lawful reasons.","category":"Eviction"},
+    {"term":"Eviction","definition":"Court‑supervised removal of a tenant for lawful reasons; must follow due process.","category":"Eviction"},
+    {"term":"Lease Agreement","definition":"A binding contract defining tenant and landlord duties and rights.","category":"Lease Agreements"},
+    {"term":"Security Deposit","definition":"Funds held to cover damages or unpaid rent, subject to strict handling and return rules.","category":"Lease Agreements"},
+    {"term":"Discrimination","definition":"Unequal treatment in housing prohibited by law; includes refusal to rent, steering, or different terms.","category":"Programmatic Principles"}
+  ]
+}
+

@@ -1,0 +1,80 @@
+You are helping create a training module for staff. Source content below came from the
+    policy PDF called "Reconciliation and Reporting". Generate outputs strictly as compact JSON only. Keep content
+    faithful to the source; do not invent details.
+
+    SOURCE CONTENT (outline; may be truncated):
+
+# Introduction
+
+Reconciliation & Reporting
+To ensure accurate monthly reconciliations of financial statements and timely, transparent financial reporting is reviewed by the Anything Helps Board of Directors.
+
+# Reconciliation & Reporting
+
+Definitions Procedures Reconciliation Bank Reconciliation Investment Reconciliation Credit Card & Merchant Reconciliation Financial Documentation and Invoicing Internal Controls and Audits Reporting Monthly Reports Quarterly Reports
+
+# Annual Reports
+
+Definitions
+e Reconciliation: The process of comparing financial records to ensure accuracy and consistency. e Financial Reporting: The process of producing statements that disclose an organization's financial status to management, the board, and regulatory bodies.
+Procedures
+Reconciliation
+All financial statements, including bank, investment, merchant, and credit card statements, are reconciled monthly in a timely manner after the end of the month. The beginning balance on each reconciliation must match the ending balance from the prior month.
+
+# Bank Reconciliation
+
+e Copies of canceled checks are reviewed for authorized signatures and endorsements. e Bank deposits match the daily records of cash, checks, and/or credit cards processed.
+e Fund transfers are understood and approved. e Bank reconciliations are signed and dated by both the preparer and the reviewer to ensure accuracy and accountability.
+
+# Investment Reconciliation
+
+e Investment statements are thoroughly reviewed and understood. e Any necessary approvals are provided, with each statement initiated and dated by the reviewer.
+
+# Credit Card & Merchant Reconciliation
+
+e All transactions are matched against records and receipts. e Any discrepancies are investigated and resolved. e Statements are approved with dated initials from the reviewer, ensuring all charges are authorized and accounted for.
+
+# Financial Documentation And Invoicing
+
+© Submit invoices according to Project Agreement schedules.
+© Include signatures and supporting documentation for all invoices.
+© Retain receipts, timesheets, and service records for each cost.
+© Track expenses by date, amount, vendor, and purpose in an auditable system. © Submit closeout reports and reconciliations within 15 days of project end.
+
+# Internal Controls And Audits
+
+e Maintain financial systems that comply with GAAP or GASB standards.
+¢ Complete annual financial review or audit based on funding level.
+¢ Comply with Single Audit requirements if federal expenditures exceed $1 million. e Submit 990s, audits, and disclosures to KCRHA as required.
+Reporting Monthly Reports
+e Balance Sheet: All amounts must match supporting documents (e.g., bank balance equals the bank reconciliation, accounts payable matches outstanding invoices). e Statement of Revenue and Expenses: Discrepancies are explained and compared with the budget.
+
+# Quarterly Reports
+
+e Payroll tax forms: Approved and timely filed with the IRS and state agencies. e Earnings Statements: Approved and timely filed with the Department of Revenue
+
+# Annual Reports
+
+Annual Budget: Created by the finance or executive team showing expected income and expenses. Annual Financial Review: An audit is conducted by an outside accounting firm to ensure Compliance Federal Tax Form 990 is approved by the Board and filed timely.
+Annual licensing renewals are timely filed with state agencies.
+
+    TASK: Create multiple-choice questions JSON with the following shape:
+    {
+      "questions": [
+        {
+          "id": "q_001",  // unique per module
+          "category": "string", // from a relevant section heading
+          "text": "Question?",
+          "options": {"A":"...","B":"...","C":"...","D":"..."},
+          "correct": "A|B|C|D",
+          "explanation": "One-sentence justification based on the source",
+          "difficulty": "Easy|Medium|Hard"
+        }
+      ]
+    }
+    RULES:
+    - Create up to 12 questions.
+    - Prefer concrete, policy-accurate content.
+    - Keep choices concise and non-overlapping.
+    - Difficulty should reflect cognitive effort.
+    - Output JSON only. No trailing commentary.

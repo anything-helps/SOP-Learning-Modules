@@ -1,0 +1,29 @@
+You are helping create a training module for staff. Source content below came from the
+    policy PDF called "Verification of Secondary Income For Case Managers". Generate outputs strictly as compact JSON only. Keep content
+    faithful to the source; do not invent details.
+
+    SOURCE CONTENT (outline; may be truncated):
+
+# Sop: Verification Of Secondary Income For Case Managers​
+
+Effective Date: [Insert Date]​ Approved By: [Insert Approver]
+Purpose​ Ensure compliance with Washington State and federal independent contractor standards by verifying that Case Managers maintain regular income from a secondary source.
+Scope​ Applies to all Case Managers contracted as independent contractors.
+Policy​ All Case Managers must maintain active income from a secondary source. Acceptable sources include employment with another agency, self-employment, or contract work outside of their agreement with Anything Helps. Verification is required at onboarding and every six months.
+Procedure
+1.​ Complete Income Verification Form at the beginning of each agreement term.​
+2.​ Documents are automatically transferred to the Providers “Shared Drive” folder in Google Drive.​
+○​ Retain only necessary details such as name, date, and employer or business name. Redact pay amounts if present.​
+○​ Failure to provide verification within 15 calendar days of request results in suspension of assignments until received.
+
+    TASK: Extract key terms and definitions JSON:
+    {
+      "terms": [
+        {"term":"...","definition":"...","category":"string"}
+      ]
+    }
+    RULES:
+    - Create up to 24 terms.
+    - Definitions must be derived from the source wording when possible.
+    - Category should be a nearby or parent section heading.
+    - Output JSON only. No extra text.
