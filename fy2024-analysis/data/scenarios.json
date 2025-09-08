@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Expense Trim","description":"Professional services were prepaid; ongoing costs can be reduced by 10%.","question":"What is the intent of this reallocation?","options":{"A":"Reduce mission delivery","B":"Shift capacity to core services while stabilizing cash","C":"Cut salaries","D":"Raise admin spend"},"correct":"B","explanation":"Reallocation supports core delivery and cash stabilization.","relatedConcepts":["Expense Reallocation","Monthly Drift"],"difficulty":"easy"}
+  ]
+}
+

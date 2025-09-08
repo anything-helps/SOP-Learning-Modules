@@ -1,0 +1,10 @@
+{
+  "terms": [
+    {"term":"RBAC","definition":"Role‑based access control to grant least‑privilege access.","category":"Access Control"},
+    {"term":"MFA","definition":"Multi‑factor authentication to strengthen account access.","category":"Authentication"},
+    {"term":"Password Hygiene","definition":"Strong, unique passwords stored securely.","category":"Authentication"},
+    {"term":"Session Lock","definition":"Auto‑locking devices/workstations when unattended.","category":"Device Security"},
+    {"term":"Audit Logs","definition":"Records used to review access and investigate incidents.","category":"Monitoring"}
+  ]
+}
+

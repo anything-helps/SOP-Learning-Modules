@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Role Change","description":"A staff member moves from admin to outreach but retains wide system access.","question":"What is the correct step?","options":{"A":"Keep all access","B":"Update RBAC to least‑privilege for new role","C":"Disable account permanently","D":"Share credentials"},"correct":"B","explanation":"Access must reflect current responsibilities.","relatedConcepts":["RBAC","Audit Logs"],"difficulty":"easy"}
+  ]
+}
+

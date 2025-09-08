@@ -1,0 +1,8 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Policy Framework","text":"What protection does the policy guarantee for good‑faith reporters?","options":{"A":"Promotion","B":"Immunity from investigation","C":"Freedom from retaliation","D":"Cash reward"},"correct":"C","explanation":"Policy ensures no retaliation for good‑faith reporting.","difficulty":"Easy"},
+    {"id":"q_002","category":"Reporting","text":"If misconduct involves the Executive Director, reports should go to:","options":{"A":"The Executive Director","B":"The Board Chair","C":"The media","D":"Peers"},"correct":"B","explanation":"Reports involving the ED are directed to the Board Chair.","difficulty":"Easy"},
+    {"id":"q_003","category":"Reporting","text":"Anonymous reports may be submitted via:","options":{"A":"Public social media","B":"KCRHA Ombuds Office","C":"Vendor portal","D":"Payroll system"},"correct":"B","explanation":"Ombuds Office provides confidential/anonymous reporting.","difficulty":"Easy"}
+  ]
+}
+

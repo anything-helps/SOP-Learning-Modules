@@ -1,0 +1,8 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Procedures","text":"Which statement aligns with consent collection?","options":{"A":"PII can be collected without notice","B":"Explain HMIS, risks/benefits, and duration before obtaining consent","C":"Consent is implied by intake","D":"Consent never expires"},"correct":"B","explanation":"Clients should be informed about HMIS, risks/benefits, and consent duration.","difficulty":"Easy"},
+    {"id":"q_002","category":"Documentation","text":"How is verbal consent handled?","options":{"A":"Not allowed","B":"Obtain by phone and follow up with written consent at next meeting","C":"Only accept via email","D":"Skip ROI"},"correct":"B","explanation":"Verbal consent is allowed with prompt written follow‑up.","difficulty":"Easy"},
+    {"id":"q_003","category":"Special Situations","text":"If consent is declined, what should be created in HMIS?","options":{"A":"No record","B":"A de‑identified profile with privacy shield set appropriately","C":"A duplicate record","D":"A social media alias"},"correct":"B","explanation":"De‑identified profiles protect identity while enabling service tracking.","difficulty":"Medium"}
+  ]
+}
+

@@ -1,0 +1,6 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Discipline","text":"Which practice enforces budget discipline?","options":{"A":"Uncapped categories","B":"Set ceilings and explain variances before exceeding","C":"Update annually only","D":"Ignore run‑rates"},"correct":"B","explanation":"Ceilings with variance control and weekly tracking enforce discipline.","difficulty":"Easy"}
+  ]
+}
+

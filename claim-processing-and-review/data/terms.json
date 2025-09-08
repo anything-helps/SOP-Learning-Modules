@@ -1,0 +1,11 @@
+{
+  "terms": [
+    {"term":"Service Mailbox","definition":"Shared voicemail used to capture service events for compliant notes.","category":"Voicemail & Note Creation"},
+    {"term":"Compliant Note","definition":"Zapier‑generated service note with date, provider, duration, and description.","category":"Voicemail & Note Creation"},
+    {"term":"Ready to Submit","definition":"Claim status after staff review verifies details.","category":"Staff Review"},
+    {"term":"Availity","definition":"Portal used to submit claims and receive approval/denial responses.","category":"Submission"},
+    {"term":"Contractor Cost","definition":"Field set based on whether provider is staff (0) or contractor (owed amount).","category":"Submission"},
+    {"term":"21‑Day Hold","definition":"Temporary delay period referenced by payer for certain claims.","category":"Denial Handling"}
+  ]
+}
+

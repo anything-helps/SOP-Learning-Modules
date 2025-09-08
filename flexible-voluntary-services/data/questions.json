@@ -1,0 +1,8 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Programmatic Principles","text":"Which statement aligns with voluntary services?","options":{"A":"Services are required to receive assistance","B":"Clients choose supports without coercion","C":"All clients must attend weekly groups","D":"Housing is contingent on services"},"correct":"B","explanation":"The policy states services are optional and client‑directed.","difficulty":"Easy"},
+    {"id":"q_002","category":"Pre‑tenancy","text":"Which task is part of pre‑tenancy supports?","options":{"A":"Lease enforcement","B":"Budgeting and documentation for applications","C":"Eviction processing","D":"Rent collection"},"correct":"B","explanation":"Pre‑tenancy includes budgeting and documentation support.","difficulty":"Easy"},
+    {"id":"q_003","category":"Tenancy","text":"Tenancy‑sustaining services include:","options":{"A":"Coaching on independent living skills and landlord communication","B":"Mandating treatment","C":"Limiting care coordination","D":"Restricting benefits assistance"},"correct":"A","explanation":"Services help retain housing via linkage, coaching, and supports.","difficulty":"Medium"}
+  ]
+}
+

@@ -1,0 +1,10 @@
+{
+  "terms": [
+    {"term":"Engagement","definition":"Initial outreach, eligibility checks, relationship‑building, consent, and enrollment.","category":"Phases"},
+    {"term":"Assessment","definition":"Intake documenting eligibility, needs, risks, and consent.","category":"Phases"},
+    {"term":"Planning","definition":"Define goals and supports; planning voicemail; 21‑day hold begins.","category":"Phases"},
+    {"term":"Intervention","definition":"Active service delivery aligned to goals; document via service voicemail.","category":"Phases"},
+    {"term":"Evaluation","definition":"Ongoing review (at least every 30 days) in Case Conferences.","category":"Phases"}
+  ]
+}
+

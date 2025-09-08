@@ -1,0 +1,8 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Voicemail & Note Creation","text":"Which details must be in the service voicemail to build a compliant note?","options":{"A":"Provider name, client initials, date/time, description","B":"Only client name","C":"Only provider name","D":"Budget code"},"correct":"A","explanation":"Voicemail should include provider, client initials, date/time, and service description.","difficulty":"Easy"},
+    {"id":"q_002","category":"Staff Review","text":"After verifying the compliant note, staff set the sub‑item claim to:","options":{"A":"Draft","B":"Ready to Submit","C":"Paid","D":"Denied"},"correct":"B","explanation":"‘Ready to Submit’ signals the claim is prepared for payer submission.","difficulty":"Easy"},
+    {"id":"q_003","category":"Submission","text":"When submitting in Availity, how is ‘Contractor Cost’ set?","options":{"A":"Always 0","B":"Always equals Contractor Owed","C":"0 for staff provider; equals ‘Contractor Owed’ for contractors","D":"Random"},"correct":"C","explanation":"Staff providers are 0; contractors use the ‘Contractor Owed’ value.","difficulty":"Medium"}
+  ]
+}
+

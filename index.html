@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Anything Helps | SOP Learning Modules</title>
     <meta name="description" content="Landing page for SOP Learning Modules" />
+    <meta name="theme-color" content="#2563eb" />
+    <link rel="manifest" href="/assets/manifest.webmanifest" />
+    <link rel="icon" href="/assets/icons/icon-192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/assets/icons/icon-192.png" />
     <style>
       :root {
         --bg: #f9fafb;
@@ -96,6 +100,12 @@
           } catch (e) { /* ignore */ }
         }
       })();
+      // Register service worker for PWA install/offline
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/assets/sw.js').catch(()=>{});
+        });
+      }
     </script>
   </body>
   </html>

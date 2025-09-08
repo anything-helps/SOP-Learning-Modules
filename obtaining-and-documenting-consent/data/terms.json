@@ -1,0 +1,9 @@
+{
+  "terms": [
+    {"term":"Informed Consent","definition":"Clients receive clear information and voluntarily agree to data collection and use.","category":"Definitions"},
+    {"term":"ROI Consent Form","definition":"Release of Information form authorizing entry of PII into HMIS.","category":"Definitions"},
+    {"term":"De‑identified Profile","definition":"HMIS record without identifying details when consent is declined or restricted.","category":"Definitions"},
+    {"term":"Minimum Necessary","definition":"Only collect, use, and share the least information required.","category":"Principles"}
+  ]
+}
+

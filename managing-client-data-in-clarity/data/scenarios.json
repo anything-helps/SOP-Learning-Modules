@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Duplicate Prevention","description":"A client may already exist in the system with a similar name.","question":"What should you do?","options":{"A":"Create anyway","B":"Search by first three letters and verify SSN/DOB before creating","C":"Use middle name only","D":"Skip ROI"},"correct":"B","explanation":"Search and verify prevents duplicate records.","relatedConcepts":["Client Intake","Dynamic Field"],"difficulty":"easy"}
+  ]
+}
+

@@ -1,0 +1,8 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Client Intake","text":"Before adding a client, you should:","options":{"A":"Create the record first","B":"Search by first three letters of first/last name and verify SSN/DOB","C":"Skip search for speed","D":"Use a nickname"},"correct":"B","explanation":"Search and verify to avoid duplicates.","difficulty":"Easy"},
+    {"id":"q_002","category":"Documentation","text":"If ROI is soft‑required and missing, Clarity will:","options":{"A":"Block client creation","B":"Show a yellow bar but allow creation","C":"Email the client","D":"Auto‑create ROI"},"correct":"B","explanation":"A yellow bar indicates missing ROI without blocking creation.","difficulty":"Easy"},
+    {"id":"q_003","category":"Data Management","text":"The Annual Assessment should be completed:","options":{"A":"Any time","B":"Within 30 days of program start anniversary","C":"Only at exit","D":"Only when requested by funder"},"correct":"B","explanation":"Timing aligns with HMIS requirements.","difficulty":"Medium"}
+  ]
+}
+

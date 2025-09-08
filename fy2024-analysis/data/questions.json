@@ -1,0 +1,6 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Finance","text":"What is the purpose of the adjusted scenario?","options":{"A":"Increase discretionary spend","B":"Demonstrate break‑even via modest income rise and trimmed costs","C":"Eliminate payroll","D":"Defer all expenses"},"correct":"B","explanation":"Scenario shows near break‑even by modest income increase and targeted reductions.","difficulty":"Easy"}
+  ]
+}
+

@@ -1,0 +1,8 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Phases","text":"Which phase includes the enrollment form and consent?","options":{"A":"Intervention","B":"Engagement","C":"Evaluation","D":"Planning"},"correct":"B","explanation":"Engagement includes outreach, explanation, and enrollment with consent.","difficulty":"Easy"},
+    {"id":"q_002","category":"Phases","text":"During Planning, what starts that affects claim payments?","options":{"A":"Annual assessment window","B":"21‑day hold","C":"Eligibility recertification","D":"Exit planning"},"correct":"B","explanation":"A 21‑day hold begins during Planning.","difficulty":"Medium"},
+    {"id":"q_003","category":"Documentation","text":"Intervention services must be documented:","options":{"A":"In monthly email","B":"Via Service Mailbox voicemail with required details","C":"On paper only","D":"Not required"},"correct":"B","explanation":"Voicemails include provider, client initials, date/time, and description.","difficulty":"Easy"}
+  ]
+}
+

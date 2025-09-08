@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Pre‑Tenancy Budget","description":"A client is unsure they can afford a unit they like.","question":"What is the best support?","options":{"A":"Decide for them","B":"Complete a budgeting exercise and review obligations of tenancy","C":"Require job before lease","D":"Decline help"},"correct":"B","explanation":"Pre‑tenancy supports include budgeting and planning.","relatedConcepts":["Pre‑Tenancy Supports","Person‑Centered Plan"],"difficulty":"easy"}
+  ]
+}
+

@@ -1,0 +1,7 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Access Control","text":"RBAC primarily enforces:","options":{"A":"Access based on convenience","B":"Least‑privilege access by role","C":"Shared accounts","D":"Global admin rights"},"correct":"B","explanation":"Roles limit access to what is needed for duties.","difficulty":"Easy"},
+    {"id":"q_002","category":"Authentication","text":"Which control strengthens account security?","options":{"A":"Password reuse","B":"MFA","C":"Public Wi‑Fi","D":"Browser autologin for all"},"correct":"B","explanation":"MFA adds a second factor to reduce compromise risk.","difficulty":"Easy"}
+  ]
+}
+

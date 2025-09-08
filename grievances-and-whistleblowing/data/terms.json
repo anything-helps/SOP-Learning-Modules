@@ -1,0 +1,10 @@
+{
+  "terms": [
+    {"term":"Whistleblower","definition":"Person reporting misconduct, violations, or illegal activity in good faith.","category":"Definitions"},
+    {"term":"Retaliation","definition":"Adverse action taken against a person for making a good‑faith report.","category":"Definitions"},
+    {"term":"Good Faith Report","definition":"A report made honestly without malice or personal gain.","category":"Definitions"},
+    {"term":"Confidentiality","definition":"Protecting reporter identity to the extent possible during investigations.","category":"Policy Framework"},
+    {"term":"Ombuds Office","definition":"Independent channel for confidential or anonymous reporting.","category":"Reporting"}
+  ]
+}
+

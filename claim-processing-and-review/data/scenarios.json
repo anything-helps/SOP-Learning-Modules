@@ -1,0 +1,7 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Compliant Note Check","description":"A voicemail was transcribed but lacks the service duration.","question":"What should staff do before submission?","options":{"A":"Submit anyway","B":"Edit the note to add/verify missing details and set status when complete","C":"Delete the claim","D":"Email the payer"},"correct":"B","explanation":"Claims should include required details before moving to ‘Ready to Submit’.",
+      "relatedConcepts":["Voicemail & Note Creation","Staff Review"],"difficulty":"easy"}
+  ]
+}
+

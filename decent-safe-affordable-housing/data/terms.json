@@ -1,0 +1,9 @@
+{
+  "terms": [
+    {"term":"Chronically Homeless","definition":"Homeless for a year or repeatedly with a disabling condition.","category":"Definitions"},
+    {"term":"Unsheltered Homelessness","definition":"Staying in places not meant for habitation; used to contrast with shelter.","category":"Definitions"},
+    {"term":"Safety in Familiarity","definition":"Recognition that some clients feel safer in familiar environments and need paced transitions.","category":"Principles"},
+    {"term":"Client Pace","definition":"Transitions occur when the client is ready; respect location and household composition.","category":"Principles"}
+  ]
+}
+

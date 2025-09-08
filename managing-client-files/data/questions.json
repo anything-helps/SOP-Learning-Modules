@@ -1,0 +1,8 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Income","text":"Which is valid income verification?","options":{"A":"Pay stubs covering last 30 days","B":"Handwritten note","C":"Social media post","D":"Verbal statement only"},"correct":"A","explanation":"Recent pay stubs are standard verification.","difficulty":"Easy"},
+    {"id":"q_002","category":"Housing","text":"Which document demonstrates tenancy?","options":{"A":"Old mail","B":"Current signed lease","C":"Flyer","D":"Business card"},"correct":"B","explanation":"A current, signed lease is housing verification.","difficulty":"Easy"},
+    {"id":"q_003","category":"Financial","text":"Which items are typical financial records?","options":{"A":"Credit report and bank statements","B":"Shopping list","C":"Selfie","D":"Event ticket"},"correct":"A","explanation":"Financial records include credit reports and bank statements.","difficulty":"Easy"}
+  ]
+}
+

@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Trigger for Update","description":"A funder changes reporting requirements affecting case notes.","question":"What should the team do?","options":{"A":"Ignore until next year","B":"Update documentation within the defined timeline and notify stakeholders","C":"Change practice but not docs","D":"Ask IT only"},"correct":"B","explanation":"New policy/changes should trigger timely documentation updates.","relatedConcepts":["Continuous Improvement","Areas of Responsibility"],"difficulty":"medium"}
+  ]
+}
+

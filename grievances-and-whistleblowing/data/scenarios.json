@@ -1,0 +1,7 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Reporting the ED","description":"A staff member observes misconduct by the Executive Director.","question":"Where should they report?","options":{"A":"To the ED","B":"To the Board Chair or designated committee","C":"To a peer","D":"Nowhere if anonymous"},"correct":"B","explanation":"The policy directs ED complaints to the Board Chair or special committee.","relatedConcepts":["Reporting Violations"],"difficulty":"easy"},
+    {"id":"s_002","title":"Anonymous Hotline","description":"A volunteer wants to report a violation anonymously.","question":"What channel is appropriate?","options":{"A":"Talk to the media","B":"Use the KCRHA Ombuds Office","C":"Tell a friend","D":"Email HR from personal account"},"correct":"B","explanation":"Ombuds Office supports confidential/anonymous reporting.","relatedConcepts":["Ombuds Office","Confidentiality"],"difficulty":"easy"}
+  ]
+}
+

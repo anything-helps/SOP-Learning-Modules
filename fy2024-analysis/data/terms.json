@@ -1,0 +1,8 @@
+{
+  "terms": [
+    {"term":"Scenario Analysis","definition":"Exploring revenue and expense adjustments to assess cash impact.","category":"Finance"},
+    {"term":"Expense Reallocation","definition":"Reducing discretionary costs to prioritize program delivery.","category":"Finance"},
+    {"term":"Monthly Drift","definition":"Net change in cash based on estimated surplus/deficit.","category":"Finance"}
+  ]
+}
+

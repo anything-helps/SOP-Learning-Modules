@@ -1,0 +1,10 @@
+{
+  "terms": [
+    {"term":"Income Verification","definition":"Documents confirming income (pay stubs, W‑2, 1099, benefit statements).","category":"Income"},
+    {"term":"Housing Verification","definition":"Documents proving tenancy and housing conditions (lease, inspections, landlord notices).","category":"Housing"},
+    {"term":"Financial Records","definition":"Bank statements, credit report, debt schedule, tax returns, assets.","category":"Financial"},
+    {"term":"Background Information","definition":"Criminal checks, employment/education verification, references.","category":"Background"},
+    {"term":"Retention","definition":"Maintaining records as required by policy and funders.","category":"Records"}
+  ]
+}
+

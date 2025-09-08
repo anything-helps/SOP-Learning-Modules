@@ -1,0 +1,8 @@
+{
+  "terms": [
+    {"term":"Secondary Income","definition":"Ongoing income from a source separate from the AH contract (employment, self‑employment, other contracts).","category":"Policy"},
+    {"term":"Verification Interval","definition":"Onboarding and every six months thereafter.","category":"Procedure"},
+    {"term":"Minimum Data Retention","definition":"Retain only necessary details (name, date, employer/business); redact amounts.","category":"Privacy"}
+  ]
+}
+

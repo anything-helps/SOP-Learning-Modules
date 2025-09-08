@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Mid‑Month Overrun","description":"Office & Admin is at 70% of budget by mid‑month.","question":"What should be done?","options":{"A":"Ignore","B":"Freeze discretionary items and review weekly","C":"Shift to personal expenses","D":"Raise the ceiling automatically"},"correct":"B","explanation":"Freeze discretionary items when mid‑month run‑rate is high.","relatedConcepts":["Weekly Tracking","Category Ceilings"],"difficulty":"easy"}
+  ]
+}
+

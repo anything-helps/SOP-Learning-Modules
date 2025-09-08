@@ -1,0 +1,10 @@
+{
+  "terms": [
+    {"term":"Dynamic Field","definition":"Conditional fields that appear based on entered data to streamline intake.","category":"Definitions"},
+    {"term":"Program Enrollment","definition":"Recording a client’s participation in a program in Clarity.","category":"Definitions"},
+    {"term":"Public Alerts","definition":"Flags for urgent needs that should be removed when resolved.","category":"Data Management"},
+    {"term":"Status Assessment","definition":"Update to client data when circumstances change.","category":"Data Management"},
+    {"term":"Annual Assessment","definition":"Assessment completed within 30 days of program start anniversary.","category":"Data Management"}
+  ]
+}
+

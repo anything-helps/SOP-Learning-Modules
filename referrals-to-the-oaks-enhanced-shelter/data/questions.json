@@ -1,0 +1,8 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Eligibility","text":"Which category qualifies for referral?","options":{"A":"Housed with lease","B":"Literally homeless (unsheltered or emergency shelter)","C":"Minors under 18","D":"New pets during stay"},"correct":"B","explanation":"Eligibility includes HUD Category 1: Literally Homeless.","difficulty":"Easy"},
+    {"id":"q_002","category":"Suitability","text":"Which suitability factor is required?","options":{"A":"Willingness to live communally and engage with housing case management","B":"Ownership of car","C":"No health conditions","D":"Daily curfew"},"correct":"A","explanation":"Suitability includes communal living and engagement.","difficulty":"Easy"},
+    {"id":"q_003","category":"Process","text":"After submission, clients are placed in:","options":{"A":"Immediate intake","B":"A rolling referral pool with wait period","C":"Denial list","D":"Shelter-to-housing pipeline"},"correct":"B","explanation":"The shelter maintains a rolling referral pool and intakes 5–10 per month.","difficulty":"Medium"}
+  ]
+}
+

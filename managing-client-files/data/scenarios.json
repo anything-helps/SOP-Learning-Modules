@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Lease Missing","description":"A file lacks the current signed lease but has utility bills.","question":"What is required to complete housing verification?","options":{"A":"Nothing more","B":"Obtain a copy of the current signed lease or equivalent proof per policy","C":"Use last year’s lease","D":"Use a photo of the building"},"correct":"B","explanation":"Ensure current lease or acceptable equivalent is on file.","relatedConcepts":["Housing Verification","Retention"],"difficulty":"easy"}
+  ]
+}
+

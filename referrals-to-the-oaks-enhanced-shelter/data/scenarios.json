@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Fast Intake Window","description":"The shelter offers a bed with <48 hours to arrive.","question":"What should staff do?","options":{"A":"Wait for next opening","B":"Coordinate transport if needed and notify the client promptly","C":"Decline for now","D":"Request 2‑week hold"},"correct":"B","explanation":"Stay in close contact and arrange rideshare if necessary to meet the short window.","relatedConcepts":["Referral Pool","Follow‑up"],"difficulty":"easy"}
+  ]
+}
+

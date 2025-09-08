@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Paced Transition","description":"A client prefers to wait for a unit near their current encampment due to safety concerns.","question":"How should staff proceed?","options":{"A":"Push immediate relocation","B":"Respect location preference and plan a paced move","C":"Close the case","D":"Require shelter first"},"correct":"B","explanation":"Honor location/household preferences and pace.","relatedConcepts":["Client Pace","Safety in Familiarity"],"difficulty":"easy"}
+  ]
+}
+

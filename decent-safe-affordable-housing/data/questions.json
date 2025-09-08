@@ -1,0 +1,7 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Principles","text":"What is the purpose of this policy?","options":{"A":"Short‑term shelter placement only","B":"Ensure viable, safe options restoring the right to housing","C":"Require rapid transitions for all","D":"Centralize clients"},"correct":"B","explanation":"The policy emphasizes safe, long‑term housing aligned with client perception and rights.","difficulty":"Easy"},
+    {"id":"q_002","category":"Principles","text":"‘Safety in familiarity’ suggests:","options":{"A":"Move clients immediately","B":"Honor client pace and comfort with familiar environments","C":"Avoid community locations","D":"Impose curfews"},"correct":"B","explanation":"Paced transitions respect safety and familiarity.","difficulty":"Medium"}
+  ]
+}
+

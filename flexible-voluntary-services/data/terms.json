@@ -1,0 +1,10 @@
+{
+  "terms": [
+    {"term":"Flexible Services","definition":"Personalized, optional supports tailored to client goals and needs.","category":"Programmatic Principles"},
+    {"term":"Pre‑Tenancy Supports","definition":"Assistance with budgeting, documentation, applications, and credit to prepare for housing.","category":"Pre‑tenancy"},
+    {"term":"Tenancy‑Sustaining Services","definition":"Linkage and coaching to retain housing: health, benefits, skills, landlord communication.","category":"Tenancy"},
+    {"term":"Person‑Centered Plan","definition":"Short‑ and long‑term measurable goals with supports aligned to client priorities.","category":"Planning"},
+    {"term":"Voluntary Engagement","definition":"Clients choose which supports to use; assistance is not contingent on participation.","category":"Programmatic Principles"}
+  ]
+}
+

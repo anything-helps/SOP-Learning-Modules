@@ -1,0 +1,7 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Weekly Case Conferences","description":"A client has not been discussed in over 45 days.","question":"What should occur?","options":{"A":"Wait until exit","B":"Review in the next weekly Case Conference and update goals/notes","C":"Close service","D":"Refer without review"},"correct":"B","explanation":"Evaluation requires periodic reviews (at least every 30 days).",
+      "relatedConcepts":["Evaluation","Case Conferences"],"difficulty":"easy"}
+  ]
+}
+

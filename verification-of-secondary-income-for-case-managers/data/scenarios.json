@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Missing Verification","description":"A contractor has not submitted secondary income verification within 15 days of request.","question":"What should occur per policy?","options":{"A":"Continue assignments","B":"Suspend assignments until verification is received","C":"Terminate immediately","D":"Ignore"},"correct":"B","explanation":"Assignments are suspended until verification is provided.","relatedConcepts":["Verification Interval","Procedure"],"difficulty":"easy"}
+  ]
+}
+

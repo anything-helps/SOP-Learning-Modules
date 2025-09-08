@@ -1,0 +1,9 @@
+{
+  "terms": [
+    {"term":"Systemization","definition":"Documenting and standardizing processes for clarity, accountability, and scale.","category":"Introduction"},
+    {"term":"Chart of Activities","definition":"Catalog of routine tasks within domains to guide documentation.","category":"Standards"},
+    {"term":"Areas of Responsibility","definition":"Functional domains with owners and role clarity.","category":"Standards"},
+    {"term":"Continuous Improvement","definition":"Scheduled reviews and staff feedback to keep documentation current.","category":"Ongoing Review"}
+  ]
+}
+

@@ -1,0 +1,8 @@
+{
+  "terms": [
+    {"term":"Category Ceilings","definition":"Treat line items as maximum spend; require variance explanations to exceed.","category":"Discipline"},
+    {"term":"Weekly Tracking","definition":"Enter actuals weekly and freeze discretionary items if mid‑month run‑rate is high.","category":"Discipline"},
+    {"term":"Revenue Checkpoint","definition":"Revisit budget after first invoice cycle to confirm income target.","category":"Discipline"}
+  ]
+}
+

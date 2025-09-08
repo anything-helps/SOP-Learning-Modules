@@ -14,6 +14,7 @@
         <h1 id="mod-title">Learning Module</h1>
         <p class="muted"><a id="pdf-link" href="#" target="_blank" rel="noopener">View PDF</a></p>
         <p class="muted"><a href="../">← Back to all modules</a></p>
+        <div id="xp" class="xp-badge" aria-live="polite" style="margin-top:8px;display:inline-flex">⭐ <span id="xp-points">0</span> pts</div>
       </div>
       <div class="card">
         <div class="tabs">
@@ -93,7 +94,7 @@
       const title = meta.title || slug.replace(/-/g,' ');
       document.title = `${title}`;
       const el = $('#mod-title'); if (el) el.textContent = `${title}`;
-    }catch{}
+  }catch{}
   }
 
   async function loadSections(){
@@ -128,11 +129,17 @@
   }
   async function loadQuestions(){
     const box = $('#qlist'); const empty=$('#qempty'); const reveal=$('#revealAllQ');
+    const slug = slugFromPath();
+    const storeKey = `ahls:progress:${slug}`;
+    const xpEl = $('#xp-points');
+    const progress = JSON.parse(localStorage.getItem(storeKey) || '{}');
+    progress.points = progress.points || 0;
+    progress.answered = progress.answered || {};
     try{
       const res = await fetch('./data/questions.json',{cache:'no-store'}); if(!res.ok) throw new Error('missing');
       const data = await res.json(); const qs = data.questions||[]; if(!qs.length) throw new Error('empty');
       box.innerHTML = qs.map((q,i)=>renderQuestion(q,i)).join('');
-      box.querySelectorAll('.q').forEach((el)=>{
+      box.querySelectorAll('.q').forEach((el, i)=>{
         const correct=(el.dataset.ans||'').trim(); const ex=el.querySelector('.ex');
         el.querySelector('.check').addEventListener('click',()=>{
           const choice=el.querySelector('input[type=radio]:checked');
@@ -143,6 +150,12 @@
           if(idx!==undefined) labels[idx].classList.add(selected===correct?'correct':'incorrect');
           if(cidx!==undefined) labels[cidx].classList.add('correct');
           ex.style.display='block'; ex.textContent=`Answer: ${correct}`;
+          const qid = `q_${i}`;
+          if (selected===correct && !progress.answered[qid]) {
+            progress.answered[qid]=true; progress.points += 10; xpEl.textContent = String(progress.points); saveProgress(storeKey, progress); toast('Correct! +10 pts', 'success');
+          } else if (selected!==correct) {
+            toast('Not quite—try again', 'error');
+          }
         });
       });
       if (reveal) reveal.addEventListener('click',()=>{
@@ -174,7 +187,10 @@
       if(empty) empty.style.display='none'; const cur=deck[idx]; termEl.textContent=cur.term||''; defEl.textContent=cur.definition||''; defEl.style.display=revealed?'block':'none'; statusEl.textContent=`${idx+1} / ${deck.length}`; btnReveal.textContent=revealed?'Hide':'Reveal'; }
     function next(){ if(deck.length){ idx=(idx+1)%deck.length; revealed=false; render(); } }
     function prev(){ if(deck.length){ idx=(idx-1+deck.length)%deck.length; revealed=false; render(); } }
-    function reveal(){ if(deck.length){ revealed=!revealed; render(); } }
+        function reveal(){ if(deck.length){
+          revealed=!revealed; render();
+          if (revealed) { const key=`ahls:progress:${slugFromPath()}`; const st=JSON.parse(localStorage.getItem(key)||'{}'); st.points=(st.points||0)+1; localStorage.setItem(key,JSON.stringify(st)); const xpEl=$('#xp-points'); if (xpEl) xpEl.textContent=String(st.points); toast('Revealed +1 pt','success'); }
+        } }
     function shuffle(){ for(let i=deck.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [deck[i],deck[j]]=[deck[j],deck[i]]; } idx=0; revealed=false; render(); }
     btnNext.addEventListener('click', next); btnPrev.addEventListener('click', prev); btnReveal.addEventListener('click', reveal); btnShuffle.addEventListener('click', shuffle);
     catSel.addEventListener('change', applyFilters); search.addEventListener('input', applyFilters);
@@ -198,9 +214,11 @@
   }
   async function loadScenarios(){
     const box = $('#slist'); const empty=$('#sempty');
+    const slug = slugFromPath(); const storeKey=`ahls:progress:${slug}`; const xpEl=$('#xp-points');
+    const progress = JSON.parse(localStorage.getItem(storeKey) || '{}'); progress.points=progress.points||0; progress.scAnswered=progress.scAnswered||{};
     try{ const res=await fetch('./data/scenarios.json',{cache:'no-store'}); if(!res.ok) throw new Error('missing'); const data=await res.json(); const items=data.scenarios||[]; if(!items.length) throw new Error('empty');
       box.innerHTML = items.map((s,i)=>renderScenario(s,i)).join('');
-      box.querySelectorAll('.q').forEach((el)=>{
+      box.querySelectorAll('.q').forEach((el,i)=>{
         const correct=(el.dataset.ans||'').trim(); const ex=el.querySelector('.ex');
         el.querySelector('.check').addEventListener('click',()=>{
           const choice=el.querySelector('input[type=radio]:checked');
@@ -211,9 +229,19 @@
           if(idx!==undefined) labels[idx].classList.add(selected===correct?'correct':'incorrect');
           if(cidx!==undefined) labels[cidx].classList.add('correct');
           ex.style.display='block'; ex.textContent=`Answer: ${correct}`;
+          const sid=`s_${i}`;
+          if (selected===correct && !progress.scAnswered[sid]) { progress.scAnswered[sid]=true; progress.points+=5; xpEl.textContent=String(progress.points); localStorage.setItem(storeKey, JSON.stringify(progress)); toast('Nice! +5 pts', 'success'); }
+          else if (selected!==correct) { toast('Not quite—try again', 'error'); }
         });
       });
     }catch(e){ if(empty) empty.style.display='block'; }
+  }
+
+  // Progress helpers & toasts
+  function saveProgress(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }
+  function toast(text, type){
+    const t=document.createElement('div'); t.className='toast'+(type?` ${type}`:''); t.textContent=text; document.body.appendChild(t);
+    setTimeout(()=>{ t.style.opacity='0'; setTimeout(()=>{ t.remove(); }, 300); }, 1200);
   }
 
   document.addEventListener('DOMContentLoaded', ()=>{
@@ -230,5 +258,6 @@
     loadQuestions();
     loadScenarios();
     loadFlashcards();
+    if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/assets/sw.js').catch(()=>{}); }
   });
 })();

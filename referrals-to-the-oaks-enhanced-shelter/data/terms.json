@@ -1,0 +1,9 @@
+{
+  "terms": [
+    {"term":"Literally Homeless","definition":"Sleeping in places not meant for habitation or emergency shelter.","category":"Eligibility"},
+    {"term":"Suitability Criteria","definition":"Age 18+, local area, communal living, case management engagement, basic self‑management.","category":"Suitability"},
+    {"term":"Referral Pool","definition":"Rolling pool of active referrals used by the shelter to manage intakes.","category":"Process"},
+    {"term":"Ombuds / Contact","definition":"Staying responsive to shelter requests; maintain contact with client during wait.","category":"Follow‑up"}
+  ]
+}
+

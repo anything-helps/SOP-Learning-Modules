@@ -1,0 +1,7 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Policy","text":"Case Managers contracted as independent contractors must:","options":{"A":"Rely solely on AH income","B":"Maintain active secondary income","C":"Provide weekly timesheets only","D":"Own a business"},"correct":"B","explanation":"Policy requires maintaining secondary income.","difficulty":"Easy"},
+    {"id":"q_002","category":"Procedure","text":"How often is verification required?","options":{"A":"Annually","B":"Only at hire","C":"At onboarding and every six months","D":"Only on request"},"correct":"C","explanation":"Verification occurs at onboarding and semi‑annually.","difficulty":"Easy"}
+  ]
+}
+

@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Consent Refused","description":"A client declines to sign the HMIS ROI but agrees to limited services.","question":"What is the appropriate HMIS action?","options":{"A":"No record","B":"Create a de‑identified profile and set privacy accordingly","C":"Enter full PII without consent","D":"Ask a family member to sign"},"correct":"B","explanation":"Use de‑identified records when consent is refused.","relatedConcepts":["De‑identified Profile","Privacy Shield"],"difficulty":"easy"}
+  ]
+}
+

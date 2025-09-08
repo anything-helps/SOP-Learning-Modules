@@ -1,0 +1,7 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Introduction","text":"The primary goal of systemization is to:","options":{"A":"Centralize all work to one role","B":"Document and standardize processes for clarity and scale","C":"Reduce transparency","D":"Avoid updates"},"correct":"B","explanation":"Documentation and standards improve clarity, collaboration, and scalability.","difficulty":"Easy"},
+    {"id":"q_002","category":"Standards","text":"Which artifact lists routine tasks to document?","options":{"A":"Board minutes","B":"Chart of Activities","C":"Budget","D":"Annual report"},"correct":"B","explanation":"The chart lists activities within domains for documentation.","difficulty":"Easy"}
+  ]
+}
+
