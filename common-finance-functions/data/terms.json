@@ -1,0 +1,11 @@
+{
+  "terms": [
+    {"term":"Vendor Bill","definition":"Document recording a payable and expense recognition.","category":"Paying Contractors"},
+    {"term":"Accounts Payable (AP)","definition":"Liability to vendors recorded when a bill is posted.","category":"Paying Contractors"},
+    {"term":"Outstanding Payments","definition":"Temporary liability for payments in transit (e.g., NACHA).","category":"Paying Contractors"},
+    {"term":"NACHA","definition":"Automated Clearing House file method for bank payments.","category":"Payments"},
+    {"term":"Bank Reconciliation","definition":"Matching bank transactions to payments to clear in‑transit balances.","category":"Reconciliation"},
+    {"term":"Recurring Expense","definition":"Subscription or service charged automatically and recorded from bank feed.","category":"Subscriptions"}
+  ]
+}
+

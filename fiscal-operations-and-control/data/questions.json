@@ -1,0 +1,8 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Policy","text":"What is the primary purpose of fiscal operations & controls?","options":{"A":"Increase spending","B":"Safeguard assets, ensure accuracy, and compliance","C":"Eliminate documentation","D":"Avoid audits"},"correct":"B","explanation":"Controls protect assets, accuracy, and compliance to maintain integrity.","difficulty":"Easy"},
+    {"id":"q_002","category":"Definitions","text":"What is an audit trail?","options":{"A":"Annual tax return","B":"Record linking entries to their source documents","C":"Vendor price list","D":"Budget scenario"},"correct":"B","explanation":"Audit trails support verification and transparency.","difficulty":"Easy"},
+    {"id":"q_003","category":"Definitions","text":"Restricted funds must be:","options":{"A":"Used for general operations","B":"Used only for donor‑defined purposes","C":"Held in cash only","D":"Returned annually"},"correct":"B","explanation":"Use is limited by the donor or grantor.","difficulty":"Easy"}
+  ]
+}
+

@@ -1,0 +1,17 @@
+{
+  "terms": [
+    {"term":"GAAP","definition":"Generally Accepted Accounting Principles guiding nonprofit financial reporting.","category":"Key Principles"},
+    {"term":"Form 990","definition":"Annual IRS information return for nonprofits; COA supports proper reporting.","category":"Key Principles"},
+    {"term":"Net Assets","definition":"Nonprofit equivalent of retained earnings; reported as without/with donor restrictions.","category":"Key Principles"},
+    {"term":"Functional Expense Categories","definition":"Program, Management & General (Admin), and Fundraising.","category":"Key Principles"},
+    {"term":"Reconciliation Enabled","definition":"Flag for accounts matched to external statements (e.g., bank, AP/AR).","category":"Key Principles"},
+    {"term":"Analytic Tags","definition":"Program/fund/grant tags applied for reporting and restrictions.","category":"Odoo Use"},
+    {"term":"Default Journal","definition":"Journal preselected for entries to streamline classification.","category":"Odoo Use"},
+    {"term":"Account Code","definition":"Numeric/alpha code that orders accounts and groups categories.","category":"COA Fields"},
+    {"term":"Account Type","definition":"Classification (asset, liability, net assets, revenue, expense) driving reporting behavior.","category":"COA Fields"},
+    {"term":"Assets / Liabilities","definition":"Balance sheet groupings for resources and obligations.","category":"Categories"},
+    {"term":"Revenue / Expense","definition":"Income statement groupings for inflows and outflows.","category":"Categories"},
+    {"term":"ERP (Odoo)","definition":"System used to implement the COA and automate postings.","category":"Odoo Use"}
+  ]
+}
+

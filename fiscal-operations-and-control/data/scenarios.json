@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Missing Documentation","description":"A large disbursement lacks source documentation in the file.","question":"What is the appropriate control action?","options":{"A":"Post anyway","B":"Obtain and attach the missing documentation to preserve the audit trail","C":"Delete the entry","D":"Record to miscellaneous"},"correct":"B","explanation":"Complete documentation is part of a reliable audit trail.","relatedConcepts":["Audit Trail","Internal Controls"],"difficulty":"easy"}
+  ]
+}
+

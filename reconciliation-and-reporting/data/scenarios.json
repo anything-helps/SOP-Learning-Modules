@@ -1,0 +1,7 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Missing Reviewer Initials","description":"A completed bank reconciliation lacks reviewer initials and date.","question":"What should happen?","options":{"A":"Nothing; preparer signature is enough","B":"Reviewer should sign and date after review","C":"Discard the reconciliation","D":"Reconcile quarterly instead"},"correct":"B","explanation":"Reconciliations should be signed/dated by preparer and reviewer.","relatedConcepts":["Bank Reconciliation","Monthly Close"],"difficulty":"easy"},
+    {"id":"s_002","title":"Merchant Discrepancy","description":"Card statement has a charge with no matching receipt.","question":"What is the correct next step?","options":{"A":"Ignore if small","B":"Investigate discrepancy and obtain missing documentation","C":"Charge to admin","D":"Wait until year end"},"correct":"B","explanation":"Discrepancies should be resolved; retain supporting documents.","relatedConcepts":["Merchant/Credit Card Reconciliation","Documentation"],"difficulty":"medium"}
+  ]
+}
+

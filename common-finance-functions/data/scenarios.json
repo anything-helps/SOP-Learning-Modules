@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"NACHA Payment Flow","description":"A vendor bill was paid via NACHA yesterday; today the bank file posts.","question":"What reconciliation is expected?","options":{"A":"Match bank withdrawal to the bill","B":"Match bank withdrawal to the NACHA payment and clear Outstanding Payments","C":"Record a new bill","D":"No action"},"correct":"B","explanation":"The bank transaction is matched to the payment and clears the in‑transit balance.","relatedConcepts":["Outstanding Payments","Bank Reconciliation"],"difficulty":"medium"}
+  ]
+}
+

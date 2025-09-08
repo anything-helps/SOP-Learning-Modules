@@ -1,0 +1,7 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"New Restricted Grant","description":"A new grant requires tracking restricted revenue and expenses by grantor.","question":"How should the COA and ERP be configured?","options":{"A":"Use miscellaneous income","B":"Create revenue/expense accounts with Analytic Tags for the grant and mark restrictions in reporting","C":"Disable reconciliation on bank","D":"Use one catch‑all tag"},"correct":"B","explanation":"Use proper accounts with tags to track grantor and restrictions.","relatedConcepts":["Analytic Tags","Net Assets"],"difficulty":"medium"},
+    {"id":"s_002","title":"Reconciliation Flag","description":"An accountant enables reconciliation on Office Supplies.","question":"Is this correct?","options":{"A":"Yes, for all expense accounts","B":"Yes, to catch errors","C":"No, reconciliation is for accounts matched to external statements","D":"Only if over $500"},"correct":"C","explanation":"Only accounts matched to statements (bank, AP/AR) typically use reconciliation.","relatedConcepts":["Reconciliation Enabled"],"difficulty":"easy"}
+  ]
+}
+

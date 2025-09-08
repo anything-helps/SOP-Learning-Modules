@@ -1,0 +1,15 @@
+{
+  "terms": [
+    {"term":"Reconciliation","definition":"Comparing internal records with external statements to ensure accuracy and consistency.","category":"Definitions"},
+    {"term":"Bank Reconciliation","definition":"Matching bank statements to the general ledger and deposit/withdrawal records.","category":"Reconciliation"},
+    {"term":"Investment Reconciliation","definition":"Reviewing investment statements and approvals, noted and dated by the reviewer.","category":"Reconciliation"},
+    {"term":"Merchant/Credit Card Reconciliation","definition":"Matching card statements to receipts and resolving discrepancies.","category":"Reconciliation"},
+    {"term":"Monthly Close","definition":"Timely month‑end process including reconciliations and reviews.","category":"Procedures"},
+    {"term":"Financial Documentation","definition":"Invoices, receipts, timesheets, and records retained to support billed costs.","category":"Documentation"},
+    {"term":"Internal Controls & Audits","definition":"GAAP/GASB alignment, annual review/audit, and compliance with funding thresholds.","category":"Compliance"},
+    {"term":"Monthly Reports","definition":"Balance Sheet and Statement of Revenue & Expenses reviewed for variances and matches to support.","category":"Reporting"},
+    {"term":"Quarterly Reports","definition":"Payroll tax and revenue filings submitted accurately and on time.","category":"Reporting"},
+    {"term":"Annual Reports","definition":"Budget, financial review/audit, Form 990, and licensing renewals.","category":"Reporting"}
+  ]
+}
+

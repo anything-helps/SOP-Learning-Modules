@@ -1,0 +1,8 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Paying Contractors","text":"Posting a vendor bill does what?","options":{"A":"Pays cash immediately","B":"Recognizes expense and AP liability","C":"Creates a grant","D":"Closes the month"},"correct":"B","explanation":"Vendor bill posts the expense and AP.","difficulty":"Easy"},
+    {"id":"q_002","category":"Payments","text":"When paying via NACHA, which account may be used for in‑transit funds?","options":{"A":"Office Supplies","B":"Outstanding Payments","C":"Restricted Net Assets","D":"Prepaids"},"correct":"B","explanation":"Outstanding Payments holds amounts pending bank clearance.","difficulty":"Medium"},
+    {"id":"q_003","category":"Reconciliation","text":"When the bank clears a NACHA payment, which entries are matched?","options":{"A":"AR and revenue","B":"Outstanding Payments and Bank","C":"Equity and income","D":"Cash and fixed assets"},"correct":"B","explanation":"Clear the in‑transit liability and record the bank withdrawal.","difficulty":"Medium"}
+  ]
+}
+

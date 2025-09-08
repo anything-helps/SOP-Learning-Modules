@@ -1,0 +1,8 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Unendorsed Checks","description":"Two checks are received at 4pm and placed in a drawer without endorsement or deposit.","question":"What should staff do?","options":{"A":"Deposit next week","B":"Stamp ‘For Deposit Only’ and include in today’s deposit","C":"Leave for the approver to endorse tomorrow","D":"Photocopy only"},"correct":"B","explanation":"Restrictive endorsement and daily deposit are required.","relatedConcepts":["Restrictive Endorsement","Daily Deposits"],"difficulty":"easy"},
+    {"id":"s_002","title":"Threshold Disbursement","description":"A check for $8,500 is prepared with supporting docs.","question":"What additional control may apply?","options":{"A":"No signature needed","B":"Dual signatures if over the preset threshold","C":"Cashier’s check only","D":"Sign without documentation"},"correct":"B","explanation":"Large disbursements require dual signatures.","relatedConcepts":["Dual Signatures"],"difficulty":"easy"},
+    {"id":"s_003","title":"Credit Card Receipt","description":"A card purchase lacks prior approval evidence.","question":"What is the correct step?","options":{"A":"Ignore if under $50","B":"Obtain missing approval and attach documentation before posting","C":"Split to petty cash","D":"Post to miscellaneous"},"correct":"B","explanation":"Card purchases follow the same approval/documentation rules as checks.","relatedConcepts":["Payment Authorization","Credit Card Controls"],"difficulty":"medium"}
+  ]
+}
+

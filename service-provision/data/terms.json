@@ -1,0 +1,15 @@
+{
+  "terms": [
+    {"term":"Permanent Supportive Housing (PSH)","definition":"Service model pairing non‑time‑limited housing with voluntary supportive services to promote stability and independence.","category":"Evidence Base"},
+    {"term":"HUD‑Defined PSH","definition":"PSH aligned with HUD standards; combines housing assistance with voluntary services for people with disabilities and chronic homelessness.","category":"Evidence Base"},
+    {"term":"Foundational Community Supports (FCS)","definition":"Medicaid‑funded tenancy supports and supported employment services.","category":"Evidence Base"},
+    {"term":"Governor’s Opportunity for Supportive Housing (GOSH)","definition":"State initiative bridging services for people exiting institutions or homelessness.","category":"Evidence Base"},
+    {"term":"Individual Placement and Support (IPS)","definition":"Evidence‑based supported employment emphasizing rapid, preference‑based job search integrated with behavioral health.","category":"Evidence Base"},
+    {"term":"Low‑Barrier Services","definition":"Help without unnecessary preconditions (e.g., sobriety, program compliance); meets people where they are.","category":"Principles"},
+    {"term":"Client Voice & Choice","definition":"Clients define goals and preferences; staff support without coercion.","category":"Principles"},
+    {"term":"Person‑Centered Planning","definition":"Planning driven by client strengths, preferences, and periodic review; no ‘reality‑checking’ preferences.","category":"Practice"},
+    {"term":"Relationship‑Building","definition":"Trusting, consistent engagement through empathy, validation, and practical help.","category":"Practice"},
+    {"term":"Community‑Based Care","definition":"Supports delivered in typical community settings that promote inclusion.","category":"Principles"}
+  ]
+}
+

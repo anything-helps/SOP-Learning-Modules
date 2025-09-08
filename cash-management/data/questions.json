@@ -1,0 +1,11 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Controls","text":"Which control best reduces risk in cash handling?","options":{"A":"Single person handles all steps","B":"Separation of duties between handling, recording, and approval","C":"Unsigned checks on file","D":"Deposits weekly"},"correct":"B","explanation":"Separating handling, recording, approvals, and signing reduces fraud and error.","difficulty":"Easy"},
+    {"id":"q_002","category":"Receiving Cash","text":"Why immediately stamp checks with a restrictive endorsement?","options":{"A":"To speed deposits only","B":"To prevent further negotiation and misuse","C":"To increase interest income","D":"To allow cashing at any bank"},"correct":"B","explanation":"‘For Deposit Only’ limits misuse if a check is lost or mishandled.","difficulty":"Easy"},
+    {"id":"q_003","category":"Receiving Cash","text":"What is the policy for deposit timing?","options":{"A":"Deposit when convenient","B":"Deposit monthly","C":"Deposit daily","D":"Hold until petty cash is low"},"correct":"C","explanation":"Daily deposits minimize risk and improve record accuracy.","difficulty":"Easy"},
+    {"id":"q_004","category":"Spending Cash","text":"Checks above the threshold require:","options":{"A":"Blank signatures","B":"Single signer","C":"Dual signatures","D":"No documentation"},"correct":"C","explanation":"Dual signatures provide extra oversight on larger disbursements.","difficulty":"Easy"},
+    {"id":"q_005","category":"Spending Cash","text":"Which practice is prohibited?","options":{"A":"Pre‑numbered checks","B":"Signing blank checks","C":"Attaching approved documentation","D":"Comparing payroll to employee records"},"correct":"B","explanation":"Blank check signing bypasses required approvals and documentation.","difficulty":"Easy"},
+    {"id":"q_006","category":"Controls","text":"Credit card purchases should:","options":{"A":"Skip approvals if urgent","B":"Follow the same approval and documentation rules as checks","C":"Be recorded quarterly","D":"Use shared logins"},"correct":"B","explanation":"Consistent approval and documentation applies across all payment methods.","difficulty":"Medium"}
+  ]
+}
+

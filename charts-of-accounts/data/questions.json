@@ -1,0 +1,10 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Key Principles","text":"Which item replaces ‘Retained Earnings’ in nonprofit COAs?","options":{"A":"Owner’s Equity","B":"Net Assets","C":"Accumulated Surplus","D":"Fund Balance only"},"correct":"B","explanation":"Nonprofits report Net Assets instead of retained earnings.","difficulty":"Easy"},
+    {"id":"q_002","category":"Key Principles","text":"Which accounts should typically have Reconciliation Enabled?","options":{"A":"Office Supplies","B":"Prepaid Expenses","C":"Bank and AP/AR accounts","D":"Rent Expense"},"correct":"C","explanation":"Accounts matched to external statements use reconciliation (e.g., bank, AP/AR).","difficulty":"Medium"},
+    {"id":"q_003","category":"Functional Categories","text":"Which are the standard functional expense categories?","options":{"A":"Payroll, Rent, Utilities","B":"Program, Admin, Fundraising","C":"Program, Capital, Debt","D":"Direct, Indirect, In‑kind"},"correct":"B","explanation":"Program, Management & General (Admin), and Fundraising.","difficulty":"Easy"},
+    {"id":"q_004","category":"Odoo Use","text":"What is the purpose of Analytic Tags?","options":{"A":"Replace account codes","B":"Track program, fund restrictions, or grantor across entries","C":"Reconcile bank statements","D":"Calculate taxes"},"correct":"B","explanation":"Tags support reporting by program/fund/grant and restrictions.","difficulty":"Medium"},
+    {"id":"q_005","category":"COA Fields","text":"Which field controls balance sheet vs income statement behavior?","options":{"A":"Account Name","B":"Account Type","C":"Default Journal","D":"Example Tags"},"correct":"B","explanation":"Account Type determines reporting behavior and statements.","difficulty":"Easy"}
+  ]
+}
+

@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    {"id":"s_001","title":"Differing Preferences","description":"A client chooses a location farther from services to be near family.","question":"How should staff respond?","options":{"A":"Override to place closer to services","B":"Respect the choice and support the selected option with clear information","C":"Decline services","D":"Require group attendance"},"correct":"B","explanation":"Voice & choice respects client preferences while informing decisions.","relatedConcepts":["Client Voice & Choice"],"difficulty":"easy"}
+  ]
+}
+

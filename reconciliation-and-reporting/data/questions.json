@@ -1,0 +1,9 @@
+{
+  "questions": [
+    {"id":"q_001","category":"Reconciliation","text":"How often are bank, investment, and card statements reconciled?","options":{"A":"Quarterly","B":"Monthly and timely after month end","C":"Annually","D":"Only on request"},"correct":"B","explanation":"Policy specifies monthly reconciliations completed in a timely manner.","difficulty":"Easy"},
+    {"id":"q_002","category":"Bank Reconciliation","text":"Which control is part of bank reconciliation review?","options":{"A":"Unsigned checks on file","B":"Canceled checks reviewed for authorized signatures/endorsements","C":"Skip deposit matching","D":"Reviewer initials not needed"},"correct":"B","explanation":"Authorized signatures and deposit matching are reviewed.","difficulty":"Medium"},
+    {"id":"q_003","category":"Documentation","text":"Which documentation is required for invoice submissions?","options":{"A":"Only totals","B":"Signed invoice with supporting receipts, timesheets, service records","C":"Vendor brochure","D":"Bank screenshot only"},"correct":"B","explanation":"Invoices must include signatures and supporting documentation.","difficulty":"Easy"},
+    {"id":"q_004","category":"Reporting","text":"Which monthly reports are reviewed?","options":{"A":"Budget narrative only","B":"Balance Sheet and Statement of Revenue & Expenses","C":"Form 990","D":"Strategic plan"},"correct":"B","explanation":"Monthly reviews compare to support and budget.","difficulty":"Easy"}
+  ]
+}
+

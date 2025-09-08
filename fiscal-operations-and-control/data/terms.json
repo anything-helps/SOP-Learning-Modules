@@ -1,0 +1,11 @@
+{
+  "terms": [
+    {"term":"GAAP","definition":"Commonly followed accounting rules for financial reporting.","category":"Definitions"},
+    {"term":"Petty Cash","definition":"Small discretionary cash for incidental expenditures; controlled by policy.","category":"Definitions"},
+    {"term":"Audit Trail","definition":"Step‑by‑step record that traces accounting data to their source.","category":"Definitions"},
+    {"term":"Restricted Funds","definition":"Donor/grantor funds limited to specific purposes.","category":"Definitions"},
+    {"term":"Internal Controls","definition":"Processes to safeguard assets, ensure accuracy, and promote compliance.","category":"Policy"},
+    {"term":"Transparency","definition":"Clear, timely reporting to stakeholders and regulators.","category":"Policy"}
+  ]
+}
+
